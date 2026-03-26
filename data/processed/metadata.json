@@ -1,0 +1,81 @@
+{
+  "pipeline_version": "1.0.0",
+  "generated_at": "2026-03-26T20:06:21.666046+00:00",
+  "grid": {
+    "start_bp": 0,
+    "end_bp": 800000,
+    "step_yr": 1000,
+    "n_points": 801
+  },
+  "sources": {
+    "epica_co2": {
+      "file": "edc-co2-2008.txt",
+      "raw_rows": 1273,
+      "coverage": "799/801 grid pts"
+    },
+    "epica_ch4": {
+      "file": "edc-ch4-2008.txt",
+      "raw_rows": 2103,
+      "coverage": "800/801 grid pts"
+    },
+    "epica_temp": {
+      "file": "edc3deuttemp2007.txt",
+      "raw_rows": 5783,
+      "coverage": "800/801 grid pts"
+    },
+    "insolation": {
+      "file": "laskar2004_insolation.txt",
+      "raw_rows": 801,
+      "coverage": "801/801 grid pts"
+    },
+    "modern_co2": {
+      "file": "monthly_flask_co2_mlo.csv",
+      "raw_rows": 66
+    },
+    "modern_temp": {
+      "file": "GISTEMP_GLB_annual.csv",
+      "raw_rows": 146
+    },
+    "modern_ch4": {
+      "file": "ch4_mm_gl.txt",
+      "raw_rows": 43
+    }
+  },
+  "statistics": {
+    "co2_ppm": {
+      "min": 172.766,
+      "max": 314.186,
+      "mean": 224.189,
+      "std": 25.56,
+      "null_count": 2
+    },
+    "ch4_ppb": {
+      "min": 346.306,
+      "max": 1459.618,
+      "mean": 497.107,
+      "std": 87.801,
+      "null_count": 1
+    },
+    "temp_anomaly": {
+      "min": -10.253,
+      "max": 3.766,
+      "mean": -5.287,
+      "std": 2.904,
+      "null_count": 1
+    },
+    "sea_level_m": {
+      "min": -153.799,
+      "max": 56.493,
+      "mean": -79.307,
+      "std": 43.554,
+      "null_count": 1
+    },
+    "insolation": {
+      "min": 167.407,
+      "max": 203.829,
+      "mean": 184.44,
+      "std": 7.714,
+      "null_count": 0
+    }
+  }
+}

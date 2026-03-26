@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Climate Attractor — Visual QA</title>
+<!--
+  HOW TO RUN
+  ──────────
+  From the climate-attractor/ root:
+    npx -y serve .
+  Then open:
+    http://localhost:3000/scripts/check.html
+-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<style>
+  :root {
+    --bg:       #0a0a0f;
+    --surface:  #12121a;
+    --border:   #1e1e2e;
+    --text:     #c8c8d4;
+    --dim:      #6a6a80;
+    --accent:   #58a6ff;
+    --red:      #f85149;
+    --orange:   #d29922;
+    --green:    #3fb950;
+    --line:     #b0b0c8;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    font-size: 13px;
+    padding: 24px 32px;
+    line-height: 1.5;
+  }
+  h1 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+  .subtitle {
+    font-size: 11px;
+    color: var(--dim);
+    margin-bottom: 20px;
+  }
+
+  /* ── error banner ── */
+  .error-banner {
+    background: #2d1215;
+    border: 1px solid var(--red);
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    color: var(--red);
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .error-banner code {
+    background: #1a0a0c;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+  }
+
+  /* ── coverage table ── */
+  .summary-table {
+    width: 100%;
+    max-width: 700px;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+  }
+  .summary-table th {
+    text-align: left;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--dim);
+    padding: 6px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .summary-table td {
+    padding: 6px 12px;
+    border-bottom: 1px solid var(--border);
+    font-size: 12px;
+  }
+  .summary-table .pct { font-weight: 700; }
+  .pct-good { color: var(--green); }
+  .pct-warn { color: var(--orange); }
+  .pct-bad  { color: var(--red); }
+
+  /* ── sparkline cards ── */
+  .sparkline-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px 16px 8px;
+    margin-bottom: 12px;
+  }
+  .sparkline-label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--dim);
+    margin-bottom: 4px;
+  }
+  .sparkline-range {
+    font-size: 10px;
+    color: var(--dim);
+    float: right;
+    margin-top: -16px;
+  }
+  svg text { font-family: inherit; }
+</style>
+</head>
+<body>
+
+<h1>Climate Attractor — Visual QA</h1>
+<p class="subtitle">800 000 yr paleoclimate data · sparkline inspection</p>
+
+<div id="error-container"></div>
+<div id="summary-container"></div>
+<div id="charts-container"></div>
+
+<script>
+// ── Config ──────────────────────────────────────────────────────
+const DATA_URL = "../data/processed/climate_800k.json";
+
+const VARIABLES = [
+  { key: "co2_ppm",      label: "CO₂",          unit: "ppm",   color: "#58a6ff" },
+  { key: "temp_anomaly", label: "Temperature",   unit: "°C",    color: "#f0883e" },
+  { key: "ch4_ppb",      label: "CH₄",           unit: "ppb",   color: "#a371f7" },
+  { key: "sea_level_m",  label: "Sea Level",     unit: "m",     color: "#3fb950" },
+  { key: "insolation",   label: "Insolation",    unit: "W/m²",  color: "#d2a8ff" },
+];
+
+const MARGIN = { top: 16, right: 50, bottom: 22, left: 72 };
+const CHART_W = Math.min(window.innerWidth - 80, 1100);
+const CHART_H = 80;
+
+const INDUSTRIAL_AGE = 100;   // ~1850 CE  (age_bp)
+const HOLOCENE_AGE   = 11700; // yr BP
+
+// ── Fetch & render ──────────────────────────────────────────────
+fetch(DATA_URL)
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(payload => {
+    const data = payload.data;
+    renderSummary(data);
+    VARIABLES.forEach(v => renderSparkline(data, v));
+  })
+  .catch(err => {
+    document.getElementById("error-container").innerHTML = `
+      <div class="error-banner">
+        <strong>⚠ Could not load data.</strong><br><br>
+        This page must be served over HTTP (not opened as a file).<br>
+        From the <code>climate-attractor/</code> root, run:<br><br>
+        <code>npx -y serve .</code><br><br>
+        Then open <code>http://localhost:3000/scripts/check.html</code>
+      </div>`;
+  });
+
+// ── Summary table ───────────────────────────────────────────────
+function renderSummary(data) {
+  const n = data.length;
+  let html = `<table class="summary-table">
+    <tr><th>Variable</th><th>Valid</th><th>Null</th><th>Coverage</th><th>Min</th><th>Max</th></tr>`;
+
+  VARIABLES.forEach(v => {
+    const vals = data.map(d => d[v.key]).filter(x => x !== null && x !== undefined);
+    const nulls = n - vals.length;
+    const pct = (vals.length / n * 100);
+    const cls = pct >= 99 ? "pct-good" : pct >= 90 ? "pct-warn" : "pct-bad";
+    const mn = vals.length ? d3.min(vals).toFixed(1) : "—";
+    const mx = vals.length ? d3.max(vals).toFixed(1) : "—";
+    html += `<tr>
+      <td>${v.label} (${v.unit})</td>
+      <td>${vals.length}</td><td>${nulls}</td>
+      <td class="pct ${cls}">${pct.toFixed(1)}%</td>
+      <td>${mn}</td><td>${mx}</td>
+    </tr>`;
+  });
+  html += `</table>`;
+  document.getElementById("summary-container").innerHTML = html;
+}
+
+// ── Sparkline renderer ──────────────────────────────────────────
+function renderSparkline(data, varSpec) {
+  const container = document.getElementById("charts-container");
+  const card = document.createElement("div");
+  card.className = "sparkline-card";
+  container.appendChild(card);
+
+  // Prepare data — age_bp ascending (0 = present → 800k = oldest)
+  // We plot with x = -age_bp/1000 so present is at 0, past is negative
+  const pts = data
+    .map(d => ({ x: -d.age_bp / 1000, y: d[varSpec.key] }))
+    .sort((a, b) => a.x - b.x);
+
+  const validPts = pts.filter(d => d.y !== null && d.y !== undefined);
+
+  const mn = d3.min(validPts, d => d.y);
+  const mx = d3.max(validPts, d => d.y);
+
+  // Label
+  const label = document.createElement("div");
+  label.className = "sparkline-label";
+  label.textContent = `${varSpec.label}  (${varSpec.unit})`;
+  card.appendChild(label);
+
+  const rangeNote = document.createElement("div");
+  rangeNote.className = "sparkline-range";
+  rangeNote.textContent = `${mn?.toFixed(1)} – ${mx?.toFixed(1)} ${varSpec.unit}`;
+  card.appendChild(rangeNote);
+
+  // SVG
+  const w = CHART_W;
+  const h = CHART_H + MARGIN.top + MARGIN.bottom;
+
+  const svg = d3.select(card).append("svg")
+    .attr("width", w)
+    .attr("height", h);
+
+  const g = svg.append("g")
+    .attr("transform", `translate(${MARGIN.left},${MARGIN.top})`);
+
+  const innerW = w - MARGIN.left - MARGIN.right;
+  const innerH = CHART_H;
+
+  // Scales
+  const xScale = d3.scaleLinear()
+    .domain([d3.min(pts, d => d.x), d3.max(pts, d => d.x)])
+    .range([0, innerW]);
+
+  const yScale = d3.scaleLinear()
+    .domain([mn, mx]).nice()
+    .range([innerH, 0]);
+
+  // X axis
+  g.append("g")
+    .attr("transform", `translate(0,${innerH})`)
+    .call(d3.axisBottom(xScale)
+      .ticks(10)
+      .tickFormat(d => d === 0 ? "0" : `${d}k`))
+    .call(g => g.selectAll("text").attr("fill", "#555").style("font-size", "9px"))
+    .call(g => g.selectAll("line,path").attr("stroke", "#222"));
+
+  // Y axis (minimal)
+  g.append("g")
+    .call(d3.axisLeft(yScale).ticks(3).tickSize(-innerW))
+    .call(g => g.selectAll("text").attr("fill", "#555").style("font-size", "9px"))
+    .call(g => g.selectAll(".tick line").attr("stroke", "#181825").attr("stroke-dasharray", "2,3"))
+    .call(g => g.select(".domain").remove());
+
+  // Vertical markers
+  // Industrial (~100 yr BP → x = -0.1)
+  const xInd = xScale(-INDUSTRIAL_AGE / 1000);
+  if (xInd >= 0 && xInd <= innerW) {
+    g.append("line")
+      .attr("x1", xInd).attr("x2", xInd)
+      .attr("y1", 0).attr("y2", innerH)
+      .attr("stroke", "#f85149")
+      .attr("stroke-width", 1)
+      .attr("stroke-dasharray", "4,3")
+      .attr("opacity", 0.7);
+    g.append("text")
+      .attr("x", xInd + 3).attr("y", 8)
+      .attr("fill", "#f85149").attr("font-size", "8px")
+      .text("1850 CE");
+  }
+
+  // Holocene start (~11700 yr BP → x = -11.7)
+  const xHol = xScale(-HOLOCENE_AGE / 1000);
+  if (xHol >= 0 && xHol <= innerW) {
+    g.append("line")
+      .attr("x1", xHol).attr("x2", xHol)
+      .attr("y1", 0).attr("y2", innerH)
+      .attr("stroke", "#555")
+      .attr("stroke-width", 1)
+      .attr("stroke-dasharray", "4,3")
+      .attr("opacity", 0.6);
+    g.append("text")
+      .attr("x", xHol + 3).attr("y", 8)
+      .attr("fill", "#555").attr("font-size", "8px")
+      .text("Holocene");
+  }
+
+  // Line with NaN gaps
+  const line = d3.line()
+    .defined(d => d.y !== null && d.y !== undefined)
+    .x(d => xScale(d.x))
+    .y(d => yScale(d.y))
+    .curve(d3.curveMonotoneX);
+
+  g.append("path")
+    .datum(pts)
+    .attr("fill", "none")
+    .attr("stroke", varSpec.color)
+    .attr("stroke-width", 1.2)
+    .attr("stroke-opacity", 0.85)
+    .attr("d", line);
+}
+</script>
+</body>
+</html>

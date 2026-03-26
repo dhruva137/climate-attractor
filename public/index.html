@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Attractor — 800,000 Years of Earth's Climate</title>
+
+  <!-- SEO -->
+  <meta name="description" content="An interactive visualization of Earth's climate as a dynamical system. 800,000 years of real ice core data. Watch the attractor break.">
+  <link rel="canonical" href="https://climate-attractor.vercel.app">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Climate Attractor — 800,000 Years of Earth's Climate">
+  <meta property="og:description" content="An interactive visualization of Earth's climate as a dynamical system. 800,000 years of real ice core data. Watch the attractor break.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/og-image.png">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/components.css">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       LANDING SECTION
+       ═══════════════════════════════════════════════════════════ -->
+  <section id="landing">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <div class="hero-label">
+          EARTH'S CLIMATE SYSTEM
+          <span class="hero-label-divider">·</span>
+          800,000 YEARS OF ICE CORE DATA
+          <span class="hero-label-divider">·</span>
+          REAL EPICA RECORDS
+        </div>
+
+        <h1>The Attractor<br>Breaks.</h1>
+
+        <p class="hero-sub">
+          For 800,000 years, Earth's climate cycled
+          through the same bounded states.
+          Then we left.
+        </p>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-value">800K</span>
+            <span class="hero-stat-label">years of data</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">5</span>
+            <span class="hero-stat-label">dimensions</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">422</span>
+            <span class="hero-stat-label">ppm CO₂ today</span>
+          </div>
+        </div>
+
+        <button class="cta-button" id="cta-explore">
+          Explore the Data
+          <span class="cta-arrow">→</span>
+        </button>
+
+        <div class="hero-footnote">
+          Based on EPICA Dome C ice core · Lüthi et al. 2008 · Jouzel et al. 2007
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-chevron" aria-hidden="true">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M6 9l6 6 6-6"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       VIZ APP SECTION
+       ═══════════════════════════════════════════════════════════ -->
+  <section id="viz-app">
+
+    <!-- ── Top nav ── -->
+    <nav id="viz-nav">
+      <span class="nav-brand">Climate Attractor</span>
+      <div class="view-toggle-group">
+        <button class="view-btn active" data-view="phase">Phase Portrait</button>
+        <button class="view-btn" data-view="tsne">t-SNE / UMAP</button>
+        <button class="view-btn" data-view="3d">3D Orbit</button>
+      </div>
+      <div class="era-indicator">
+        <span class="era-dot paleo" id="era-dot"></span>
+        <span id="era-nav-label">Paleoclimate</span>
+      </div>
+    </nav>
+
+    <!-- ── Main canvas area ── -->
+    <div id="viz-canvas-container">
+      <div id="phase-portrait-panel" class="viz-panel active"></div>
+      <div id="tsne-panel" class="viz-panel">
+        <div id="projection-toggle" style="position:absolute;top:16px;right:16px;display:flex;gap:4px;z-index:10;">
+          <button class="view-btn active" data-mode="tsne">t-SNE</button>
+          <button class="view-btn" data-mode="umap">UMAP</button>
+        </div>
+        <div id="tsne-explainer" style="position:absolute;bottom:140px;left:24px;z-index:10;"></div>
+      </div>
+      <div id="three-panel" class="viz-panel"></div>
+    </div>
+
+    <!-- ── Info panel (floating, bottom-right) ── -->
+    <div id="info-panel">
+      <div class="info-row">
+        <span class="info-label var-co2">CO₂</span>
+        <span class="info-val" id="val-co2">— ppm</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label var-temp">Temp</span>
+        <span class="info-val" id="val-temp">— °C</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label var-ch4">CH₄</span>
+        <span class="info-val" id="val-ch4">— ppb</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label var-sea">Sea</span>
+        <span class="info-val" id="val-sea">— m</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label var-sol">Sol</span>
+        <span class="info-val" id="val-sol">— W/m²</span>
+      </div>
+    </div>
+
+    <!-- ── Methodology button (floating, bottom-left) ── -->
+    <button class="methodology-btn" id="btn-methodology">Methodology ?</button>
+
+    <!-- ── Scrubber bar ── -->
+    <div id="scrubber-bar">
+      <div class="scrubber-header">
+        <span id="time-display">800,000 BP</span>
+        <span id="era-label" class="paleo">Paleoclimate</span>
+      </div>
+      <input type="range" id="time-slider" min="0" max="800" value="0"
+             aria-label="Time scrubber">
+      <div id="timeline-ticks"></div>
+      <div class="controls-row">
+        <button class="control-btn" id="btn-reset" aria-label="Reset to start">⏮</button>
+        <button class="control-btn" id="btn-slower" aria-label="Slower">⏪</button>
+        <button class="control-btn" id="btn-play" aria-label="Play / Pause">⏯</button>
+        <button class="control-btn" id="btn-faster" aria-label="Faster">⏩</button>
+        <span id="speed-display">1x</span>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       METHODOLOGY MODAL
+       ═══════════════════════════════════════════════════════════ -->
+  <div id="methodology-modal">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close">✕</button>
+      <h2>Methodology</h2>
+      <p style="color:var(--color-text-tertiary);font-size:12px;">Loading sources…</p>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SCRIPTS
+       ═══════════════════════════════════════════════════════════ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsne-js@1.0.0/tsne.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/umap-js@1.3.3/lib/umap-js.min.js"></script>
+  <script src="/src/js/state.js"></script>
+  <script src="/src/js/dataLoader.js"></script>
+  <script src="/src/js/attractor.js"></script>
+  <script src="/src/js/scrubber.js"></script>
+  <script src="/src/js/phasePortrait.js"></script>
+  <script src="/src/js/tsneView.js"></script>
+  <script src="/src/js/threeView.js"></script>
+  <script src="/src/js/annotations.js"></script>
+  <script src="/src/js/citations.js"></script>
+  <script src="/src/js/heroCanvas.js"></script>
+  <script src="/src/js/main.js"></script>
+</body>
+</html>

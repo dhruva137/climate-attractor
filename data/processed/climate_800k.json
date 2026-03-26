@@ -1,0 +1,8032 @@
+{
+  "meta": {
+    "description": "Earth climate state vector, 800 kyr BP → present, 1 kyr resolution",
+    "time_axis": "age_bp (years before 1950 CE)",
+    "variables": {
+      "co2_ppm": "Atmospheric CO₂ (ppm) — EPICA + Mauna Loa",
+      "ch4_ppb": "Atmospheric CH₄ (ppb) — EPICA + NOAA global mean",
+      "temp_anomaly": "Temperature anomaly (°C vs last 1 kyr mean) — EPICA δD + GISTEMP",
+      "sea_level_m": "Sea-level estimate (m, synthesised: ΔT × 15)",
+      "insolation": "65°N summer insolation (W m⁻²) — Laskar 2004"
+    },
+    "eras": {
+      "paleoclimate": "> 11 700 yr BP",
+      "holocene": "11 700 – 100 yr BP",
+      "modern": "< 100 yr BP (post-1850 CE)"
+    },
+    "n_records": 801,
+    "generated_at": "2026-03-26T20:06:21.655811+00:00"
+  },
+  "data": [
+    {
+      "age_bp": 0,
+      "year_ce": 1950,
+      "era": "modern",
+      "co2_ppm": 314.19,
+      "ch4_ppb": 1459.6,
+      "temp_anomaly": -0.18,
+      "sea_level_m": -2.7,
+      "insolation": 182.76
+    },
+    {
+      "age_bp": 1000,
+      "year_ce": 950,
+      "era": "holocene",
+      "co2_ppm": 277.74,
+      "ch4_ppb": 635.4,
+      "temp_anomaly": -0.427,
+      "sea_level_m": -6.4,
+      "insolation": 184.6
+    },
+    {
+      "age_bp": 2000,
+      "year_ce": -50,
+      "era": "holocene",
+      "co2_ppm": 276.79,
+      "ch4_ppb": 599.5,
+      "temp_anomaly": -0.932,
+      "sea_level_m": -14.0,
+      "insolation": 186.48
+    },
+    {
+      "age_bp": 3000,
+      "year_ce": -1050,
+      "era": "holocene",
+      "co2_ppm": 275.7,
+      "ch4_ppb": 580.4,
+      "temp_anomaly": -0.018,
+      "sea_level_m": -0.3,
+      "insolation": 188.24
+    },
+    {
+      "age_bp": 4000,
+      "year_ce": -2050,
+      "era": "holocene",
+      "co2_ppm": 271.6,
+      "ch4_ppb": 568.6,
+      "temp_anomaly": -0.561,
+      "sea_level_m": -8.4,
+      "insolation": 189.68
+    },
+    {
+      "age_bp": 5000,
+      "year_ce": -3050,
+      "era": "holocene",
+      "co2_ppm": 269.76,
+      "ch4_ppb": 561.1,
+      "temp_anomaly": -0.616,
+      "sea_level_m": -9.2,
+      "insolation": 190.67
+    },
+    {
+      "age_bp": 6000,
+      "year_ce": -4050,
+      "era": "holocene",
+      "co2_ppm": 263.18,
+      "ch4_ppb": 599.6,
+      "temp_anomaly": 0.038,
+      "sea_level_m": 0.6,
+      "insolation": 191.13
+    },
+    {
+      "age_bp": 7000,
+      "year_ce": -5050,
+      "era": "holocene",
+      "co2_ppm": 261.44,
+      "ch4_ppb": 626.1,
+      "temp_anomaly": -0.657,
+      "sea_level_m": -9.9,
+      "insolation": 190.95
+    },
+    {
+      "age_bp": 8000,
+      "year_ce": -6050,
+      "era": "holocene",
+      "co2_ppm": 261.2,
+      "ch4_ppb": 644.4,
+      "temp_anomaly": -1.478,
+      "sea_level_m": -22.2,
+      "insolation": 190.21
+    },
+    {
+      "age_bp": 9000,
+      "year_ce": -7050,
+      "era": "holocene",
+      "co2_ppm": 264.16,
+      "ch4_ppb": 666.4,
+      "temp_anomaly": -0.996,
+      "sea_level_m": -14.9,
+      "insolation": 188.92
+    },
+    {
+      "age_bp": 10000,
+      "year_ce": -8050,
+      "era": "holocene",
+      "co2_ppm": 265.32,
+      "ch4_ppb": 698.0,
+      "temp_anomaly": -0.411,
+      "sea_level_m": -6.2,
+      "insolation": 187.23
+    },
+    {
+      "age_bp": 11000,
+      "year_ce": -9050,
+      "era": "holocene",
+      "co2_ppm": 263.97,
+      "ch4_ppb": 674.8,
+      "temp_anomaly": -0.217,
+      "sea_level_m": -3.3,
+      "insolation": 185.26
+    },
+    {
+      "age_bp": 12000,
+      "year_ce": -10050,
+      "era": "paleoclimate",
+      "co2_ppm": 245.05,
+      "ch4_ppb": 474.7,
+      "temp_anomaly": -1.981,
+      "sea_level_m": -29.7,
+      "insolation": 183.21
+    },
+    {
+      "age_bp": 13000,
+      "year_ce": -11050,
+      "era": "paleoclimate",
+      "co2_ppm": 237.54,
+      "ch4_ppb": 666.5,
+      "temp_anomaly": -3.996,
+      "sea_level_m": -59.9,
+      "insolation": 181.23
+    },
+    {
+      "age_bp": 14000,
+      "year_ce": -12050,
+      "era": "paleoclimate",
+      "co2_ppm": 227.44,
+      "ch4_ppb": 573.7,
+      "temp_anomaly": -3.178,
+      "sea_level_m": -47.7,
+      "insolation": 179.51
+    },
+    {
+      "age_bp": 15000,
+      "year_ce": -13050,
+      "era": "paleoclimate",
+      "co2_ppm": 224.57,
+      "ch4_ppb": 474.1,
+      "temp_anomaly": -5.095,
+      "sea_level_m": -76.4,
+      "insolation": 178.17
+    },
+    {
+      "age_bp": 16000,
+      "year_ce": -14050,
+      "era": "paleoclimate",
+      "co2_ppm": 210.04,
+      "ch4_ppb": 436.1,
+      "temp_anomaly": -6.875,
+      "sea_level_m": -103.1,
+      "insolation": 177.34
+    },
+    {
+      "age_bp": 17000,
+      "year_ce": -15050,
+      "era": "paleoclimate",
+      "co2_ppm": 194.5,
+      "ch4_ppb": 392.0,
+      "temp_anomaly": -7.843,
+      "sea_level_m": -117.6,
+      "insolation": 177.06
+    },
+    {
+      "age_bp": 18000,
+      "year_ce": -16050,
+      "era": "paleoclimate",
+      "co2_ppm": 188.83,
+      "ch4_ppb": 371.9,
+      "temp_anomaly": -8.977,
+      "sea_level_m": -134.7,
+      "insolation": 177.37
+    },
+    {
+      "age_bp": 19000,
+      "year_ce": -17050,
+      "era": "paleoclimate",
+      "co2_ppm": 188.37,
+      "ch4_ppb": 375.7,
+      "temp_anomaly": -9.903,
+      "sea_level_m": -148.5,
+      "insolation": 178.21
+    },
+    {
+      "age_bp": 20000,
+      "year_ce": -18050,
+      "era": "paleoclimate",
+      "co2_ppm": 186.01,
+      "ch4_ppb": 374.2,
+      "temp_anomaly": -9.24,
+      "sea_level_m": -138.6,
+      "insolation": 179.54
+    },
+    {
+      "age_bp": 21000,
+      "year_ce": -19050,
+      "era": "paleoclimate",
+      "co2_ppm": 186.52,
+      "ch4_ppb": 363.1,
+      "temp_anomaly": -9.518,
+      "sea_level_m": -142.8,
+      "insolation": 181.21
+    },
+    {
+      "age_bp": 22000,
+      "year_ce": -20050,
+      "era": "paleoclimate",
+      "co2_ppm": 184.52,
+      "ch4_ppb": 356.0,
+      "temp_anomaly": -9.456,
+      "sea_level_m": -141.8,
+      "insolation": 183.1
+    },
+    {
+      "age_bp": 23000,
+      "year_ce": -21050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.17,
+      "ch4_ppb": 387.2,
+      "temp_anomaly": -8.632,
+      "sea_level_m": -129.5,
+      "insolation": 185.03
+    },
+    {
+      "age_bp": 24000,
+      "year_ce": -22050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.0,
+      "ch4_ppb": 384.9,
+      "temp_anomaly": -10.253,
+      "sea_level_m": -153.8,
+      "insolation": 186.85
+    },
+    {
+      "age_bp": 25000,
+      "year_ce": -23050,
+      "era": "paleoclimate",
+      "co2_ppm": 188.03,
+      "ch4_ppb": 371.6,
+      "temp_anomaly": -9.903,
+      "sea_level_m": -148.5,
+      "insolation": 188.41
+    },
+    {
+      "age_bp": 26000,
+      "year_ce": -24050,
+      "era": "paleoclimate",
+      "co2_ppm": 191.61,
+      "ch4_ppb": 364.5,
+      "temp_anomaly": -10.195,
+      "sea_level_m": -152.9,
+      "insolation": 189.56
+    },
+    {
+      "age_bp": 27000,
+      "year_ce": -25050,
+      "era": "paleoclimate",
+      "co2_ppm": 193.99,
+      "ch4_ppb": 386.5,
+      "temp_anomaly": -9.736,
+      "sea_level_m": -146.0,
+      "insolation": 190.26
+    },
+    {
+      "age_bp": 28000,
+      "year_ce": -26050,
+      "era": "paleoclimate",
+      "co2_ppm": 194.69,
+      "ch4_ppb": 389.4,
+      "temp_anomaly": -10.131,
+      "sea_level_m": -152.0,
+      "insolation": 190.43
+    },
+    {
+      "age_bp": 29000,
+      "year_ce": -27050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.39,
+      "ch4_ppb": 403.6,
+      "temp_anomaly": -8.684,
+      "sea_level_m": -130.3,
+      "insolation": 190.11
+    },
+    {
+      "age_bp": 30000,
+      "year_ce": -28050,
+      "era": "paleoclimate",
+      "co2_ppm": 191.65,
+      "ch4_ppb": 398.2,
+      "temp_anomaly": -8.959,
+      "sea_level_m": -134.4,
+      "insolation": 189.36
+    },
+    {
+      "age_bp": 31000,
+      "year_ce": -29050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.58,
+      "ch4_ppb": 393.4,
+      "temp_anomaly": -8.867,
+      "sea_level_m": -133.0,
+      "insolation": 188.24
+    },
+    {
+      "age_bp": 32000,
+      "year_ce": -30050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.1,
+      "ch4_ppb": 450.7,
+      "temp_anomaly": -7.201,
+      "sea_level_m": -108.0,
+      "insolation": 186.87
+    },
+    {
+      "age_bp": 33000,
+      "year_ce": -31050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.14,
+      "ch4_ppb": 425.7,
+      "temp_anomaly": -8.442,
+      "sea_level_m": -126.6,
+      "insolation": 185.4
+    },
+    {
+      "age_bp": 34000,
+      "year_ce": -32050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.93,
+      "ch4_ppb": 419.8,
+      "temp_anomaly": -9.52,
+      "sea_level_m": -142.8,
+      "insolation": 183.9
+    },
+    {
+      "age_bp": 35000,
+      "year_ce": -33050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.3,
+      "ch4_ppb": 513.5,
+      "temp_anomaly": -7.365,
+      "sea_level_m": -110.5,
+      "insolation": 182.5
+    },
+    {
+      "age_bp": 36000,
+      "year_ce": -34050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.6,
+      "ch4_ppb": 440.0,
+      "temp_anomaly": -8.078,
+      "sea_level_m": -121.2,
+      "insolation": 181.28
+    },
+    {
+      "age_bp": 37000,
+      "year_ce": -35050,
+      "era": "paleoclimate",
+      "co2_ppm": 211.9,
+      "ch4_ppb": 538.6,
+      "temp_anomaly": -6.687,
+      "sea_level_m": -100.3,
+      "insolation": 180.29
+    },
+    {
+      "age_bp": 38000,
+      "year_ce": -36050,
+      "era": "paleoclimate",
+      "co2_ppm": 210.08,
+      "ch4_ppb": 512.7,
+      "temp_anomaly": -7.543,
+      "sea_level_m": -113.2,
+      "insolation": 179.56
+    },
+    {
+      "age_bp": 39000,
+      "year_ce": -37050,
+      "era": "paleoclimate",
+      "co2_ppm": 206.47,
+      "ch4_ppb": 442.3,
+      "temp_anomaly": -7.313,
+      "sea_level_m": -109.7,
+      "insolation": 179.15
+    },
+    {
+      "age_bp": 40000,
+      "year_ce": -38050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.56,
+      "ch4_ppb": 423.8,
+      "temp_anomaly": -7.422,
+      "sea_level_m": -111.3,
+      "insolation": 179.01
+    },
+    {
+      "age_bp": 41000,
+      "year_ce": -39050,
+      "era": "paleoclimate",
+      "co2_ppm": 198.94,
+      "ch4_ppb": 427.0,
+      "temp_anomaly": -7.884,
+      "sea_level_m": -118.3,
+      "insolation": 179.15
+    },
+    {
+      "age_bp": 42000,
+      "year_ce": -40050,
+      "era": "paleoclimate",
+      "co2_ppm": 201.87,
+      "ch4_ppb": 422.8,
+      "temp_anomaly": -8.779,
+      "sea_level_m": -131.7,
+      "insolation": 179.57
+    },
+    {
+      "age_bp": 43000,
+      "year_ce": -41050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.45,
+      "ch4_ppb": 482.2,
+      "temp_anomaly": -7.136,
+      "sea_level_m": -107.0,
+      "insolation": 180.19
+    },
+    {
+      "age_bp": 44000,
+      "year_ce": -42050,
+      "era": "paleoclimate",
+      "co2_ppm": 206.68,
+      "ch4_ppb": 420.2,
+      "temp_anomaly": -8.664,
+      "sea_level_m": -130.0,
+      "insolation": 181.01
+    },
+    {
+      "age_bp": 45000,
+      "year_ce": -43050,
+      "era": "paleoclimate",
+      "co2_ppm": 214.65,
+      "ch4_ppb": 463.3,
+      "temp_anomaly": -7.705,
+      "sea_level_m": -115.6,
+      "insolation": 182.01
+    },
+    {
+      "age_bp": 46000,
+      "year_ce": -44050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.76,
+      "ch4_ppb": 498.3,
+      "temp_anomaly": -6.184,
+      "sea_level_m": -92.8,
+      "insolation": 183.1
+    },
+    {
+      "age_bp": 47000,
+      "year_ce": -45050,
+      "era": "paleoclimate",
+      "co2_ppm": 199.76,
+      "ch4_ppb": 439.5,
+      "temp_anomaly": -6.289,
+      "sea_level_m": -94.3,
+      "insolation": 184.27
+    },
+    {
+      "age_bp": 48000,
+      "year_ce": -46050,
+      "era": "paleoclimate",
+      "co2_ppm": 202.8,
+      "ch4_ppb": 444.5,
+      "temp_anomaly": -8.011,
+      "sea_level_m": -120.2,
+      "insolation": 185.48
+    },
+    {
+      "age_bp": 49000,
+      "year_ce": -47050,
+      "era": "paleoclimate",
+      "co2_ppm": 199.2,
+      "ch4_ppb": 461.6,
+      "temp_anomaly": -7.645,
+      "sea_level_m": -114.7,
+      "insolation": 186.64
+    },
+    {
+      "age_bp": 50000,
+      "year_ce": -48050,
+      "era": "paleoclimate",
+      "co2_ppm": 211.12,
+      "ch4_ppb": 484.0,
+      "temp_anomaly": -7.527,
+      "sea_level_m": -112.9,
+      "insolation": 187.72
+    },
+    {
+      "age_bp": 51000,
+      "year_ce": -49050,
+      "era": "paleoclimate",
+      "co2_ppm": 214.91,
+      "ch4_ppb": 511.8,
+      "temp_anomaly": -6.873,
+      "sea_level_m": -103.1,
+      "insolation": 188.67
+    },
+    {
+      "age_bp": 52000,
+      "year_ce": -50050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.79,
+      "ch4_ppb": 529.0,
+      "temp_anomaly": -5.045,
+      "sea_level_m": -75.7,
+      "insolation": 189.39
+    },
+    {
+      "age_bp": 53000,
+      "year_ce": -51050,
+      "era": "paleoclimate",
+      "co2_ppm": 214.94,
+      "ch4_ppb": 530.3,
+      "temp_anomaly": -5.487,
+      "sea_level_m": -82.3,
+      "insolation": 189.85
+    },
+    {
+      "age_bp": 54000,
+      "year_ce": -52050,
+      "era": "paleoclimate",
+      "co2_ppm": 211.16,
+      "ch4_ppb": 437.4,
+      "temp_anomaly": -6.612,
+      "sea_level_m": -99.2,
+      "insolation": 190.01
+    },
+    {
+      "age_bp": 55000,
+      "year_ce": -53050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.18,
+      "ch4_ppb": 501.3,
+      "temp_anomaly": -6.244,
+      "sea_level_m": -93.7,
+      "insolation": 189.79
+    },
+    {
+      "age_bp": 56000,
+      "year_ce": -54050,
+      "era": "paleoclimate",
+      "co2_ppm": 212.14,
+      "ch4_ppb": 506.9,
+      "temp_anomaly": -7.82,
+      "sea_level_m": -117.3,
+      "insolation": 189.21
+    },
+    {
+      "age_bp": 57000,
+      "year_ce": -55050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.93,
+      "ch4_ppb": 549.4,
+      "temp_anomaly": -6.266,
+      "sea_level_m": -94.0,
+      "insolation": 188.29
+    },
+    {
+      "age_bp": 58000,
+      "year_ce": -56050,
+      "era": "paleoclimate",
+      "co2_ppm": 213.18,
+      "ch4_ppb": 560.7,
+      "temp_anomaly": -5.983,
+      "sea_level_m": -89.7,
+      "insolation": 187.0
+    },
+    {
+      "age_bp": 59000,
+      "year_ce": -57050,
+      "era": "paleoclimate",
+      "co2_ppm": 219.39,
+      "ch4_ppb": 445.7,
+      "temp_anomaly": -5.759,
+      "sea_level_m": -86.4,
+      "insolation": 185.47
+    },
+    {
+      "age_bp": 60000,
+      "year_ce": -58050,
+      "era": "paleoclimate",
+      "co2_ppm": 214.67,
+      "ch4_ppb": 430.5,
+      "temp_anomaly": -6.6,
+      "sea_level_m": -99.0,
+      "insolation": 183.76
+    },
+    {
+      "age_bp": 61000,
+      "year_ce": -59050,
+      "era": "paleoclimate",
+      "co2_ppm": 206.94,
+      "ch4_ppb": 433.3,
+      "temp_anomaly": -7.607,
+      "sea_level_m": -114.1,
+      "insolation": 181.96
+    },
+    {
+      "age_bp": 62000,
+      "year_ce": -60050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.98,
+      "ch4_ppb": 437.4,
+      "temp_anomaly": -8.606,
+      "sea_level_m": -129.1,
+      "insolation": 180.25
+    },
+    {
+      "age_bp": 63000,
+      "year_ce": -61050,
+      "era": "paleoclimate",
+      "co2_ppm": 198.68,
+      "ch4_ppb": 455.3,
+      "temp_anomaly": -9.829,
+      "sea_level_m": -147.4,
+      "insolation": 178.72
+    },
+    {
+      "age_bp": 64000,
+      "year_ce": -62050,
+      "era": "paleoclimate",
+      "co2_ppm": 198.01,
+      "ch4_ppb": 437.7,
+      "temp_anomaly": -7.672,
+      "sea_level_m": -115.1,
+      "insolation": 177.49
+    },
+    {
+      "age_bp": 65000,
+      "year_ce": -63050,
+      "era": "paleoclimate",
+      "co2_ppm": 191.61,
+      "ch4_ppb": 460.8,
+      "temp_anomaly": -7.72,
+      "sea_level_m": -115.8,
+      "insolation": 176.72
+    },
+    {
+      "age_bp": 66000,
+      "year_ce": -64050,
+      "era": "paleoclimate",
+      "co2_ppm": 195.29,
+      "ch4_ppb": 447.8,
+      "temp_anomaly": -9.545,
+      "sea_level_m": -143.2,
+      "insolation": 176.46
+    },
+    {
+      "age_bp": 67000,
+      "year_ce": -65050,
+      "era": "paleoclimate",
+      "co2_ppm": 201.63,
+      "ch4_ppb": 454.8,
+      "temp_anomaly": -9.315,
+      "sea_level_m": -139.7,
+      "insolation": 176.77
+    },
+    {
+      "age_bp": 68000,
+      "year_ce": -66050,
+      "era": "paleoclimate",
+      "co2_ppm": 207.97,
+      "ch4_ppb": 454.4,
+      "temp_anomaly": -8.681,
+      "sea_level_m": -130.2,
+      "insolation": 177.67
+    },
+    {
+      "age_bp": 69000,
+      "year_ce": -67050,
+      "era": "paleoclimate",
+      "co2_ppm": 214.31,
+      "ch4_ppb": 460.1,
+      "temp_anomaly": -8.972,
+      "sea_level_m": -134.6,
+      "insolation": 179.13
+    },
+    {
+      "age_bp": 70000,
+      "year_ce": -68050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.65,
+      "ch4_ppb": 485.2,
+      "temp_anomaly": -7.498,
+      "sea_level_m": -112.5,
+      "insolation": 181.04
+    },
+    {
+      "age_bp": 71000,
+      "year_ce": -69050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.99,
+      "ch4_ppb": 462.9,
+      "temp_anomaly": -6.385,
+      "sea_level_m": -95.8,
+      "insolation": 183.32
+    },
+    {
+      "age_bp": 72000,
+      "year_ce": -70050,
+      "era": "paleoclimate",
+      "co2_ppm": 228.09,
+      "ch4_ppb": 440.6,
+      "temp_anomaly": -7.056,
+      "sea_level_m": -105.8,
+      "insolation": 185.79
+    },
+    {
+      "age_bp": 73000,
+      "year_ce": -71050,
+      "era": "paleoclimate",
+      "co2_ppm": 228.91,
+      "ch4_ppb": 450.2,
+      "temp_anomaly": -6.809,
+      "sea_level_m": -102.1,
+      "insolation": 188.24
+    },
+    {
+      "age_bp": 74000,
+      "year_ce": -72050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.74,
+      "ch4_ppb": 468.3,
+      "temp_anomaly": -5.525,
+      "sea_level_m": -82.9,
+      "insolation": 190.54
+    },
+    {
+      "age_bp": 75000,
+      "year_ce": -73050,
+      "era": "paleoclimate",
+      "co2_ppm": 223.68,
+      "ch4_ppb": 415.5,
+      "temp_anomaly": -6.336,
+      "sea_level_m": -95.0,
+      "insolation": 192.43
+    },
+    {
+      "age_bp": 76000,
+      "year_ce": -74050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.62,
+      "ch4_ppb": 426.6,
+      "temp_anomaly": -6.794,
+      "sea_level_m": -101.9,
+      "insolation": 193.75
+    },
+    {
+      "age_bp": 77000,
+      "year_ce": -75050,
+      "era": "paleoclimate",
+      "co2_ppm": 217.56,
+      "ch4_ppb": 465.5,
+      "temp_anomaly": -6.042,
+      "sea_level_m": -90.6,
+      "insolation": 194.41
+    },
+    {
+      "age_bp": 78000,
+      "year_ce": -76050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.89,
+      "ch4_ppb": 469.1,
+      "temp_anomaly": -5.993,
+      "sea_level_m": -89.9,
+      "insolation": 194.29
+    },
+    {
+      "age_bp": 79000,
+      "year_ce": -77050,
+      "era": "paleoclimate",
+      "co2_ppm": 224.79,
+      "ch4_ppb": 513.1,
+      "temp_anomaly": -6.534,
+      "sea_level_m": -98.0,
+      "insolation": 193.36
+    },
+    {
+      "age_bp": 80000,
+      "year_ce": -78050,
+      "era": "paleoclimate",
+      "co2_ppm": 228.58,
+      "ch4_ppb": 547.7,
+      "temp_anomaly": -4.987,
+      "sea_level_m": -74.8,
+      "insolation": 191.73
+    },
+    {
+      "age_bp": 81000,
+      "year_ce": -79050,
+      "era": "paleoclimate",
+      "co2_ppm": 233.08,
+      "ch4_ppb": 574.0,
+      "temp_anomaly": -5.351,
+      "sea_level_m": -80.3,
+      "insolation": 189.45
+    },
+    {
+      "age_bp": 82000,
+      "year_ce": -80050,
+      "era": "paleoclimate",
+      "co2_ppm": 238.74,
+      "ch4_ppb": 606.8,
+      "temp_anomaly": -4.319,
+      "sea_level_m": -64.8,
+      "insolation": 186.69
+    },
+    {
+      "age_bp": 83000,
+      "year_ce": -81050,
+      "era": "paleoclimate",
+      "co2_ppm": 238.11,
+      "ch4_ppb": 630.3,
+      "temp_anomaly": -3.053,
+      "sea_level_m": -45.8,
+      "insolation": 183.7
+    },
+    {
+      "age_bp": 84000,
+      "year_ce": -82050,
+      "era": "paleoclimate",
+      "co2_ppm": 228.2,
+      "ch4_ppb": 464.9,
+      "temp_anomaly": -3.609,
+      "sea_level_m": -54.1,
+      "insolation": 180.65
+    },
+    {
+      "age_bp": 85000,
+      "year_ce": -83050,
+      "era": "paleoclimate",
+      "co2_ppm": 214.47,
+      "ch4_ppb": 444.8,
+      "temp_anomaly": -4.325,
+      "sea_level_m": -64.9,
+      "insolation": 177.78
+    },
+    {
+      "age_bp": 86000,
+      "year_ce": -84050,
+      "era": "paleoclimate",
+      "co2_ppm": 216.56,
+      "ch4_ppb": 433.9,
+      "temp_anomaly": -4.728,
+      "sea_level_m": -70.9,
+      "insolation": 175.35
+    },
+    {
+      "age_bp": 87000,
+      "year_ce": -85050,
+      "era": "paleoclimate",
+      "co2_ppm": 212.75,
+      "ch4_ppb": 446.0,
+      "temp_anomaly": -5.79,
+      "sea_level_m": -86.8,
+      "insolation": 173.51
+    },
+    {
+      "age_bp": 88000,
+      "year_ce": -86050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.55,
+      "ch4_ppb": 504.0,
+      "temp_anomaly": -5.819,
+      "sea_level_m": -87.3,
+      "insolation": 172.39
+    },
+    {
+      "age_bp": 89000,
+      "year_ce": -87050,
+      "era": "paleoclimate",
+      "co2_ppm": 215.19,
+      "ch4_ppb": 494.0,
+      "temp_anomaly": -6.311,
+      "sea_level_m": -94.7,
+      "insolation": 172.18
+    },
+    {
+      "age_bp": 90000,
+      "year_ce": -88050,
+      "era": "paleoclimate",
+      "co2_ppm": 221.83,
+      "ch4_ppb": 448.8,
+      "temp_anomaly": -4.742,
+      "sea_level_m": -71.1,
+      "insolation": 172.84
+    },
+    {
+      "age_bp": 91000,
+      "year_ce": -89050,
+      "era": "paleoclimate",
+      "co2_ppm": 227.16,
+      "ch4_ppb": 436.3,
+      "temp_anomaly": -5.676,
+      "sea_level_m": -85.1,
+      "insolation": 174.4
+    },
+    {
+      "age_bp": 92000,
+      "year_ce": -90050,
+      "era": "paleoclimate",
+      "co2_ppm": 229.2,
+      "ch4_ppb": 439.4,
+      "temp_anomaly": -5.312,
+      "sea_level_m": -79.7,
+      "insolation": 176.81
+    },
+    {
+      "age_bp": 93000,
+      "year_ce": -91050,
+      "era": "paleoclimate",
+      "co2_ppm": 230.39,
+      "ch4_ppb": 438.4,
+      "temp_anomaly": -5.926,
+      "sea_level_m": -88.9,
+      "insolation": 179.87
+    },
+    {
+      "age_bp": 94000,
+      "year_ce": -92050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.58,
+      "ch4_ppb": 438.6,
+      "temp_anomaly": -4.561,
+      "sea_level_m": -68.4,
+      "insolation": 183.43
+    },
+    {
+      "age_bp": 95000,
+      "year_ce": -93050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.27,
+      "ch4_ppb": 441.1,
+      "temp_anomaly": -3.85,
+      "sea_level_m": -57.8,
+      "insolation": 187.25
+    },
+    {
+      "age_bp": 96000,
+      "year_ce": -94050,
+      "era": "paleoclimate",
+      "co2_ppm": 230.14,
+      "ch4_ppb": 484.2,
+      "temp_anomaly": -5.36,
+      "sea_level_m": -80.4,
+      "insolation": 190.99
+    },
+    {
+      "age_bp": 97000,
+      "year_ce": -95050,
+      "era": "paleoclimate",
+      "co2_ppm": 229.01,
+      "ch4_ppb": 494.3,
+      "temp_anomaly": -5.494,
+      "sea_level_m": -82.4,
+      "insolation": 194.39
+    },
+    {
+      "age_bp": 98000,
+      "year_ce": -96050,
+      "era": "paleoclimate",
+      "co2_ppm": 227.89,
+      "ch4_ppb": 508.2,
+      "temp_anomaly": -4.663,
+      "sea_level_m": -69.9,
+      "insolation": 197.16
+    },
+    {
+      "age_bp": 99000,
+      "year_ce": -97050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.76,
+      "ch4_ppb": 526.0,
+      "temp_anomaly": -4.396,
+      "sea_level_m": -65.9,
+      "insolation": 198.98
+    },
+    {
+      "age_bp": 100000,
+      "year_ce": -98050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.56,
+      "ch4_ppb": 530.0,
+      "temp_anomaly": -4.46,
+      "sea_level_m": -66.9,
+      "insolation": 199.71
+    },
+    {
+      "age_bp": 101000,
+      "year_ce": -99050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.89,
+      "ch4_ppb": 543.6,
+      "temp_anomaly": -5.148,
+      "sea_level_m": -77.2,
+      "insolation": 199.23
+    },
+    {
+      "age_bp": 102000,
+      "year_ce": -100050,
+      "era": "paleoclimate",
+      "co2_ppm": 235.61,
+      "ch4_ppb": 492.3,
+      "temp_anomaly": -4.882,
+      "sea_level_m": -73.2,
+      "insolation": 197.5
+    },
+    {
+      "age_bp": 103000,
+      "year_ce": -101050,
+      "era": "paleoclimate",
+      "co2_ppm": 230.48,
+      "ch4_ppb": 484.0,
+      "temp_anomaly": -5.919,
+      "sea_level_m": -88.8,
+      "insolation": 194.68
+    },
+    {
+      "age_bp": 104000,
+      "year_ce": -102050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.9,
+      "ch4_ppb": 568.4,
+      "temp_anomaly": -5.688,
+      "sea_level_m": -85.3,
+      "insolation": 191.0
+    },
+    {
+      "age_bp": 105000,
+      "year_ce": -103050,
+      "era": "paleoclimate",
+      "co2_ppm": 234.9,
+      "ch4_ppb": 596.7,
+      "temp_anomaly": -4.568,
+      "sea_level_m": -68.5,
+      "insolation": 186.68
+    },
+    {
+      "age_bp": 106000,
+      "year_ce": -104050,
+      "era": "paleoclimate",
+      "co2_ppm": 232.02,
+      "ch4_ppb": 600.8,
+      "temp_anomaly": -4.754,
+      "sea_level_m": -71.3,
+      "insolation": 182.2
+    },
+    {
+      "age_bp": 107000,
+      "year_ce": -105050,
+      "era": "paleoclimate",
+      "co2_ppm": 235.94,
+      "ch4_ppb": 464.4,
+      "temp_anomaly": -4.708,
+      "sea_level_m": -70.6,
+      "insolation": 177.88
+    },
+    {
+      "age_bp": 108000,
+      "year_ce": -106050,
+      "era": "paleoclimate",
+      "co2_ppm": 243.63,
+      "ch4_ppb": 469.5,
+      "temp_anomaly": -6.444,
+      "sea_level_m": -96.7,
+      "insolation": 174.1
+    },
+    {
+      "age_bp": 109000,
+      "year_ce": -107050,
+      "era": "paleoclimate",
+      "co2_ppm": 248.47,
+      "ch4_ppb": 506.6,
+      "temp_anomaly": -7.623,
+      "sea_level_m": -114.3,
+      "insolation": 171.21
+    },
+    {
+      "age_bp": 110000,
+      "year_ce": -108050,
+      "era": "paleoclimate",
+      "co2_ppm": 251.72,
+      "ch4_ppb": 502.1,
+      "temp_anomaly": -4.769,
+      "sea_level_m": -71.5,
+      "insolation": 169.47
+    },
+    {
+      "age_bp": 111000,
+      "year_ce": -109050,
+      "era": "paleoclimate",
+      "co2_ppm": 254.4,
+      "ch4_ppb": 494.7,
+      "temp_anomaly": -5.411,
+      "sea_level_m": -81.2,
+      "insolation": 168.98
+    },
+    {
+      "age_bp": 112000,
+      "year_ce": -110050,
+      "era": "paleoclimate",
+      "co2_ppm": 257.65,
+      "ch4_ppb": 456.0,
+      "temp_anomaly": -5.39,
+      "sea_level_m": -80.9,
+      "insolation": 169.88
+    },
+    {
+      "age_bp": 113000,
+      "year_ce": -111050,
+      "era": "paleoclimate",
+      "co2_ppm": 264.5,
+      "ch4_ppb": 465.0,
+      "temp_anomaly": -4.095,
+      "sea_level_m": -61.4,
+      "insolation": 172.05
+    },
+    {
+      "age_bp": 114000,
+      "year_ce": -112050,
+      "era": "paleoclimate",
+      "co2_ppm": 261.96,
+      "ch4_ppb": 471.4,
+      "temp_anomaly": -2.843,
+      "sea_level_m": -42.7,
+      "insolation": 175.33
+    },
+    {
+      "age_bp": 115000,
+      "year_ce": -113050,
+      "era": "paleoclimate",
+      "co2_ppm": 273.5,
+      "ch4_ppb": 472.0,
+      "temp_anomaly": -2.397,
+      "sea_level_m": -36.0,
+      "insolation": 179.46
+    },
+    {
+      "age_bp": 116000,
+      "year_ce": -114050,
+      "era": "paleoclimate",
+      "co2_ppm": 266.38,
+      "ch4_ppb": 496.7,
+      "temp_anomaly": -2.058,
+      "sea_level_m": -30.9,
+      "insolation": 184.12
+    },
+    {
+      "age_bp": 117000,
+      "year_ce": -115050,
+      "era": "paleoclimate",
+      "co2_ppm": 264.54,
+      "ch4_ppb": 537.1,
+      "temp_anomaly": -0.977,
+      "sea_level_m": -14.7,
+      "insolation": 188.81
+    },
+    {
+      "age_bp": 118000,
+      "year_ce": -116050,
+      "era": "paleoclimate",
+      "co2_ppm": 269.3,
+      "ch4_ppb": 545.5,
+      "temp_anomaly": 1.339,
+      "sea_level_m": 20.1,
+      "insolation": 193.21
+    },
+    {
+      "age_bp": 119000,
+      "year_ce": -117050,
+      "era": "paleoclimate",
+      "co2_ppm": 273.08,
+      "ch4_ppb": 580.6,
+      "temp_anomaly": 1.424,
+      "sea_level_m": 21.4,
+      "insolation": 196.87
+    },
+    {
+      "age_bp": 120000,
+      "year_ce": -118050,
+      "era": "paleoclimate",
+      "co2_ppm": 268.8,
+      "ch4_ppb": 572.9,
+      "temp_anomaly": 0.482,
+      "sea_level_m": 7.2,
+      "insolation": 199.45
+    },
+    {
+      "age_bp": 121000,
+      "year_ce": -119050,
+      "era": "paleoclimate",
+      "co2_ppm": 277.27,
+      "ch4_ppb": 599.2,
+      "temp_anomaly": 1.88,
+      "sea_level_m": 28.2,
+      "insolation": 200.79
+    },
+    {
+      "age_bp": 122000,
+      "year_ce": -120050,
+      "era": "paleoclimate",
+      "co2_ppm": 273.53,
+      "ch4_ppb": 608.5,
+      "temp_anomaly": 1.347,
+      "sea_level_m": 20.2,
+      "insolation": 200.77
+    },
+    {
+      "age_bp": 123000,
+      "year_ce": -121050,
+      "era": "paleoclimate",
+      "co2_ppm": 275.99,
+      "ch4_ppb": 607.0,
+      "temp_anomaly": 2.092,
+      "sea_level_m": 31.4,
+      "insolation": 199.4
+    },
+    {
+      "age_bp": 124000,
+      "year_ce": -122050,
+      "era": "paleoclimate",
+      "co2_ppm": 270.13,
+      "ch4_ppb": 614.1,
+      "temp_anomaly": 1.625,
+      "sea_level_m": 24.4,
+      "insolation": 196.92
+    },
+    {
+      "age_bp": 125000,
+      "year_ce": -123050,
+      "era": "paleoclimate",
+      "co2_ppm": 275.98,
+      "ch4_ppb": 640.4,
+      "temp_anomaly": 1.127,
+      "sea_level_m": 16.9,
+      "insolation": 193.53
+    },
+    {
+      "age_bp": 126000,
+      "year_ce": -124050,
+      "era": "paleoclimate",
+      "co2_ppm": 274.99,
+      "ch4_ppb": 652.4,
+      "temp_anomaly": 1.095,
+      "sea_level_m": 16.4,
+      "insolation": 189.54
+    },
+    {
+      "age_bp": 127000,
+      "year_ce": -125050,
+      "era": "paleoclimate",
+      "co2_ppm": 262.55,
+      "ch4_ppb": 646.7,
+      "temp_anomaly": 2.559,
+      "sea_level_m": 38.4,
+      "insolation": 185.35
+    },
+    {
+      "age_bp": 128000,
+      "year_ce": -126050,
+      "era": "paleoclimate",
+      "co2_ppm": 275.26,
+      "ch4_ppb": 709.4,
+      "temp_anomaly": 3.766,
+      "sea_level_m": 56.5,
+      "insolation": 181.27
+    },
+    {
+      "age_bp": 129000,
+      "year_ce": -127050,
+      "era": "paleoclimate",
+      "co2_ppm": 273.75,
+      "ch4_ppb": 535.9,
+      "temp_anomaly": 3.558,
+      "sea_level_m": 53.4,
+      "insolation": 177.56
+    },
+    {
+      "age_bp": 130000,
+      "year_ce": -128050,
+      "era": "paleoclimate",
+      "co2_ppm": 256.68,
+      "ch4_ppb": 512.2,
+      "temp_anomaly": 2.84,
+      "sea_level_m": 42.6,
+      "insolation": 174.56
+    },
+    {
+      "age_bp": 131000,
+      "year_ce": -129050,
+      "era": "paleoclimate",
+      "co2_ppm": 247.89,
+      "ch4_ppb": 490.2,
+      "temp_anomaly": 0.457,
+      "sea_level_m": 6.9,
+      "insolation": 172.37
+    },
+    {
+      "age_bp": 132000,
+      "year_ce": -130050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.98,
+      "ch4_ppb": 457.6,
+      "temp_anomaly": -2.62,
+      "sea_level_m": -39.3,
+      "insolation": 171.12
+    },
+    {
+      "age_bp": 133000,
+      "year_ce": -131050,
+      "era": "paleoclimate",
+      "co2_ppm": 223.85,
+      "ch4_ppb": 456.2,
+      "temp_anomaly": -4.349,
+      "sea_level_m": -65.2,
+      "insolation": 170.9
+    },
+    {
+      "age_bp": 134000,
+      "year_ce": -132050,
+      "era": "paleoclimate",
+      "co2_ppm": 209.2,
+      "ch4_ppb": 428.3,
+      "temp_anomaly": -5.116,
+      "sea_level_m": -76.7,
+      "insolation": 171.64
+    },
+    {
+      "age_bp": 135000,
+      "year_ce": -133050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.44,
+      "ch4_ppb": 410.6,
+      "temp_anomaly": -7.733,
+      "sea_level_m": -116.0,
+      "insolation": 173.22
+    },
+    {
+      "age_bp": 136000,
+      "year_ce": -134050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.79,
+      "ch4_ppb": 391.3,
+      "temp_anomaly": -6.852,
+      "sea_level_m": -102.8,
+      "insolation": 175.62
+    },
+    {
+      "age_bp": 137000,
+      "year_ce": -135050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.42,
+      "ch4_ppb": 380.4,
+      "temp_anomaly": -8.56,
+      "sea_level_m": -128.4,
+      "insolation": 178.51
+    },
+    {
+      "age_bp": 138000,
+      "year_ce": -136050,
+      "era": "paleoclimate",
+      "co2_ppm": 193.85,
+      "ch4_ppb": 398.2,
+      "temp_anomaly": -8.068,
+      "sea_level_m": -121.0,
+      "insolation": 181.76
+    },
+    {
+      "age_bp": 139000,
+      "year_ce": -137050,
+      "era": "paleoclimate",
+      "co2_ppm": 191.77,
+      "ch4_ppb": 383.6,
+      "temp_anomaly": -9.05,
+      "sea_level_m": -135.7,
+      "insolation": 185.12
+    },
+    {
+      "age_bp": 140000,
+      "year_ce": -138050,
+      "era": "paleoclimate",
+      "co2_ppm": 196.23,
+      "ch4_ppb": 357.2,
+      "temp_anomaly": -8.625,
+      "sea_level_m": -129.4,
+      "insolation": 188.32
+    },
+    {
+      "age_bp": 141000,
+      "year_ce": -139050,
+      "era": "paleoclimate",
+      "co2_ppm": 196.18,
+      "ch4_ppb": 348.1,
+      "temp_anomaly": -9.159,
+      "sea_level_m": -137.4,
+      "insolation": 191.15
+    },
+    {
+      "age_bp": 142000,
+      "year_ce": -140050,
+      "era": "paleoclimate",
+      "co2_ppm": 190.72,
+      "ch4_ppb": 365.3,
+      "temp_anomaly": -7.86,
+      "sea_level_m": -117.9,
+      "insolation": 193.44
+    },
+    {
+      "age_bp": 143000,
+      "year_ce": -141050,
+      "era": "paleoclimate",
+      "co2_ppm": 192.25,
+      "ch4_ppb": 380.2,
+      "temp_anomaly": -8.614,
+      "sea_level_m": -129.2,
+      "insolation": 195.01
+    },
+    {
+      "age_bp": 144000,
+      "year_ce": -142050,
+      "era": "paleoclimate",
+      "co2_ppm": 194.22,
+      "ch4_ppb": 401.0,
+      "temp_anomaly": -8.9,
+      "sea_level_m": -133.5,
+      "insolation": 195.77
+    },
+    {
+      "age_bp": 145000,
+      "year_ce": -143050,
+      "era": "paleoclimate",
+      "co2_ppm": 196.19,
+      "ch4_ppb": 379.7,
+      "temp_anomaly": -8.324,
+      "sea_level_m": -124.9,
+      "insolation": 195.77
+    },
+    {
+      "age_bp": 146000,
+      "year_ce": -144050,
+      "era": "paleoclimate",
+      "co2_ppm": 198.02,
+      "ch4_ppb": 401.5,
+      "temp_anomaly": -7.934,
+      "sea_level_m": -119.0,
+      "insolation": 194.93
+    },
+    {
+      "age_bp": 147000,
+      "year_ce": -145050,
+      "era": "paleoclimate",
+      "co2_ppm": 199.78,
+      "ch4_ppb": 420.1,
+      "temp_anomaly": -7.753,
+      "sea_level_m": -116.3,
+      "insolation": 193.43
+    },
+    {
+      "age_bp": 148000,
+      "year_ce": -146050,
+      "era": "paleoclimate",
+      "co2_ppm": 201.54,
+      "ch4_ppb": 467.9,
+      "temp_anomaly": -7.345,
+      "sea_level_m": -110.2,
+      "insolation": 191.39
+    },
+    {
+      "age_bp": 149000,
+      "year_ce": -147050,
+      "era": "paleoclimate",
+      "co2_ppm": 201.07,
+      "ch4_ppb": 431.4,
+      "temp_anomaly": -8.219,
+      "sea_level_m": -123.3,
+      "insolation": 188.95
+    },
+    {
+      "age_bp": 150000,
+      "year_ce": -148050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.52,
+      "ch4_ppb": 413.5,
+      "temp_anomaly": -6.99,
+      "sea_level_m": -104.9,
+      "insolation": 186.27
+    },
+    {
+      "age_bp": 151000,
+      "year_ce": -149050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.3,
+      "ch4_ppb": 421.1,
+      "temp_anomaly": -7.705,
+      "sea_level_m": -115.6,
+      "insolation": 183.6
+    },
+    {
+      "age_bp": 152000,
+      "year_ce": -150050,
+      "era": "paleoclimate",
+      "co2_ppm": 198.41,
+      "ch4_ppb": 423.8,
+      "temp_anomaly": -7.837,
+      "sea_level_m": -117.6,
+      "insolation": 181.0
+    },
+    {
+      "age_bp": 153000,
+      "year_ce": -151050,
+      "era": "paleoclimate",
+      "co2_ppm": 194.62,
+      "ch4_ppb": 408.7,
+      "temp_anomaly": -7.88,
+      "sea_level_m": -118.2,
+      "insolation": 178.7
+    },
+    {
+      "age_bp": 154000,
+      "year_ce": -152050,
+      "era": "paleoclimate",
+      "co2_ppm": 190.82,
+      "ch4_ppb": 401.6,
+      "temp_anomaly": -9.066,
+      "sea_level_m": -136.0,
+      "insolation": 176.79
+    },
+    {
+      "age_bp": 155000,
+      "year_ce": -153050,
+      "era": "paleoclimate",
+      "co2_ppm": 187.01,
+      "ch4_ppb": 385.3,
+      "temp_anomaly": -9.087,
+      "sea_level_m": -136.3,
+      "insolation": 175.34
+    },
+    {
+      "age_bp": 156000,
+      "year_ce": -154050,
+      "era": "paleoclimate",
+      "co2_ppm": 188.34,
+      "ch4_ppb": 401.1,
+      "temp_anomaly": -9.574,
+      "sea_level_m": -143.6,
+      "insolation": 174.45
+    },
+    {
+      "age_bp": 157000,
+      "year_ce": -155050,
+      "era": "paleoclimate",
+      "co2_ppm": 192.82,
+      "ch4_ppb": 414.6,
+      "temp_anomaly": -8.816,
+      "sea_level_m": -132.2,
+      "insolation": 174.18
+    },
+    {
+      "age_bp": 158000,
+      "year_ce": -156050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.3,
+      "ch4_ppb": 410.0,
+      "temp_anomaly": -9.019,
+      "sea_level_m": -135.3,
+      "insolation": 174.48
+    },
+    {
+      "age_bp": 159000,
+      "year_ce": -157050,
+      "era": "paleoclimate",
+      "co2_ppm": 201.78,
+      "ch4_ppb": 439.9,
+      "temp_anomaly": -6.472,
+      "sea_level_m": -97.1,
+      "insolation": 175.4
+    },
+    {
+      "age_bp": 160000,
+      "year_ce": -158050,
+      "era": "paleoclimate",
+      "co2_ppm": 196.34,
+      "ch4_ppb": 414.9,
+      "temp_anomaly": -7.471,
+      "sea_level_m": -112.1,
+      "insolation": 176.88
+    },
+    {
+      "age_bp": 161000,
+      "year_ce": -159050,
+      "era": "paleoclimate",
+      "co2_ppm": 193.52,
+      "ch4_ppb": 417.5,
+      "temp_anomaly": -8.192,
+      "sea_level_m": -122.9,
+      "insolation": 178.83
+    },
+    {
+      "age_bp": 162000,
+      "year_ce": -160050,
+      "era": "paleoclimate",
+      "co2_ppm": 190.72,
+      "ch4_ppb": 424.5,
+      "temp_anomaly": -6.562,
+      "sea_level_m": -98.4,
+      "insolation": 181.19
+    },
+    {
+      "age_bp": 163000,
+      "year_ce": -161050,
+      "era": "paleoclimate",
+      "co2_ppm": 186.8,
+      "ch4_ppb": 412.8,
+      "temp_anomaly": -6.888,
+      "sea_level_m": -103.3,
+      "insolation": 183.85
+    },
+    {
+      "age_bp": 164000,
+      "year_ce": -162050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.02,
+      "ch4_ppb": 392.6,
+      "temp_anomaly": -9.144,
+      "sea_level_m": -137.2,
+      "insolation": 186.61
+    },
+    {
+      "age_bp": 165000,
+      "year_ce": -163050,
+      "era": "paleoclimate",
+      "co2_ppm": 196.85,
+      "ch4_ppb": 414.1,
+      "temp_anomaly": -8.782,
+      "sea_level_m": -131.7,
+      "insolation": 189.38
+    },
+    {
+      "age_bp": 166000,
+      "year_ce": -164050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.28,
+      "ch4_ppb": 440.4,
+      "temp_anomaly": -8.004,
+      "sea_level_m": -120.1,
+      "insolation": 191.92
+    },
+    {
+      "age_bp": 167000,
+      "year_ce": -165050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.72,
+      "ch4_ppb": 481.6,
+      "temp_anomaly": -7.504,
+      "sea_level_m": -112.6,
+      "insolation": 194.08
+    },
+    {
+      "age_bp": 168000,
+      "year_ce": -166050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.76,
+      "ch4_ppb": 496.0,
+      "temp_anomaly": -6.718,
+      "sea_level_m": -100.8,
+      "insolation": 195.69
+    },
+    {
+      "age_bp": 169000,
+      "year_ce": -167050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.72,
+      "ch4_ppb": 477.9,
+      "temp_anomaly": -6.535,
+      "sea_level_m": -98.0,
+      "insolation": 196.62
+    },
+    {
+      "age_bp": 170000,
+      "year_ce": -168050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.24,
+      "ch4_ppb": 446.4,
+      "temp_anomaly": -7.659,
+      "sea_level_m": -114.9,
+      "insolation": 196.71
+    },
+    {
+      "age_bp": 171000,
+      "year_ce": -169050,
+      "era": "paleoclimate",
+      "co2_ppm": 196.32,
+      "ch4_ppb": 482.4,
+      "temp_anomaly": -8.524,
+      "sea_level_m": -127.9,
+      "insolation": 195.99
+    },
+    {
+      "age_bp": 172000,
+      "year_ce": -170050,
+      "era": "paleoclimate",
+      "co2_ppm": 192.58,
+      "ch4_ppb": 451.7,
+      "temp_anomaly": -5.847,
+      "sea_level_m": -87.7,
+      "insolation": 194.42
+    },
+    {
+      "age_bp": 173000,
+      "year_ce": -171050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.57,
+      "ch4_ppb": 451.5,
+      "temp_anomaly": -8.248,
+      "sea_level_m": -123.7,
+      "insolation": 192.09
+    },
+    {
+      "age_bp": 174000,
+      "year_ce": -172050,
+      "era": "paleoclimate",
+      "co2_ppm": 195.68,
+      "ch4_ppb": 446.9,
+      "temp_anomaly": -8.025,
+      "sea_level_m": -120.4,
+      "insolation": 189.15
+    },
+    {
+      "age_bp": 175000,
+      "year_ce": -173050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.88,
+      "ch4_ppb": 468.8,
+      "temp_anomaly": -8.339,
+      "sea_level_m": -125.1,
+      "insolation": 185.8
+    },
+    {
+      "age_bp": 176000,
+      "year_ce": -174050,
+      "era": "paleoclimate",
+      "co2_ppm": 209.78,
+      "ch4_ppb": 497.6,
+      "temp_anomaly": -8.587,
+      "sea_level_m": -128.8,
+      "insolation": 182.22
+    },
+    {
+      "age_bp": 177000,
+      "year_ce": -175050,
+      "era": "paleoclimate",
+      "co2_ppm": 212.78,
+      "ch4_ppb": 548.7,
+      "temp_anomaly": -6.325,
+      "sea_level_m": -94.9,
+      "insolation": 178.75
+    },
+    {
+      "age_bp": 178000,
+      "year_ce": -176050,
+      "era": "paleoclimate",
+      "co2_ppm": 216.93,
+      "ch4_ppb": 520.2,
+      "temp_anomaly": -5.981,
+      "sea_level_m": -89.7,
+      "insolation": 175.61
+    },
+    {
+      "age_bp": 179000,
+      "year_ce": -177050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.54,
+      "ch4_ppb": 479.2,
+      "temp_anomaly": -7.735,
+      "sea_level_m": -116.0,
+      "insolation": 173.02
+    },
+    {
+      "age_bp": 180000,
+      "year_ce": -178050,
+      "era": "paleoclimate",
+      "co2_ppm": 199.59,
+      "ch4_ppb": 477.0,
+      "temp_anomaly": -8.662,
+      "sea_level_m": -129.9,
+      "insolation": 171.24
+    },
+    {
+      "age_bp": 181000,
+      "year_ce": -179050,
+      "era": "paleoclimate",
+      "co2_ppm": 201.44,
+      "ch4_ppb": 495.9,
+      "temp_anomaly": -8.422,
+      "sea_level_m": -126.3,
+      "insolation": 170.41
+    },
+    {
+      "age_bp": 182000,
+      "year_ce": -180050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.31,
+      "ch4_ppb": 515.7,
+      "temp_anomaly": -9.236,
+      "sea_level_m": -138.5,
+      "insolation": 170.61
+    },
+    {
+      "age_bp": 183000,
+      "year_ce": -181050,
+      "era": "paleoclimate",
+      "co2_ppm": 206.04,
+      "ch4_ppb": 530.2,
+      "temp_anomaly": -8.803,
+      "sea_level_m": -132.0,
+      "insolation": 171.91
+    },
+    {
+      "age_bp": 184000,
+      "year_ce": -182050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.81,
+      "ch4_ppb": 521.6,
+      "temp_anomaly": -8.534,
+      "sea_level_m": -128.0,
+      "insolation": 174.24
+    },
+    {
+      "age_bp": 185000,
+      "year_ce": -183050,
+      "era": "paleoclimate",
+      "co2_ppm": 213.93,
+      "ch4_ppb": 472.4,
+      "temp_anomaly": -8.234,
+      "sea_level_m": -123.5,
+      "insolation": 177.45
+    },
+    {
+      "age_bp": 186000,
+      "year_ce": -184050,
+      "era": "paleoclimate",
+      "co2_ppm": 224.16,
+      "ch4_ppb": 450.7,
+      "temp_anomaly": -7.847,
+      "sea_level_m": -117.7,
+      "insolation": 181.38
+    },
+    {
+      "age_bp": 187000,
+      "year_ce": -185050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.32,
+      "ch4_ppb": 438.6,
+      "temp_anomaly": -6.63,
+      "sea_level_m": -99.5,
+      "insolation": 185.72
+    },
+    {
+      "age_bp": 188000,
+      "year_ce": -186050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.37,
+      "ch4_ppb": 457.5,
+      "temp_anomaly": -4.058,
+      "sea_level_m": -60.9,
+      "insolation": 190.12
+    },
+    {
+      "age_bp": 189000,
+      "year_ce": -187050,
+      "era": "paleoclimate",
+      "co2_ppm": 221.62,
+      "ch4_ppb": 423.1,
+      "temp_anomaly": -5.516,
+      "sea_level_m": -82.7,
+      "insolation": 194.26
+    },
+    {
+      "age_bp": 190000,
+      "year_ce": -188050,
+      "era": "paleoclimate",
+      "co2_ppm": 218.63,
+      "ch4_ppb": 455.0,
+      "temp_anomaly": -6.652,
+      "sea_level_m": -99.8,
+      "insolation": 197.74
+    },
+    {
+      "age_bp": 191000,
+      "year_ce": -189050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.15,
+      "ch4_ppb": 470.9,
+      "temp_anomaly": -7.077,
+      "sea_level_m": -106.2,
+      "insolation": 200.21
+    },
+    {
+      "age_bp": 192000,
+      "year_ce": -190050,
+      "era": "paleoclimate",
+      "co2_ppm": 223.48,
+      "ch4_ppb": 508.8,
+      "temp_anomaly": -4.982,
+      "sea_level_m": -74.7,
+      "insolation": 201.48
+    },
+    {
+      "age_bp": 193000,
+      "year_ce": -191050,
+      "era": "paleoclimate",
+      "co2_ppm": 225.48,
+      "ch4_ppb": 497.8,
+      "temp_anomaly": -5.576,
+      "sea_level_m": -83.6,
+      "insolation": 201.36
+    },
+    {
+      "age_bp": 194000,
+      "year_ce": -192050,
+      "era": "paleoclimate",
+      "co2_ppm": 222.16,
+      "ch4_ppb": 474.3,
+      "temp_anomaly": -7.097,
+      "sea_level_m": -106.5,
+      "insolation": 199.84
+    },
+    {
+      "age_bp": 195000,
+      "year_ce": -193050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.33,
+      "ch4_ppb": 525.3,
+      "temp_anomaly": -5.314,
+      "sea_level_m": -79.7,
+      "insolation": 197.08
+    },
+    {
+      "age_bp": 196000,
+      "year_ce": -194050,
+      "era": "paleoclimate",
+      "co2_ppm": 242.1,
+      "ch4_ppb": 545.1,
+      "temp_anomaly": -4.518,
+      "sea_level_m": -67.8,
+      "insolation": 193.25
+    },
+    {
+      "age_bp": 197000,
+      "year_ce": -195050,
+      "era": "paleoclimate",
+      "co2_ppm": 245.04,
+      "ch4_ppb": 583.2,
+      "temp_anomaly": -3.857,
+      "sea_level_m": -57.9,
+      "insolation": 188.72
+    },
+    {
+      "age_bp": 198000,
+      "year_ce": -196050,
+      "era": "paleoclimate",
+      "co2_ppm": 248.01,
+      "ch4_ppb": 596.5,
+      "temp_anomaly": -2.71,
+      "sea_level_m": -40.6,
+      "insolation": 183.9
+    },
+    {
+      "age_bp": 199000,
+      "year_ce": -197050,
+      "era": "paleoclimate",
+      "co2_ppm": 250.55,
+      "ch4_ppb": 659.2,
+      "temp_anomaly": -2.205,
+      "sea_level_m": -33.1,
+      "insolation": 179.12
+    },
+    {
+      "age_bp": 200000,
+      "year_ce": -198050,
+      "era": "paleoclimate",
+      "co2_ppm": 239.66,
+      "ch4_ppb": 569.7,
+      "temp_anomaly": -2.248,
+      "sea_level_m": -33.7,
+      "insolation": 174.83
+    },
+    {
+      "age_bp": 201000,
+      "year_ce": -199050,
+      "era": "paleoclimate",
+      "co2_ppm": 246.49,
+      "ch4_ppb": 534.2,
+      "temp_anomaly": -1.979,
+      "sea_level_m": -29.7,
+      "insolation": 171.33
+    },
+    {
+      "age_bp": 202000,
+      "year_ce": -200050,
+      "era": "paleoclimate",
+      "co2_ppm": 245.46,
+      "ch4_ppb": 490.3,
+      "temp_anomaly": -3.425,
+      "sea_level_m": -51.4,
+      "insolation": 168.87
+    },
+    {
+      "age_bp": 203000,
+      "year_ce": -201050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.99,
+      "ch4_ppb": 459.2,
+      "temp_anomaly": -4.881,
+      "sea_level_m": -73.2,
+      "insolation": 167.64
+    },
+    {
+      "age_bp": 204000,
+      "year_ce": -202050,
+      "era": "paleoclimate",
+      "co2_ppm": 228.02,
+      "ch4_ppb": 481.6,
+      "temp_anomaly": -4.896,
+      "sea_level_m": -73.4,
+      "insolation": 167.73
+    },
+    {
+      "age_bp": 205000,
+      "year_ce": -203050,
+      "era": "paleoclimate",
+      "co2_ppm": 229.81,
+      "ch4_ppb": 488.5,
+      "temp_anomaly": -3.357,
+      "sea_level_m": -50.4,
+      "insolation": 169.12
+    },
+    {
+      "age_bp": 206000,
+      "year_ce": -204050,
+      "era": "paleoclimate",
+      "co2_ppm": 237.88,
+      "ch4_ppb": 501.2,
+      "temp_anomaly": -3.442,
+      "sea_level_m": -51.6,
+      "insolation": 171.73
+    },
+    {
+      "age_bp": 207000,
+      "year_ce": -205050,
+      "era": "paleoclimate",
+      "co2_ppm": 236.44,
+      "ch4_ppb": 503.2,
+      "temp_anomaly": -2.934,
+      "sea_level_m": -44.0,
+      "insolation": 175.39
+    },
+    {
+      "age_bp": 208000,
+      "year_ce": -206050,
+      "era": "paleoclimate",
+      "co2_ppm": 244.3,
+      "ch4_ppb": 508.2,
+      "temp_anomaly": -2.371,
+      "sea_level_m": -35.6,
+      "insolation": 179.83
+    },
+    {
+      "age_bp": 209000,
+      "year_ce": -207050,
+      "era": "paleoclimate",
+      "co2_ppm": 251.94,
+      "ch4_ppb": 524.7,
+      "temp_anomaly": -1.665,
+      "sea_level_m": -25.0,
+      "insolation": 184.74
+    },
+    {
+      "age_bp": 210000,
+      "year_ce": -208050,
+      "era": "paleoclimate",
+      "co2_ppm": 249.22,
+      "ch4_ppb": 563.0,
+      "temp_anomaly": -1.529,
+      "sea_level_m": -22.9,
+      "insolation": 189.77
+    },
+    {
+      "age_bp": 211000,
+      "year_ce": -209050,
+      "era": "paleoclimate",
+      "co2_ppm": 244.8,
+      "ch4_ppb": 582.0,
+      "temp_anomaly": -1.111,
+      "sea_level_m": -16.7,
+      "insolation": 194.5
+    },
+    {
+      "age_bp": 212000,
+      "year_ce": -210050,
+      "era": "paleoclimate",
+      "co2_ppm": 249.58,
+      "ch4_ppb": 579.6,
+      "temp_anomaly": -1.842,
+      "sea_level_m": -27.6,
+      "insolation": 198.58
+    },
+    {
+      "age_bp": 213000,
+      "year_ce": -211050,
+      "era": "paleoclimate",
+      "co2_ppm": 240.84,
+      "ch4_ppb": 576.8,
+      "temp_anomaly": -2.107,
+      "sea_level_m": -31.6,
+      "insolation": 201.65
+    },
+    {
+      "age_bp": 214000,
+      "year_ce": -212050,
+      "era": "paleoclimate",
+      "co2_ppm": 247.64,
+      "ch4_ppb": 589.1,
+      "temp_anomaly": -2.291,
+      "sea_level_m": -34.4,
+      "insolation": 203.46
+    },
+    {
+      "age_bp": 215000,
+      "year_ce": -213050,
+      "era": "paleoclimate",
+      "co2_ppm": 249.07,
+      "ch4_ppb": 564.3,
+      "temp_anomaly": -1.162,
+      "sea_level_m": -17.4,
+      "insolation": 203.83
+    },
+    {
+      "age_bp": 216000,
+      "year_ce": -214050,
+      "era": "paleoclimate",
+      "co2_ppm": 242.24,
+      "ch4_ppb": 461.0,
+      "temp_anomaly": -2.442,
+      "sea_level_m": -36.6,
+      "insolation": 202.72
+    },
+    {
+      "age_bp": 217000,
+      "year_ce": -215050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.98,
+      "ch4_ppb": 451.1,
+      "temp_anomaly": -4.085,
+      "sea_level_m": -61.3,
+      "insolation": 200.22
+    },
+    {
+      "age_bp": 218000,
+      "year_ce": -216050,
+      "era": "paleoclimate",
+      "co2_ppm": 218.84,
+      "ch4_ppb": 457.1,
+      "temp_anomaly": -4.988,
+      "sea_level_m": -74.8,
+      "insolation": 196.53
+    },
+    {
+      "age_bp": 219000,
+      "year_ce": -217050,
+      "era": "paleoclimate",
+      "co2_ppm": 215.79,
+      "ch4_ppb": 472.9,
+      "temp_anomaly": -4.93,
+      "sea_level_m": -73.9,
+      "insolation": 191.96
+    },
+    {
+      "age_bp": 220000,
+      "year_ce": -218050,
+      "era": "paleoclimate",
+      "co2_ppm": 207.65,
+      "ch4_ppb": 490.7,
+      "temp_anomaly": -5.805,
+      "sea_level_m": -87.1,
+      "insolation": 186.88
+    },
+    {
+      "age_bp": 221000,
+      "year_ce": -219050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.15,
+      "ch4_ppb": 488.5,
+      "temp_anomaly": -6.931,
+      "sea_level_m": -104.0,
+      "insolation": 181.7
+    },
+    {
+      "age_bp": 222000,
+      "year_ce": -220050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.67,
+      "ch4_ppb": 505.2,
+      "temp_anomaly": -7.148,
+      "sea_level_m": -107.2,
+      "insolation": 176.88
+    },
+    {
+      "age_bp": 223000,
+      "year_ce": -221050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.6,
+      "ch4_ppb": 531.6,
+      "temp_anomaly": -8.544,
+      "sea_level_m": -128.2,
+      "insolation": 172.73
+    },
+    {
+      "age_bp": 224000,
+      "year_ce": -222050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.58,
+      "ch4_ppb": 496.0,
+      "temp_anomaly": -8.577,
+      "sea_level_m": -128.7,
+      "insolation": 169.64
+    },
+    {
+      "age_bp": 225000,
+      "year_ce": -223050,
+      "era": "paleoclimate",
+      "co2_ppm": 217.25,
+      "ch4_ppb": 520.0,
+      "temp_anomaly": -7.471,
+      "sea_level_m": -112.1,
+      "insolation": 167.81
+    },
+    {
+      "age_bp": 226000,
+      "year_ce": -224050,
+      "era": "paleoclimate",
+      "co2_ppm": 235.39,
+      "ch4_ppb": 549.6,
+      "temp_anomaly": -5.691,
+      "sea_level_m": -85.4,
+      "insolation": 167.41
+    },
+    {
+      "age_bp": 227000,
+      "year_ce": -225050,
+      "era": "paleoclimate",
+      "co2_ppm": 233.22,
+      "ch4_ppb": 520.2,
+      "temp_anomaly": -6.185,
+      "sea_level_m": -92.8,
+      "insolation": 168.45
+    },
+    {
+      "age_bp": 228000,
+      "year_ce": -226050,
+      "era": "paleoclimate",
+      "co2_ppm": 225.57,
+      "ch4_ppb": 499.1,
+      "temp_anomaly": -7.73,
+      "sea_level_m": -115.9,
+      "insolation": 170.88
+    },
+    {
+      "age_bp": 229000,
+      "year_ce": -227050,
+      "era": "paleoclimate",
+      "co2_ppm": 230.37,
+      "ch4_ppb": 471.4,
+      "temp_anomaly": -7.857,
+      "sea_level_m": -117.8,
+      "insolation": 174.48
+    },
+    {
+      "age_bp": 230000,
+      "year_ce": -228050,
+      "era": "paleoclimate",
+      "co2_ppm": 233.27,
+      "ch4_ppb": 486.9,
+      "temp_anomaly": -6.593,
+      "sea_level_m": -98.9,
+      "insolation": 178.96
+    },
+    {
+      "age_bp": 231000,
+      "year_ce": -229050,
+      "era": "paleoclimate",
+      "co2_ppm": 240.81,
+      "ch4_ppb": 421.7,
+      "temp_anomaly": -7.422,
+      "sea_level_m": -111.3,
+      "insolation": 183.94
+    },
+    {
+      "age_bp": 232000,
+      "year_ce": -230050,
+      "era": "paleoclimate",
+      "co2_ppm": 242.5,
+      "ch4_ppb": 431.1,
+      "temp_anomaly": -5.975,
+      "sea_level_m": -89.6,
+      "insolation": 188.95
+    },
+    {
+      "age_bp": 233000,
+      "year_ce": -231050,
+      "era": "paleoclimate",
+      "co2_ppm": 243.46,
+      "ch4_ppb": 421.7,
+      "temp_anomaly": -5.87,
+      "sea_level_m": -88.1,
+      "insolation": 193.54
+    },
+    {
+      "age_bp": 234000,
+      "year_ce": -232050,
+      "era": "paleoclimate",
+      "co2_ppm": 244.42,
+      "ch4_ppb": 428.2,
+      "temp_anomaly": -4.687,
+      "sea_level_m": -70.3,
+      "insolation": 197.28
+    },
+    {
+      "age_bp": 235000,
+      "year_ce": -233050,
+      "era": "paleoclimate",
+      "co2_ppm": 247.1,
+      "ch4_ppb": 493.5,
+      "temp_anomaly": -3.626,
+      "sea_level_m": -54.4,
+      "insolation": 199.82
+    },
+    {
+      "age_bp": 236000,
+      "year_ce": -234050,
+      "era": "paleoclimate",
+      "co2_ppm": 243.32,
+      "ch4_ppb": 496.1,
+      "temp_anomaly": -3.023,
+      "sea_level_m": -45.3,
+      "insolation": 200.97
+    },
+    {
+      "age_bp": 237000,
+      "year_ce": -235050,
+      "era": "paleoclimate",
+      "co2_ppm": 245.36,
+      "ch4_ppb": 553.2,
+      "temp_anomaly": -2.844,
+      "sea_level_m": -42.7,
+      "insolation": 200.68
+    },
+    {
+      "age_bp": 238000,
+      "year_ce": -236050,
+      "era": "paleoclimate",
+      "co2_ppm": 240.34,
+      "ch4_ppb": 556.6,
+      "temp_anomaly": -2.008,
+      "sea_level_m": -30.1,
+      "insolation": 199.01
+    },
+    {
+      "age_bp": 239000,
+      "year_ce": -237050,
+      "era": "paleoclimate",
+      "co2_ppm": 245.79,
+      "ch4_ppb": 562.1,
+      "temp_anomaly": -1.651,
+      "sea_level_m": -24.8,
+      "insolation": 196.22
+    },
+    {
+      "age_bp": 240000,
+      "year_ce": -238050,
+      "era": "paleoclimate",
+      "co2_ppm": 252.99,
+      "ch4_ppb": 593.5,
+      "temp_anomaly": -1.304,
+      "sea_level_m": -19.6,
+      "insolation": 192.62
+    },
+    {
+      "age_bp": 241000,
+      "year_ce": -239050,
+      "era": "paleoclimate",
+      "co2_ppm": 260.16,
+      "ch4_ppb": 622.5,
+      "temp_anomaly": -0.192,
+      "sea_level_m": -2.9,
+      "insolation": 188.57
+    },
+    {
+      "age_bp": 242000,
+      "year_ce": -240050,
+      "era": "paleoclimate",
+      "co2_ppm": 278.83,
+      "ch4_ppb": 690.7,
+      "temp_anomaly": 1.987,
+      "sea_level_m": 29.8,
+      "insolation": 184.46
+    },
+    {
+      "age_bp": 243000,
+      "year_ce": -241050,
+      "era": "paleoclimate",
+      "co2_ppm": 265.32,
+      "ch4_ppb": 541.3,
+      "temp_anomaly": 1.616,
+      "sea_level_m": 24.2,
+      "insolation": 180.59
+    },
+    {
+      "age_bp": 244000,
+      "year_ce": -242050,
+      "era": "paleoclimate",
+      "co2_ppm": 246.03,
+      "ch4_ppb": 536.6,
+      "temp_anomaly": -0.374,
+      "sea_level_m": -5.6,
+      "insolation": 177.28
+    },
+    {
+      "age_bp": 245000,
+      "year_ce": -243050,
+      "era": "paleoclimate",
+      "co2_ppm": 227.81,
+      "ch4_ppb": 507.9,
+      "temp_anomaly": -3.015,
+      "sea_level_m": -45.2,
+      "insolation": 174.7
+    },
+    {
+      "age_bp": 246000,
+      "year_ce": -244050,
+      "era": "paleoclimate",
+      "co2_ppm": 218.23,
+      "ch4_ppb": 479.1,
+      "temp_anomaly": -4.731,
+      "sea_level_m": -71.0,
+      "insolation": 173.01
+    },
+    {
+      "age_bp": 247000,
+      "year_ce": -245050,
+      "era": "paleoclimate",
+      "co2_ppm": 216.13,
+      "ch4_ppb": 530.7,
+      "temp_anomaly": -6.826,
+      "sea_level_m": -102.4,
+      "insolation": 172.22
+    },
+    {
+      "age_bp": 248000,
+      "year_ce": -246050,
+      "era": "paleoclimate",
+      "co2_ppm": 212.81,
+      "ch4_ppb": 536.8,
+      "temp_anomaly": -5.669,
+      "sea_level_m": -85.0,
+      "insolation": 172.36
+    },
+    {
+      "age_bp": 249000,
+      "year_ce": -247050,
+      "era": "paleoclimate",
+      "co2_ppm": 206.9,
+      "ch4_ppb": 439.7,
+      "temp_anomaly": -6.439,
+      "sea_level_m": -96.6,
+      "insolation": 173.31
+    },
+    {
+      "age_bp": 250000,
+      "year_ce": -248050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.99,
+      "ch4_ppb": 411.7,
+      "temp_anomaly": -7.614,
+      "sea_level_m": -114.2,
+      "insolation": 174.96
+    },
+    {
+      "age_bp": 251000,
+      "year_ce": -249050,
+      "era": "paleoclimate",
+      "co2_ppm": 213.82,
+      "ch4_ppb": 421.4,
+      "temp_anomaly": -7.46,
+      "sea_level_m": -111.9,
+      "insolation": 177.14
+    },
+    {
+      "age_bp": 252000,
+      "year_ce": -250050,
+      "era": "paleoclimate",
+      "co2_ppm": 195.6,
+      "ch4_ppb": 397.2,
+      "temp_anomaly": -8.447,
+      "sea_level_m": -126.7,
+      "insolation": 179.67
+    },
+    {
+      "age_bp": 253000,
+      "year_ce": -251050,
+      "era": "paleoclimate",
+      "co2_ppm": 196.32,
+      "ch4_ppb": 400.4,
+      "temp_anomaly": -8.067,
+      "sea_level_m": -121.0,
+      "insolation": 182.34
+    },
+    {
+      "age_bp": 254000,
+      "year_ce": -252050,
+      "era": "paleoclimate",
+      "co2_ppm": 196.1,
+      "ch4_ppb": 425.8,
+      "temp_anomaly": -7.493,
+      "sea_level_m": -112.4,
+      "insolation": 184.98
+    },
+    {
+      "age_bp": 255000,
+      "year_ce": -253050,
+      "era": "paleoclimate",
+      "co2_ppm": 198.04,
+      "ch4_ppb": 426.5,
+      "temp_anomaly": -7.535,
+      "sea_level_m": -113.0,
+      "insolation": 187.41
+    },
+    {
+      "age_bp": 256000,
+      "year_ce": -254050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.8,
+      "ch4_ppb": 450.7,
+      "temp_anomaly": -7.87,
+      "sea_level_m": -118.0,
+      "insolation": 189.49
+    },
+    {
+      "age_bp": 257000,
+      "year_ce": -255050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.73,
+      "ch4_ppb": 479.6,
+      "temp_anomaly": -7.215,
+      "sea_level_m": -108.2,
+      "insolation": 191.1
+    },
+    {
+      "age_bp": 258000,
+      "year_ce": -256050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.94,
+      "ch4_ppb": 480.0,
+      "temp_anomaly": -7.026,
+      "sea_level_m": -105.4,
+      "insolation": 192.21
+    },
+    {
+      "age_bp": 259000,
+      "year_ce": -257050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.04,
+      "ch4_ppb": 477.5,
+      "temp_anomaly": -7.261,
+      "sea_level_m": -108.9,
+      "insolation": 192.78
+    },
+    {
+      "age_bp": 260000,
+      "year_ce": -258050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.41,
+      "ch4_ppb": 452.1,
+      "temp_anomaly": -7.699,
+      "sea_level_m": -115.5,
+      "insolation": 192.81
+    },
+    {
+      "age_bp": 261000,
+      "year_ce": -259050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.93,
+      "ch4_ppb": 453.8,
+      "temp_anomaly": -7.12,
+      "sea_level_m": -106.8,
+      "insolation": 192.38
+    },
+    {
+      "age_bp": 262000,
+      "year_ce": -260050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.65,
+      "ch4_ppb": 447.9,
+      "temp_anomaly": -7.858,
+      "sea_level_m": -117.9,
+      "insolation": 191.51
+    },
+    {
+      "age_bp": 263000,
+      "year_ce": -261050,
+      "era": "paleoclimate",
+      "co2_ppm": 215.2,
+      "ch4_ppb": 499.4,
+      "temp_anomaly": -7.638,
+      "sea_level_m": -114.6,
+      "insolation": 190.3
+    },
+    {
+      "age_bp": 264000,
+      "year_ce": -262050,
+      "era": "paleoclimate",
+      "co2_ppm": 223.75,
+      "ch4_ppb": 415.2,
+      "temp_anomaly": -6.55,
+      "sea_level_m": -98.2,
+      "insolation": 188.83
+    },
+    {
+      "age_bp": 265000,
+      "year_ce": -263050,
+      "era": "paleoclimate",
+      "co2_ppm": 216.0,
+      "ch4_ppb": 414.8,
+      "temp_anomaly": -7.425,
+      "sea_level_m": -111.4,
+      "insolation": 187.17
+    },
+    {
+      "age_bp": 266000,
+      "year_ce": -264050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.98,
+      "ch4_ppb": 419.6,
+      "temp_anomaly": -7.801,
+      "sea_level_m": -117.0,
+      "insolation": 185.41
+    },
+    {
+      "age_bp": 267000,
+      "year_ce": -265050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.81,
+      "ch4_ppb": 418.6,
+      "temp_anomaly": -7.87,
+      "sea_level_m": -118.0,
+      "insolation": 183.63
+    },
+    {
+      "age_bp": 268000,
+      "year_ce": -266050,
+      "era": "paleoclimate",
+      "co2_ppm": 187.57,
+      "ch4_ppb": 421.7,
+      "temp_anomaly": -8.342,
+      "sea_level_m": -125.1,
+      "insolation": 181.87
+    },
+    {
+      "age_bp": 269000,
+      "year_ce": -267050,
+      "era": "paleoclimate",
+      "co2_ppm": 193.09,
+      "ch4_ppb": 433.5,
+      "temp_anomaly": -8.879,
+      "sea_level_m": -133.2,
+      "insolation": 180.24
+    },
+    {
+      "age_bp": 270000,
+      "year_ce": -268050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.84,
+      "ch4_ppb": 453.6,
+      "temp_anomaly": -8.885,
+      "sea_level_m": -133.3,
+      "insolation": 178.8
+    },
+    {
+      "age_bp": 271000,
+      "year_ce": -269050,
+      "era": "paleoclimate",
+      "co2_ppm": 188.19,
+      "ch4_ppb": 453.8,
+      "temp_anomaly": -9.54,
+      "sea_level_m": -143.1,
+      "insolation": 177.61
+    },
+    {
+      "age_bp": 272000,
+      "year_ce": -270050,
+      "era": "paleoclimate",
+      "co2_ppm": 188.72,
+      "ch4_ppb": 451.2,
+      "temp_anomaly": -9.306,
+      "sea_level_m": -139.6,
+      "insolation": 176.74
+    },
+    {
+      "age_bp": 273000,
+      "year_ce": -271050,
+      "era": "paleoclimate",
+      "co2_ppm": 192.81,
+      "ch4_ppb": 460.6,
+      "temp_anomaly": -9.314,
+      "sea_level_m": -139.7,
+      "insolation": 176.3
+    },
+    {
+      "age_bp": 274000,
+      "year_ce": -272050,
+      "era": "paleoclimate",
+      "co2_ppm": 194.04,
+      "ch4_ppb": 466.6,
+      "temp_anomaly": -9.101,
+      "sea_level_m": -136.5,
+      "insolation": 176.28
+    },
+    {
+      "age_bp": 275000,
+      "year_ce": -273050,
+      "era": "paleoclimate",
+      "co2_ppm": 196.94,
+      "ch4_ppb": 470.1,
+      "temp_anomaly": -8.655,
+      "sea_level_m": -129.8,
+      "insolation": 176.78
+    },
+    {
+      "age_bp": 276000,
+      "year_ce": -274050,
+      "era": "paleoclimate",
+      "co2_ppm": 194.94,
+      "ch4_ppb": 488.9,
+      "temp_anomaly": -8.067,
+      "sea_level_m": -121.0,
+      "insolation": 177.77
+    },
+    {
+      "age_bp": 277000,
+      "year_ce": -275050,
+      "era": "paleoclimate",
+      "co2_ppm": 199.06,
+      "ch4_ppb": 455.5,
+      "temp_anomaly": -9.003,
+      "sea_level_m": -135.1,
+      "insolation": 179.25
+    },
+    {
+      "age_bp": 278000,
+      "year_ce": -276050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.69,
+      "ch4_ppb": 454.2,
+      "temp_anomaly": -8.044,
+      "sea_level_m": -120.7,
+      "insolation": 181.16
+    },
+    {
+      "age_bp": 279000,
+      "year_ce": -277050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.86,
+      "ch4_ppb": 429.3,
+      "temp_anomaly": -8.066,
+      "sea_level_m": -121.0,
+      "insolation": 183.44
+    },
+    {
+      "age_bp": 280000,
+      "year_ce": -278050,
+      "era": "paleoclimate",
+      "co2_ppm": 214.08,
+      "ch4_ppb": 458.1,
+      "temp_anomaly": -7.021,
+      "sea_level_m": -105.3,
+      "insolation": 185.87
+    },
+    {
+      "age_bp": 281000,
+      "year_ce": -279050,
+      "era": "paleoclimate",
+      "co2_ppm": 219.42,
+      "ch4_ppb": 458.3,
+      "temp_anomaly": -6.809,
+      "sea_level_m": -102.1,
+      "insolation": 188.37
+    },
+    {
+      "age_bp": 282000,
+      "year_ce": -280050,
+      "era": "paleoclimate",
+      "co2_ppm": 224.61,
+      "ch4_ppb": 464.6,
+      "temp_anomaly": -6.757,
+      "sea_level_m": -101.4,
+      "insolation": 190.72
+    },
+    {
+      "age_bp": 283000,
+      "year_ce": -281050,
+      "era": "paleoclimate",
+      "co2_ppm": 228.36,
+      "ch4_ppb": 458.4,
+      "temp_anomaly": -6.291,
+      "sea_level_m": -94.4,
+      "insolation": 192.7
+    },
+    {
+      "age_bp": 284000,
+      "year_ce": -282050,
+      "era": "paleoclimate",
+      "co2_ppm": 230.86,
+      "ch4_ppb": 507.4,
+      "temp_anomaly": -6.083,
+      "sea_level_m": -91.3,
+      "insolation": 194.16
+    },
+    {
+      "age_bp": 285000,
+      "year_ce": -283050,
+      "era": "paleoclimate",
+      "co2_ppm": 228.79,
+      "ch4_ppb": 461.2,
+      "temp_anomaly": -5.767,
+      "sea_level_m": -86.5,
+      "insolation": 194.96
+    },
+    {
+      "age_bp": 286000,
+      "year_ce": -284050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.67,
+      "ch4_ppb": 491.5,
+      "temp_anomaly": -5.403,
+      "sea_level_m": -81.0,
+      "insolation": 194.94
+    },
+    {
+      "age_bp": 287000,
+      "year_ce": -285050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.2,
+      "ch4_ppb": 513.6,
+      "temp_anomaly": -5.188,
+      "sea_level_m": -77.8,
+      "insolation": 194.12
+    },
+    {
+      "age_bp": 288000,
+      "year_ce": -286050,
+      "era": "paleoclimate",
+      "co2_ppm": 230.8,
+      "ch4_ppb": 518.1,
+      "temp_anomaly": -4.608,
+      "sea_level_m": -69.1,
+      "insolation": 192.51
+    },
+    {
+      "age_bp": 289000,
+      "year_ce": -287050,
+      "era": "paleoclimate",
+      "co2_ppm": 232.56,
+      "ch4_ppb": 531.1,
+      "temp_anomaly": -5.122,
+      "sea_level_m": -76.8,
+      "insolation": 190.19
+    },
+    {
+      "age_bp": 290000,
+      "year_ce": -288050,
+      "era": "paleoclimate",
+      "co2_ppm": 234.59,
+      "ch4_ppb": 536.2,
+      "temp_anomaly": -3.938,
+      "sea_level_m": -59.1,
+      "insolation": 187.36
+    },
+    {
+      "age_bp": 291000,
+      "year_ce": -289050,
+      "era": "paleoclimate",
+      "co2_ppm": 219.0,
+      "ch4_ppb": 469.1,
+      "temp_anomaly": -5.103,
+      "sea_level_m": -76.6,
+      "insolation": 184.24
+    },
+    {
+      "age_bp": 292000,
+      "year_ce": -290050,
+      "era": "paleoclimate",
+      "co2_ppm": 211.31,
+      "ch4_ppb": 448.8,
+      "temp_anomaly": -5.95,
+      "sea_level_m": -89.2,
+      "insolation": 181.01
+    },
+    {
+      "age_bp": 293000,
+      "year_ce": -291050,
+      "era": "paleoclimate",
+      "co2_ppm": 206.14,
+      "ch4_ppb": 455.7,
+      "temp_anomaly": -6.662,
+      "sea_level_m": -99.9,
+      "insolation": 178.01
+    },
+    {
+      "age_bp": 294000,
+      "year_ce": -292050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.38,
+      "ch4_ppb": 514.6,
+      "temp_anomaly": -6.907,
+      "sea_level_m": -103.6,
+      "insolation": 175.42
+    },
+    {
+      "age_bp": 295000,
+      "year_ce": -293050,
+      "era": "paleoclimate",
+      "co2_ppm": 212.83,
+      "ch4_ppb": 516.8,
+      "temp_anomaly": -7.657,
+      "sea_level_m": -114.8,
+      "insolation": 173.47
+    },
+    {
+      "age_bp": 296000,
+      "year_ce": -294050,
+      "era": "paleoclimate",
+      "co2_ppm": 213.24,
+      "ch4_ppb": 577.0,
+      "temp_anomaly": -5.387,
+      "sea_level_m": -80.8,
+      "insolation": 172.32
+    },
+    {
+      "age_bp": 297000,
+      "year_ce": -295050,
+      "era": "paleoclimate",
+      "co2_ppm": 215.25,
+      "ch4_ppb": 491.6,
+      "temp_anomaly": -7.031,
+      "sea_level_m": -105.5,
+      "insolation": 172.1
+    },
+    {
+      "age_bp": 298000,
+      "year_ce": -296050,
+      "era": "paleoclimate",
+      "co2_ppm": 217.8,
+      "ch4_ppb": 472.5,
+      "temp_anomaly": -7.716,
+      "sea_level_m": -115.7,
+      "insolation": 172.8
+    },
+    {
+      "age_bp": 299000,
+      "year_ce": -297050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.34,
+      "ch4_ppb": 518.5,
+      "temp_anomaly": -6.541,
+      "sea_level_m": -98.1,
+      "insolation": 174.46
+    },
+    {
+      "age_bp": 300000,
+      "year_ce": -298050,
+      "era": "paleoclimate",
+      "co2_ppm": 233.27,
+      "ch4_ppb": 511.0,
+      "temp_anomaly": -5.891,
+      "sea_level_m": -88.4,
+      "insolation": 176.93
+    },
+    {
+      "age_bp": 301000,
+      "year_ce": -299050,
+      "era": "paleoclimate",
+      "co2_ppm": 237.75,
+      "ch4_ppb": 469.0,
+      "temp_anomaly": -6.552,
+      "sea_level_m": -98.3,
+      "insolation": 180.07
+    },
+    {
+      "age_bp": 302000,
+      "year_ce": -300050,
+      "era": "paleoclimate",
+      "co2_ppm": 236.96,
+      "ch4_ppb": 453.0,
+      "temp_anomaly": -7.041,
+      "sea_level_m": -105.6,
+      "insolation": 183.64
+    },
+    {
+      "age_bp": 303000,
+      "year_ce": -301050,
+      "era": "paleoclimate",
+      "co2_ppm": 239.2,
+      "ch4_ppb": 463.0,
+      "temp_anomaly": -6.041,
+      "sea_level_m": -90.6,
+      "insolation": 187.39
+    },
+    {
+      "age_bp": 304000,
+      "year_ce": -302050,
+      "era": "paleoclimate",
+      "co2_ppm": 240.58,
+      "ch4_ppb": 485.1,
+      "temp_anomaly": -5.344,
+      "sea_level_m": -80.2,
+      "insolation": 190.96
+    },
+    {
+      "age_bp": 305000,
+      "year_ce": -303050,
+      "era": "paleoclimate",
+      "co2_ppm": 249.99,
+      "ch4_ppb": 497.3,
+      "temp_anomaly": -4.979,
+      "sea_level_m": -74.7,
+      "insolation": 194.09
+    },
+    {
+      "age_bp": 306000,
+      "year_ce": -304050,
+      "era": "paleoclimate",
+      "co2_ppm": 247.13,
+      "ch4_ppb": 449.0,
+      "temp_anomaly": -5.29,
+      "sea_level_m": -79.3,
+      "insolation": 196.48
+    },
+    {
+      "age_bp": 307000,
+      "year_ce": -305050,
+      "era": "paleoclimate",
+      "co2_ppm": 235.72,
+      "ch4_ppb": 480.0,
+      "temp_anomaly": -7.46,
+      "sea_level_m": -111.9,
+      "insolation": 197.84
+    },
+    {
+      "age_bp": 308000,
+      "year_ce": -306050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.61,
+      "ch4_ppb": 469.8,
+      "temp_anomaly": -6.291,
+      "sea_level_m": -94.4,
+      "insolation": 198.14
+    },
+    {
+      "age_bp": 309000,
+      "year_ce": -307050,
+      "era": "paleoclimate",
+      "co2_ppm": 227.16,
+      "ch4_ppb": 487.7,
+      "temp_anomaly": -5.364,
+      "sea_level_m": -80.5,
+      "insolation": 197.22
+    },
+    {
+      "age_bp": 310000,
+      "year_ce": -308050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.69,
+      "ch4_ppb": 460.7,
+      "temp_anomaly": -5.64,
+      "sea_level_m": -84.6,
+      "insolation": 195.21
+    },
+    {
+      "age_bp": 311000,
+      "year_ce": -309050,
+      "era": "paleoclimate",
+      "co2_ppm": 237.73,
+      "ch4_ppb": 471.0,
+      "temp_anomaly": -5.265,
+      "sea_level_m": -79.0,
+      "insolation": 192.3
+    },
+    {
+      "age_bp": 312000,
+      "year_ce": -310050,
+      "era": "paleoclimate",
+      "co2_ppm": 239.47,
+      "ch4_ppb": 515.7,
+      "temp_anomaly": -4.959,
+      "sea_level_m": -74.4,
+      "insolation": 188.73
+    },
+    {
+      "age_bp": 313000,
+      "year_ce": -311050,
+      "era": "paleoclimate",
+      "co2_ppm": 246.16,
+      "ch4_ppb": 542.0,
+      "temp_anomaly": -4.115,
+      "sea_level_m": -61.7,
+      "insolation": 184.79
+    },
+    {
+      "age_bp": 314000,
+      "year_ce": -312050,
+      "era": "paleoclimate",
+      "co2_ppm": 255.69,
+      "ch4_ppb": 556.0,
+      "temp_anomaly": -3.587,
+      "sea_level_m": -53.8,
+      "insolation": 180.93
+    },
+    {
+      "age_bp": 315000,
+      "year_ce": -313050,
+      "era": "paleoclimate",
+      "co2_ppm": 255.16,
+      "ch4_ppb": 608.8,
+      "temp_anomaly": -2.712,
+      "sea_level_m": -40.7,
+      "insolation": 177.38
+    },
+    {
+      "age_bp": 316000,
+      "year_ce": -314050,
+      "era": "paleoclimate",
+      "co2_ppm": 264.38,
+      "ch4_ppb": 622.4,
+      "temp_anomaly": -1.639,
+      "sea_level_m": -24.6,
+      "insolation": 174.5
+    },
+    {
+      "age_bp": 317000,
+      "year_ce": -315050,
+      "era": "paleoclimate",
+      "co2_ppm": 250.81,
+      "ch4_ppb": 467.4,
+      "temp_anomaly": -3.189,
+      "sea_level_m": -47.8,
+      "insolation": 172.53
+    },
+    {
+      "age_bp": 318000,
+      "year_ce": -316050,
+      "era": "paleoclimate",
+      "co2_ppm": 241.4,
+      "ch4_ppb": 478.5,
+      "temp_anomaly": -3.717,
+      "sea_level_m": -55.8,
+      "insolation": 171.58
+    },
+    {
+      "age_bp": 319000,
+      "year_ce": -317050,
+      "era": "paleoclimate",
+      "co2_ppm": 244.13,
+      "ch4_ppb": 478.7,
+      "temp_anomaly": -4.415,
+      "sea_level_m": -66.2,
+      "insolation": 171.72
+    },
+    {
+      "age_bp": 320000,
+      "year_ce": -318050,
+      "era": "paleoclimate",
+      "co2_ppm": 251.89,
+      "ch4_ppb": 490.0,
+      "temp_anomaly": -3.867,
+      "sea_level_m": -58.0,
+      "insolation": 172.97
+    },
+    {
+      "age_bp": 321000,
+      "year_ce": -319050,
+      "era": "paleoclimate",
+      "co2_ppm": 252.3,
+      "ch4_ppb": 520.2,
+      "temp_anomaly": -3.062,
+      "sea_level_m": -45.9,
+      "insolation": 175.14
+    },
+    {
+      "age_bp": 322000,
+      "year_ce": -320050,
+      "era": "paleoclimate",
+      "co2_ppm": 257.13,
+      "ch4_ppb": 526.4,
+      "temp_anomaly": -2.132,
+      "sea_level_m": -32.0,
+      "insolation": 178.09
+    },
+    {
+      "age_bp": 323000,
+      "year_ce": -321050,
+      "era": "paleoclimate",
+      "co2_ppm": 260.37,
+      "ch4_ppb": 542.6,
+      "temp_anomaly": -1.189,
+      "sea_level_m": -17.8,
+      "insolation": 181.58
+    },
+    {
+      "age_bp": 324000,
+      "year_ce": -322050,
+      "era": "paleoclimate",
+      "co2_ppm": 260.43,
+      "ch4_ppb": 573.2,
+      "temp_anomaly": -0.542,
+      "sea_level_m": -8.1,
+      "insolation": 185.25
+    },
+    {
+      "age_bp": 325000,
+      "year_ce": -323050,
+      "era": "paleoclimate",
+      "co2_ppm": 266.11,
+      "ch4_ppb": 617.1,
+      "temp_anomaly": -0.184,
+      "sea_level_m": -2.8,
+      "insolation": 188.83
+    },
+    {
+      "age_bp": 326000,
+      "year_ce": -324050,
+      "era": "paleoclimate",
+      "co2_ppm": 264.98,
+      "ch4_ppb": 633.7,
+      "temp_anomaly": 0.947,
+      "sea_level_m": 14.2,
+      "insolation": 192.05
+    },
+    {
+      "age_bp": 327000,
+      "year_ce": -325050,
+      "era": "paleoclimate",
+      "co2_ppm": 270.18,
+      "ch4_ppb": 643.3,
+      "temp_anomaly": 0.601,
+      "sea_level_m": 9.0,
+      "insolation": 194.55
+    },
+    {
+      "age_bp": 328000,
+      "year_ce": -326050,
+      "era": "paleoclimate",
+      "co2_ppm": 273.98,
+      "ch4_ppb": 658.1,
+      "temp_anomaly": 0.756,
+      "sea_level_m": 11.3,
+      "insolation": 196.21
+    },
+    {
+      "age_bp": 329000,
+      "year_ce": -327050,
+      "era": "paleoclimate",
+      "co2_ppm": 268.83,
+      "ch4_ppb": 649.5,
+      "temp_anomaly": 0.414,
+      "sea_level_m": 6.2,
+      "insolation": 196.87
+    },
+    {
+      "age_bp": 330000,
+      "year_ce": -328050,
+      "era": "paleoclimate",
+      "co2_ppm": 269.8,
+      "ch4_ppb": 648.3,
+      "temp_anomaly": 0.825,
+      "sea_level_m": 12.4,
+      "insolation": 196.47
+    },
+    {
+      "age_bp": 331000,
+      "year_ce": -329050,
+      "era": "paleoclimate",
+      "co2_ppm": 272.79,
+      "ch4_ppb": 636.7,
+      "temp_anomaly": -0.169,
+      "sea_level_m": -2.5,
+      "insolation": 195.09
+    },
+    {
+      "age_bp": 332000,
+      "year_ce": -330050,
+      "era": "paleoclimate",
+      "co2_ppm": 283.5,
+      "ch4_ppb": 713.6,
+      "temp_anomaly": 1.041,
+      "sea_level_m": 15.6,
+      "insolation": 192.92
+    },
+    {
+      "age_bp": 333000,
+      "year_ce": -331050,
+      "era": "paleoclimate",
+      "co2_ppm": 295.0,
+      "ch4_ppb": 789.0,
+      "temp_anomaly": 3.19,
+      "sea_level_m": 47.9,
+      "insolation": 190.07
+    },
+    {
+      "age_bp": 334000,
+      "year_ce": -332050,
+      "era": "paleoclimate",
+      "co2_ppm": 283.67,
+      "ch4_ppb": 619.7,
+      "temp_anomaly": 3.617,
+      "sea_level_m": 54.3,
+      "insolation": 186.88
+    },
+    {
+      "age_bp": 335000,
+      "year_ce": -333050,
+      "era": "paleoclimate",
+      "co2_ppm": 263.58,
+      "ch4_ppb": 581.4,
+      "temp_anomaly": 1.36,
+      "sea_level_m": 20.4,
+      "insolation": 183.59
+    },
+    {
+      "age_bp": 336000,
+      "year_ce": -334050,
+      "era": "paleoclimate",
+      "co2_ppm": 241.67,
+      "ch4_ppb": 527.2,
+      "temp_anomaly": -1.135,
+      "sea_level_m": -17.0,
+      "insolation": 180.47
+    },
+    {
+      "age_bp": 337000,
+      "year_ce": -335050,
+      "era": "paleoclimate",
+      "co2_ppm": 237.37,
+      "ch4_ppb": 492.3,
+      "temp_anomaly": -2.884,
+      "sea_level_m": -43.3,
+      "insolation": 177.78
+    },
+    {
+      "age_bp": 338000,
+      "year_ce": -336050,
+      "era": "paleoclimate",
+      "co2_ppm": 239.28,
+      "ch4_ppb": 457.9,
+      "temp_anomaly": -4.075,
+      "sea_level_m": -61.1,
+      "insolation": 175.76
+    },
+    {
+      "age_bp": 339000,
+      "year_ce": -337050,
+      "era": "paleoclimate",
+      "co2_ppm": 247.62,
+      "ch4_ppb": 460.3,
+      "temp_anomaly": -5.59,
+      "sea_level_m": -83.8,
+      "insolation": 174.47
+    },
+    {
+      "age_bp": 340000,
+      "year_ce": -338050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.15,
+      "ch4_ppb": 451.8,
+      "temp_anomaly": -6.986,
+      "sea_level_m": -104.8,
+      "insolation": 174.08
+    },
+    {
+      "age_bp": 341000,
+      "year_ce": -339050,
+      "era": "paleoclimate",
+      "co2_ppm": 202.52,
+      "ch4_ppb": 417.4,
+      "temp_anomaly": -8.884,
+      "sea_level_m": -133.3,
+      "insolation": 174.57
+    },
+    {
+      "age_bp": 342000,
+      "year_ce": -340050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.15,
+      "ch4_ppb": 390.1,
+      "temp_anomaly": -9.148,
+      "sea_level_m": -137.2,
+      "insolation": 175.86
+    },
+    {
+      "age_bp": 343000,
+      "year_ce": -341050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.88,
+      "ch4_ppb": 368.9,
+      "temp_anomaly": -9.093,
+      "sea_level_m": -136.4,
+      "insolation": 177.87
+    },
+    {
+      "age_bp": 344000,
+      "year_ce": -342050,
+      "era": "paleoclimate",
+      "co2_ppm": 209.18,
+      "ch4_ppb": 373.6,
+      "temp_anomaly": -8.674,
+      "sea_level_m": -130.1,
+      "insolation": 180.38
+    },
+    {
+      "age_bp": 345000,
+      "year_ce": -343050,
+      "era": "paleoclimate",
+      "co2_ppm": 214.93,
+      "ch4_ppb": 371.6,
+      "temp_anomaly": -8.531,
+      "sea_level_m": -128.0,
+      "insolation": 183.12
+    },
+    {
+      "age_bp": 346000,
+      "year_ce": -344050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.31,
+      "ch4_ppb": 389.7,
+      "temp_anomaly": -8.523,
+      "sea_level_m": -127.8,
+      "insolation": 185.88
+    },
+    {
+      "age_bp": 347000,
+      "year_ce": -345050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.65,
+      "ch4_ppb": 408.1,
+      "temp_anomaly": -8.473,
+      "sea_level_m": -127.1,
+      "insolation": 188.37
+    },
+    {
+      "age_bp": 348000,
+      "year_ce": -346050,
+      "era": "paleoclimate",
+      "co2_ppm": 221.0,
+      "ch4_ppb": 411.3,
+      "temp_anomaly": -8.572,
+      "sea_level_m": -128.6,
+      "insolation": 190.32
+    },
+    {
+      "age_bp": 349000,
+      "year_ce": -347050,
+      "era": "paleoclimate",
+      "co2_ppm": 218.63,
+      "ch4_ppb": 457.0,
+      "temp_anomaly": -6.651,
+      "sea_level_m": -99.8,
+      "insolation": 191.6
+    },
+    {
+      "age_bp": 350000,
+      "year_ce": -348050,
+      "era": "paleoclimate",
+      "co2_ppm": 214.48,
+      "ch4_ppb": 395.1,
+      "temp_anomaly": -7.33,
+      "sea_level_m": -110.0,
+      "insolation": 192.1
+    },
+    {
+      "age_bp": 351000,
+      "year_ce": -349050,
+      "era": "paleoclimate",
+      "co2_ppm": 209.39,
+      "ch4_ppb": 408.7,
+      "temp_anomaly": -7.83,
+      "sea_level_m": -117.5,
+      "insolation": 191.74
+    },
+    {
+      "age_bp": 352000,
+      "year_ce": -350050,
+      "era": "paleoclimate",
+      "co2_ppm": 209.24,
+      "ch4_ppb": 401.4,
+      "temp_anomaly": -7.769,
+      "sea_level_m": -116.5,
+      "insolation": 190.7
+    },
+    {
+      "age_bp": 353000,
+      "year_ce": -351050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.32,
+      "ch4_ppb": 401.9,
+      "temp_anomaly": -7.602,
+      "sea_level_m": -114.0,
+      "insolation": 189.09
+    },
+    {
+      "age_bp": 354000,
+      "year_ce": -352050,
+      "era": "paleoclimate",
+      "co2_ppm": 199.97,
+      "ch4_ppb": 397.5,
+      "temp_anomaly": -7.631,
+      "sea_level_m": -114.5,
+      "insolation": 187.08
+    },
+    {
+      "age_bp": 355000,
+      "year_ce": -353050,
+      "era": "paleoclimate",
+      "co2_ppm": 194.62,
+      "ch4_ppb": 403.9,
+      "temp_anomaly": -8.83,
+      "sea_level_m": -132.5,
+      "insolation": 185.0
+    },
+    {
+      "age_bp": 356000,
+      "year_ce": -354050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.98,
+      "ch4_ppb": 407.8,
+      "temp_anomaly": -8.809,
+      "sea_level_m": -132.1,
+      "insolation": 183.03
+    },
+    {
+      "age_bp": 357000,
+      "year_ce": -355050,
+      "era": "paleoclimate",
+      "co2_ppm": 186.08,
+      "ch4_ppb": 430.8,
+      "temp_anomaly": -8.762,
+      "sea_level_m": -131.4,
+      "insolation": 181.34
+    },
+    {
+      "age_bp": 358000,
+      "year_ce": -356050,
+      "era": "paleoclimate",
+      "co2_ppm": 185.92,
+      "ch4_ppb": 428.2,
+      "temp_anomaly": -8.954,
+      "sea_level_m": -134.3,
+      "insolation": 180.15
+    },
+    {
+      "age_bp": 359000,
+      "year_ce": -357050,
+      "era": "paleoclimate",
+      "co2_ppm": 187.78,
+      "ch4_ppb": 417.7,
+      "temp_anomaly": -8.548,
+      "sea_level_m": -128.2,
+      "insolation": 179.49
+    },
+    {
+      "age_bp": 360000,
+      "year_ce": -358050,
+      "era": "paleoclimate",
+      "co2_ppm": 194.64,
+      "ch4_ppb": 447.4,
+      "temp_anomaly": -8.435,
+      "sea_level_m": -126.5,
+      "insolation": 179.36
+    },
+    {
+      "age_bp": 361000,
+      "year_ce": -359050,
+      "era": "paleoclimate",
+      "co2_ppm": 201.29,
+      "ch4_ppb": 418.4,
+      "temp_anomaly": -7.918,
+      "sea_level_m": -118.8,
+      "insolation": 179.79
+    },
+    {
+      "age_bp": 362000,
+      "year_ce": -360050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.39,
+      "ch4_ppb": 457.3,
+      "temp_anomaly": -7.51,
+      "sea_level_m": -112.6,
+      "insolation": 180.61
+    },
+    {
+      "age_bp": 363000,
+      "year_ce": -361050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.49,
+      "ch4_ppb": 483.1,
+      "temp_anomaly": -6.274,
+      "sea_level_m": -94.1,
+      "insolation": 181.69
+    },
+    {
+      "age_bp": 364000,
+      "year_ce": -362050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.35,
+      "ch4_ppb": 433.4,
+      "temp_anomaly": -7.236,
+      "sea_level_m": -108.5,
+      "insolation": 182.92
+    },
+    {
+      "age_bp": 365000,
+      "year_ce": -363050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.81,
+      "ch4_ppb": 420.0,
+      "temp_anomaly": -7.97,
+      "sea_level_m": -119.6,
+      "insolation": 184.1
+    },
+    {
+      "age_bp": 366000,
+      "year_ce": -364050,
+      "era": "paleoclimate",
+      "co2_ppm": 202.26,
+      "ch4_ppb": 430.4,
+      "temp_anomaly": -7.564,
+      "sea_level_m": -113.5,
+      "insolation": 185.07
+    },
+    {
+      "age_bp": 367000,
+      "year_ce": -365050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.96,
+      "ch4_ppb": 417.7,
+      "temp_anomaly": -7.582,
+      "sea_level_m": -113.7,
+      "insolation": 185.8
+    },
+    {
+      "age_bp": 368000,
+      "year_ce": -366050,
+      "era": "paleoclimate",
+      "co2_ppm": 201.24,
+      "ch4_ppb": 426.4,
+      "temp_anomaly": -7.386,
+      "sea_level_m": -110.8,
+      "insolation": 186.14
+    },
+    {
+      "age_bp": 369000,
+      "year_ce": -367050,
+      "era": "paleoclimate",
+      "co2_ppm": 210.55,
+      "ch4_ppb": 431.8,
+      "temp_anomaly": -7.77,
+      "sea_level_m": -116.6,
+      "insolation": 186.11
+    },
+    {
+      "age_bp": 370000,
+      "year_ce": -368050,
+      "era": "paleoclimate",
+      "co2_ppm": 218.04,
+      "ch4_ppb": 516.6,
+      "temp_anomaly": -6.876,
+      "sea_level_m": -103.1,
+      "insolation": 185.78
+    },
+    {
+      "age_bp": 371000,
+      "year_ce": -369050,
+      "era": "paleoclimate",
+      "co2_ppm": 224.06,
+      "ch4_ppb": 494.6,
+      "temp_anomaly": -6.427,
+      "sea_level_m": -96.4,
+      "insolation": 185.15
+    },
+    {
+      "age_bp": 372000,
+      "year_ce": -370050,
+      "era": "paleoclimate",
+      "co2_ppm": 227.52,
+      "ch4_ppb": 510.8,
+      "temp_anomaly": -6.348,
+      "sea_level_m": -95.2,
+      "insolation": 184.39
+    },
+    {
+      "age_bp": 373000,
+      "year_ce": -371050,
+      "era": "paleoclimate",
+      "co2_ppm": 229.37,
+      "ch4_ppb": 523.4,
+      "temp_anomaly": -5.439,
+      "sea_level_m": -81.6,
+      "insolation": 183.62
+    },
+    {
+      "age_bp": 374000,
+      "year_ce": -372050,
+      "era": "paleoclimate",
+      "co2_ppm": 228.7,
+      "ch4_ppb": 445.9,
+      "temp_anomaly": -6.678,
+      "sea_level_m": -100.2,
+      "insolation": 182.94
+    },
+    {
+      "age_bp": 375000,
+      "year_ce": -373050,
+      "era": "paleoclimate",
+      "co2_ppm": 228.04,
+      "ch4_ppb": 426.0,
+      "temp_anomaly": -7.717,
+      "sea_level_m": -115.8,
+      "insolation": 182.46
+    },
+    {
+      "age_bp": 376000,
+      "year_ce": -374050,
+      "era": "paleoclimate",
+      "co2_ppm": 227.38,
+      "ch4_ppb": 431.9,
+      "temp_anomaly": -7.236,
+      "sea_level_m": -108.5,
+      "insolation": 182.29
+    },
+    {
+      "age_bp": 377000,
+      "year_ce": -375050,
+      "era": "paleoclimate",
+      "co2_ppm": 230.68,
+      "ch4_ppb": 443.6,
+      "temp_anomaly": -6.628,
+      "sea_level_m": -99.4,
+      "insolation": 182.44
+    },
+    {
+      "age_bp": 378000,
+      "year_ce": -376050,
+      "era": "paleoclimate",
+      "co2_ppm": 239.18,
+      "ch4_ppb": 461.5,
+      "temp_anomaly": -6.272,
+      "sea_level_m": -94.1,
+      "insolation": 182.9
+    },
+    {
+      "age_bp": 379000,
+      "year_ce": -377050,
+      "era": "paleoclimate",
+      "co2_ppm": 239.49,
+      "ch4_ppb": 490.5,
+      "temp_anomaly": -5.882,
+      "sea_level_m": -88.2,
+      "insolation": 183.67
+    },
+    {
+      "age_bp": 380000,
+      "year_ce": -378050,
+      "era": "paleoclimate",
+      "co2_ppm": 240.73,
+      "ch4_ppb": 518.6,
+      "temp_anomaly": -4.947,
+      "sea_level_m": -74.2,
+      "insolation": 184.59
+    },
+    {
+      "age_bp": 381000,
+      "year_ce": -379050,
+      "era": "paleoclimate",
+      "co2_ppm": 246.09,
+      "ch4_ppb": 545.0,
+      "temp_anomaly": -4.963,
+      "sea_level_m": -74.5,
+      "insolation": 185.59
+    },
+    {
+      "age_bp": 382000,
+      "year_ce": -380050,
+      "era": "paleoclimate",
+      "co2_ppm": 246.24,
+      "ch4_ppb": 599.9,
+      "temp_anomaly": -4.012,
+      "sea_level_m": -60.2,
+      "insolation": 186.53
+    },
+    {
+      "age_bp": 383000,
+      "year_ce": -381050,
+      "era": "paleoclimate",
+      "co2_ppm": 247.98,
+      "ch4_ppb": 504.7,
+      "temp_anomaly": -5.109,
+      "sea_level_m": -76.6,
+      "insolation": 187.24
+    },
+    {
+      "age_bp": 384000,
+      "year_ce": -382050,
+      "era": "paleoclimate",
+      "co2_ppm": 254.58,
+      "ch4_ppb": 548.4,
+      "temp_anomaly": -5.996,
+      "sea_level_m": -89.9,
+      "insolation": 187.62
+    },
+    {
+      "age_bp": 385000,
+      "year_ce": -383050,
+      "era": "paleoclimate",
+      "co2_ppm": 261.61,
+      "ch4_ppb": 558.8,
+      "temp_anomaly": -4.687,
+      "sea_level_m": -70.3,
+      "insolation": 187.64
+    },
+    {
+      "age_bp": 386000,
+      "year_ce": -384050,
+      "era": "paleoclimate",
+      "co2_ppm": 260.24,
+      "ch4_ppb": 593.1,
+      "temp_anomaly": -4.312,
+      "sea_level_m": -64.7,
+      "insolation": 187.15
+    },
+    {
+      "age_bp": 387000,
+      "year_ce": -385050,
+      "era": "paleoclimate",
+      "co2_ppm": 257.41,
+      "ch4_ppb": 564.5,
+      "temp_anomaly": -3.937,
+      "sea_level_m": -59.1,
+      "insolation": 186.27
+    },
+    {
+      "age_bp": 388000,
+      "year_ce": -386050,
+      "era": "paleoclimate",
+      "co2_ppm": 255.33,
+      "ch4_ppb": 459.1,
+      "temp_anomaly": -5.361,
+      "sea_level_m": -80.4,
+      "insolation": 185.06
+    },
+    {
+      "age_bp": 389000,
+      "year_ce": -387050,
+      "era": "paleoclimate",
+      "co2_ppm": 252.66,
+      "ch4_ppb": 468.7,
+      "temp_anomaly": -6.37,
+      "sea_level_m": -95.5,
+      "insolation": 183.61
+    },
+    {
+      "age_bp": 390000,
+      "year_ce": -388050,
+      "era": "paleoclimate",
+      "co2_ppm": 250.55,
+      "ch4_ppb": 552.1,
+      "temp_anomaly": -5.906,
+      "sea_level_m": -88.6,
+      "insolation": 182.12
+    },
+    {
+      "age_bp": 391000,
+      "year_ce": -389050,
+      "era": "paleoclimate",
+      "co2_ppm": 258.86,
+      "ch4_ppb": 505.2,
+      "temp_anomaly": -4.723,
+      "sea_level_m": -70.8,
+      "insolation": 180.77
+    },
+    {
+      "age_bp": 392000,
+      "year_ce": -390050,
+      "era": "paleoclimate",
+      "co2_ppm": 265.21,
+      "ch4_ppb": 488.8,
+      "temp_anomaly": -4.572,
+      "sea_level_m": -68.6,
+      "insolation": 179.68
+    },
+    {
+      "age_bp": 393000,
+      "year_ce": -391050,
+      "era": "paleoclimate",
+      "co2_ppm": 265.71,
+      "ch4_ppb": 489.8,
+      "temp_anomaly": -3.403,
+      "sea_level_m": -51.0,
+      "insolation": 179.02
+    },
+    {
+      "age_bp": 394000,
+      "year_ce": -392050,
+      "era": "paleoclimate",
+      "co2_ppm": 268.73,
+      "ch4_ppb": 554.7,
+      "temp_anomaly": -2.447,
+      "sea_level_m": -36.7,
+      "insolation": 178.91
+    },
+    {
+      "age_bp": 395000,
+      "year_ce": -393050,
+      "era": "paleoclimate",
+      "co2_ppm": 273.68,
+      "ch4_ppb": 587.6,
+      "temp_anomaly": -2.147,
+      "sea_level_m": -32.2,
+      "insolation": 179.31
+    },
+    {
+      "age_bp": 396000,
+      "year_ce": -394050,
+      "era": "paleoclimate",
+      "co2_ppm": 277.62,
+      "ch4_ppb": 595.0,
+      "temp_anomaly": -1.298,
+      "sea_level_m": -19.5,
+      "insolation": 180.26
+    },
+    {
+      "age_bp": 397000,
+      "year_ce": -395050,
+      "era": "paleoclimate",
+      "co2_ppm": 281.11,
+      "ch4_ppb": 593.0,
+      "temp_anomaly": -0.436,
+      "sea_level_m": -6.5,
+      "insolation": 181.66
+    },
+    {
+      "age_bp": 398000,
+      "year_ce": -396050,
+      "era": "paleoclimate",
+      "co2_ppm": 282.49,
+      "ch4_ppb": 606.9,
+      "temp_anomaly": -0.211,
+      "sea_level_m": -3.2,
+      "insolation": 183.34
+    },
+    {
+      "age_bp": 399000,
+      "year_ce": -397050,
+      "era": "paleoclimate",
+      "co2_ppm": 276.75,
+      "ch4_ppb": 593.7,
+      "temp_anomaly": 0.453,
+      "sea_level_m": 6.8,
+      "insolation": 185.16
+    },
+    {
+      "age_bp": 400000,
+      "year_ce": -398050,
+      "era": "paleoclimate",
+      "co2_ppm": 279.27,
+      "ch4_ppb": 607.0,
+      "temp_anomaly": 0.562,
+      "sea_level_m": 8.4,
+      "insolation": 186.92
+    },
+    {
+      "age_bp": 401000,
+      "year_ce": -399050,
+      "era": "paleoclimate",
+      "co2_ppm": 280.25,
+      "ch4_ppb": 627.9,
+      "temp_anomaly": 0.907,
+      "sea_level_m": 13.6,
+      "insolation": 188.4
+    },
+    {
+      "age_bp": 402000,
+      "year_ce": -400050,
+      "era": "paleoclimate",
+      "co2_ppm": 283.1,
+      "ch4_ppb": 642.9,
+      "temp_anomaly": 1.579,
+      "sea_level_m": 23.7,
+      "insolation": 189.49
+    },
+    {
+      "age_bp": 403000,
+      "year_ce": -401050,
+      "era": "paleoclimate",
+      "co2_ppm": 281.86,
+      "ch4_ppb": 646.6,
+      "temp_anomaly": 2.404,
+      "sea_level_m": 36.1,
+      "insolation": 190.04
+    },
+    {
+      "age_bp": 404000,
+      "year_ce": -402050,
+      "era": "paleoclimate",
+      "co2_ppm": 278.75,
+      "ch4_ppb": 666.8,
+      "temp_anomaly": 1.878,
+      "sea_level_m": 28.2,
+      "insolation": 189.98
+    },
+    {
+      "age_bp": 405000,
+      "year_ce": -403050,
+      "era": "paleoclimate",
+      "co2_ppm": 276.28,
+      "ch4_ppb": 662.9,
+      "temp_anomaly": 2.024,
+      "sea_level_m": 30.4,
+      "insolation": 189.36
+    },
+    {
+      "age_bp": 406000,
+      "year_ce": -404050,
+      "era": "paleoclimate",
+      "co2_ppm": 278.71,
+      "ch4_ppb": 706.4,
+      "temp_anomaly": 2.607,
+      "sea_level_m": 39.1,
+      "insolation": 188.23
+    },
+    {
+      "age_bp": 407000,
+      "year_ce": -405050,
+      "era": "paleoclimate",
+      "co2_ppm": 284.83,
+      "ch4_ppb": 713.8,
+      "temp_anomaly": 2.945,
+      "sea_level_m": 44.2,
+      "insolation": 186.71
+    },
+    {
+      "age_bp": 408000,
+      "year_ce": -406050,
+      "era": "paleoclimate",
+      "co2_ppm": 286.26,
+      "ch4_ppb": 684.2,
+      "temp_anomaly": 2.457,
+      "sea_level_m": 36.9,
+      "insolation": 184.98
+    },
+    {
+      "age_bp": 409000,
+      "year_ce": -407050,
+      "era": "paleoclimate",
+      "co2_ppm": 279.49,
+      "ch4_ppb": 713.5,
+      "temp_anomaly": 2.191,
+      "sea_level_m": 32.9,
+      "insolation": 183.22
+    },
+    {
+      "age_bp": 410000,
+      "year_ce": -408050,
+      "era": "paleoclimate",
+      "co2_ppm": 280.34,
+      "ch4_ppb": 710.9,
+      "temp_anomaly": 1.571,
+      "sea_level_m": 23.6,
+      "insolation": 181.55
+    },
+    {
+      "age_bp": 411000,
+      "year_ce": -409050,
+      "era": "paleoclimate",
+      "co2_ppm": 283.43,
+      "ch4_ppb": 696.8,
+      "temp_anomaly": 1.463,
+      "sea_level_m": 21.9,
+      "insolation": 180.22
+    },
+    {
+      "age_bp": 412000,
+      "year_ce": -410050,
+      "era": "paleoclimate",
+      "co2_ppm": 277.52,
+      "ch4_ppb": 710.4,
+      "temp_anomaly": 0.496,
+      "sea_level_m": 7.4,
+      "insolation": 179.26
+    },
+    {
+      "age_bp": 413000,
+      "year_ce": -411050,
+      "era": "paleoclimate",
+      "co2_ppm": 274.51,
+      "ch4_ppb": 656.4,
+      "temp_anomaly": 0.641,
+      "sea_level_m": 9.6,
+      "insolation": 178.78
+    },
+    {
+      "age_bp": 414000,
+      "year_ce": -412050,
+      "era": "paleoclimate",
+      "co2_ppm": 265.24,
+      "ch4_ppb": 695.6,
+      "temp_anomaly": 0.301,
+      "sea_level_m": 4.5,
+      "insolation": 178.83
+    },
+    {
+      "age_bp": 415000,
+      "year_ce": -413050,
+      "era": "paleoclimate",
+      "co2_ppm": 272.34,
+      "ch4_ppb": 644.3,
+      "temp_anomaly": 0.146,
+      "sea_level_m": 2.2,
+      "insolation": 179.36
+    },
+    {
+      "age_bp": 416000,
+      "year_ce": -414050,
+      "era": "paleoclimate",
+      "co2_ppm": 275.35,
+      "ch4_ppb": 622.6,
+      "temp_anomaly": 0.205,
+      "sea_level_m": 3.1,
+      "insolation": 180.29
+    },
+    {
+      "age_bp": 417000,
+      "year_ce": -415050,
+      "era": "paleoclimate",
+      "co2_ppm": 269.26,
+      "ch4_ppb": 633.8,
+      "temp_anomaly": 0.753,
+      "sea_level_m": 11.3,
+      "insolation": 181.58
+    },
+    {
+      "age_bp": 418000,
+      "year_ce": -416050,
+      "era": "paleoclimate",
+      "co2_ppm": 277.46,
+      "ch4_ppb": 645.1,
+      "temp_anomaly": 0.308,
+      "sea_level_m": 4.6,
+      "insolation": 183.03
+    },
+    {
+      "age_bp": 419000,
+      "year_ce": -417050,
+      "era": "paleoclimate",
+      "co2_ppm": 273.39,
+      "ch4_ppb": 657.3,
+      "temp_anomaly": -0.284,
+      "sea_level_m": -4.3,
+      "insolation": 184.51
+    },
+    {
+      "age_bp": 420000,
+      "year_ce": -418050,
+      "era": "paleoclimate",
+      "co2_ppm": 267.48,
+      "ch4_ppb": 681.1,
+      "temp_anomaly": -0.584,
+      "sea_level_m": -8.8,
+      "insolation": 185.91
+    },
+    {
+      "age_bp": 421000,
+      "year_ce": -419050,
+      "era": "paleoclimate",
+      "co2_ppm": 273.92,
+      "ch4_ppb": 700.7,
+      "temp_anomaly": -0.742,
+      "sea_level_m": -11.1,
+      "insolation": 187.04
+    },
+    {
+      "age_bp": 422000,
+      "year_ce": -420050,
+      "era": "paleoclimate",
+      "co2_ppm": 266.68,
+      "ch4_ppb": 687.2,
+      "temp_anomaly": -1.784,
+      "sea_level_m": -26.8,
+      "insolation": 187.82
+    },
+    {
+      "age_bp": 423000,
+      "year_ce": -421050,
+      "era": "paleoclimate",
+      "co2_ppm": 272.24,
+      "ch4_ppb": 661.2,
+      "temp_anomaly": -2.074,
+      "sea_level_m": -31.1,
+      "insolation": 188.19
+    },
+    {
+      "age_bp": 424000,
+      "year_ce": -422050,
+      "era": "paleoclimate",
+      "co2_ppm": 267.95,
+      "ch4_ppb": 611.3,
+      "temp_anomaly": -2.21,
+      "sea_level_m": -33.2,
+      "insolation": 188.11
+    },
+    {
+      "age_bp": 425000,
+      "year_ce": -423050,
+      "era": "paleoclimate",
+      "co2_ppm": 270.48,
+      "ch4_ppb": 570.3,
+      "temp_anomaly": -0.248,
+      "sea_level_m": -3.7,
+      "insolation": 187.59
+    },
+    {
+      "age_bp": 426000,
+      "year_ce": -424050,
+      "era": "paleoclimate",
+      "co2_ppm": 255.17,
+      "ch4_ppb": 460.3,
+      "temp_anomaly": -2.039,
+      "sea_level_m": -30.6,
+      "insolation": 186.76
+    },
+    {
+      "age_bp": 427000,
+      "year_ce": -425050,
+      "era": "paleoclimate",
+      "co2_ppm": 253.26,
+      "ch4_ppb": 464.0,
+      "temp_anomaly": -2.888,
+      "sea_level_m": -43.3,
+      "insolation": 185.67
+    },
+    {
+      "age_bp": 428000,
+      "year_ce": -426050,
+      "era": "paleoclimate",
+      "co2_ppm": 235.79,
+      "ch4_ppb": 426.7,
+      "temp_anomaly": -4.642,
+      "sea_level_m": -69.6,
+      "insolation": 184.48
+    },
+    {
+      "age_bp": 429000,
+      "year_ce": -427050,
+      "era": "paleoclimate",
+      "co2_ppm": 219.8,
+      "ch4_ppb": 430.8,
+      "temp_anomaly": -6.239,
+      "sea_level_m": -93.6,
+      "insolation": 183.34
+    },
+    {
+      "age_bp": 430000,
+      "year_ce": -428050,
+      "era": "paleoclimate",
+      "co2_ppm": 225.56,
+      "ch4_ppb": 380.3,
+      "temp_anomaly": -7.265,
+      "sea_level_m": -109.0,
+      "insolation": 182.34
+    },
+    {
+      "age_bp": 431000,
+      "year_ce": -429050,
+      "era": "paleoclimate",
+      "co2_ppm": 212.33,
+      "ch4_ppb": 389.6,
+      "temp_anomaly": -8.152,
+      "sea_level_m": -122.3,
+      "insolation": 181.63
+    },
+    {
+      "age_bp": 432000,
+      "year_ce": -430050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.66,
+      "ch4_ppb": 389.2,
+      "temp_anomaly": -8.19,
+      "sea_level_m": -122.8,
+      "insolation": 181.29
+    },
+    {
+      "age_bp": 433000,
+      "year_ce": -431050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.94,
+      "ch4_ppb": 391.8,
+      "temp_anomaly": -8.327,
+      "sea_level_m": -124.9,
+      "insolation": 181.3
+    },
+    {
+      "age_bp": 434000,
+      "year_ce": -432050,
+      "era": "paleoclimate",
+      "co2_ppm": 199.11,
+      "ch4_ppb": 382.1,
+      "temp_anomaly": -8.555,
+      "sea_level_m": -128.3,
+      "insolation": 181.7
+    },
+    {
+      "age_bp": 435000,
+      "year_ce": -433050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.53,
+      "ch4_ppb": 381.0,
+      "temp_anomaly": -8.477,
+      "sea_level_m": -127.1,
+      "insolation": 182.41
+    },
+    {
+      "age_bp": 436000,
+      "year_ce": -434050,
+      "era": "paleoclimate",
+      "co2_ppm": 201.7,
+      "ch4_ppb": 383.4,
+      "temp_anomaly": -8.684,
+      "sea_level_m": -130.3,
+      "insolation": 183.33
+    },
+    {
+      "age_bp": 437000,
+      "year_ce": -435050,
+      "era": "paleoclimate",
+      "co2_ppm": 201.35,
+      "ch4_ppb": 389.5,
+      "temp_anomaly": -9.438,
+      "sea_level_m": -141.6,
+      "insolation": 184.31
+    },
+    {
+      "age_bp": 438000,
+      "year_ce": -436050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.73,
+      "ch4_ppb": 393.7,
+      "temp_anomaly": -9.368,
+      "sea_level_m": -140.5,
+      "insolation": 185.29
+    },
+    {
+      "age_bp": 439000,
+      "year_ce": -437050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.74,
+      "ch4_ppb": 396.4,
+      "temp_anomaly": -9.165,
+      "sea_level_m": -137.5,
+      "insolation": 186.04
+    },
+    {
+      "age_bp": 440000,
+      "year_ce": -438050,
+      "era": "paleoclimate",
+      "co2_ppm": 199.63,
+      "ch4_ppb": 404.3,
+      "temp_anomaly": -9.079,
+      "sea_level_m": -136.2,
+      "insolation": 186.54
+    },
+    {
+      "age_bp": 441000,
+      "year_ce": -439050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.83,
+      "ch4_ppb": 410.4,
+      "temp_anomaly": -8.954,
+      "sea_level_m": -134.3,
+      "insolation": 186.67
+    },
+    {
+      "age_bp": 442000,
+      "year_ce": -440050,
+      "era": "paleoclimate",
+      "co2_ppm": 202.67,
+      "ch4_ppb": 438.1,
+      "temp_anomaly": -8.337,
+      "sea_level_m": -125.1,
+      "insolation": 186.42
+    },
+    {
+      "age_bp": 443000,
+      "year_ce": -441050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.85,
+      "ch4_ppb": 438.9,
+      "temp_anomaly": -8.015,
+      "sea_level_m": -120.2,
+      "insolation": 185.8
+    },
+    {
+      "age_bp": 444000,
+      "year_ce": -442050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.52,
+      "ch4_ppb": 476.2,
+      "temp_anomaly": -7.519,
+      "sea_level_m": -112.8,
+      "insolation": 184.91
+    },
+    {
+      "age_bp": 445000,
+      "year_ce": -443050,
+      "era": "paleoclimate",
+      "co2_ppm": 201.55,
+      "ch4_ppb": 415.3,
+      "temp_anomaly": -7.45,
+      "sea_level_m": -111.8,
+      "insolation": 183.81
+    },
+    {
+      "age_bp": 446000,
+      "year_ce": -444050,
+      "era": "paleoclimate",
+      "co2_ppm": 201.75,
+      "ch4_ppb": 458.4,
+      "temp_anomaly": -7.62,
+      "sea_level_m": -114.3,
+      "insolation": 182.67
+    },
+    {
+      "age_bp": 447000,
+      "year_ce": -445050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.86,
+      "ch4_ppb": 498.0,
+      "temp_anomaly": -6.23,
+      "sea_level_m": -93.5,
+      "insolation": 181.6
+    },
+    {
+      "age_bp": 448000,
+      "year_ce": -446050,
+      "era": "paleoclimate",
+      "co2_ppm": 202.18,
+      "ch4_ppb": 413.3,
+      "temp_anomaly": -6.538,
+      "sea_level_m": -98.1,
+      "insolation": 180.74
+    },
+    {
+      "age_bp": 449000,
+      "year_ce": -447050,
+      "era": "paleoclimate",
+      "co2_ppm": 199.15,
+      "ch4_ppb": 387.0,
+      "temp_anomaly": -7.358,
+      "sea_level_m": -110.4,
+      "insolation": 180.19
+    },
+    {
+      "age_bp": 450000,
+      "year_ce": -448050,
+      "era": "paleoclimate",
+      "co2_ppm": 195.22,
+      "ch4_ppb": 381.2,
+      "temp_anomaly": -7.453,
+      "sea_level_m": -111.8,
+      "insolation": 180.06
+    },
+    {
+      "age_bp": 451000,
+      "year_ce": -449050,
+      "era": "paleoclimate",
+      "co2_ppm": 192.92,
+      "ch4_ppb": 383.7,
+      "temp_anomaly": -7.682,
+      "sea_level_m": -115.2,
+      "insolation": 180.37
+    },
+    {
+      "age_bp": 452000,
+      "year_ce": -450050,
+      "era": "paleoclimate",
+      "co2_ppm": 196.39,
+      "ch4_ppb": 399.6,
+      "temp_anomaly": -7.042,
+      "sea_level_m": -105.6,
+      "insolation": 181.13
+    },
+    {
+      "age_bp": 453000,
+      "year_ce": -451050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.01,
+      "ch4_ppb": 418.0,
+      "temp_anomaly": -7.482,
+      "sea_level_m": -112.2,
+      "insolation": 182.29
+    },
+    {
+      "age_bp": 454000,
+      "year_ce": -452050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.07,
+      "ch4_ppb": 483.6,
+      "temp_anomaly": -6.488,
+      "sea_level_m": -97.3,
+      "insolation": 183.76
+    },
+    {
+      "age_bp": 455000,
+      "year_ce": -453050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.71,
+      "ch4_ppb": 448.7,
+      "temp_anomaly": -7.03,
+      "sea_level_m": -105.5,
+      "insolation": 185.4
+    },
+    {
+      "age_bp": 456000,
+      "year_ce": -454050,
+      "era": "paleoclimate",
+      "co2_ppm": 198.61,
+      "ch4_ppb": 412.3,
+      "temp_anomaly": -7.999,
+      "sea_level_m": -120.0,
+      "insolation": 187.1
+    },
+    {
+      "age_bp": 457000,
+      "year_ce": -455050,
+      "era": "paleoclimate",
+      "co2_ppm": 194.15,
+      "ch4_ppb": 409.2,
+      "temp_anomaly": -8.862,
+      "sea_level_m": -132.9,
+      "insolation": 188.61
+    },
+    {
+      "age_bp": 458000,
+      "year_ce": -456050,
+      "era": "paleoclimate",
+      "co2_ppm": 190.86,
+      "ch4_ppb": 404.1,
+      "temp_anomaly": -8.79,
+      "sea_level_m": -131.8,
+      "insolation": 189.84
+    },
+    {
+      "age_bp": 459000,
+      "year_ce": -457050,
+      "era": "paleoclimate",
+      "co2_ppm": 193.25,
+      "ch4_ppb": 398.9,
+      "temp_anomaly": -8.773,
+      "sea_level_m": -131.6,
+      "insolation": 190.57
+    },
+    {
+      "age_bp": 460000,
+      "year_ce": -458050,
+      "era": "paleoclimate",
+      "co2_ppm": 196.7,
+      "ch4_ppb": 407.6,
+      "temp_anomaly": -8.405,
+      "sea_level_m": -126.1,
+      "insolation": 190.72
+    },
+    {
+      "age_bp": 461000,
+      "year_ce": -459050,
+      "era": "paleoclimate",
+      "co2_ppm": 201.13,
+      "ch4_ppb": 457.1,
+      "temp_anomaly": -8.245,
+      "sea_level_m": -123.7,
+      "insolation": 190.22
+    },
+    {
+      "age_bp": 462000,
+      "year_ce": -460050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.57,
+      "ch4_ppb": 472.6,
+      "temp_anomaly": -7.315,
+      "sea_level_m": -109.7,
+      "insolation": 189.09
+    },
+    {
+      "age_bp": 463000,
+      "year_ce": -461050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.75,
+      "ch4_ppb": 486.3,
+      "temp_anomaly": -7.631,
+      "sea_level_m": -114.5,
+      "insolation": 187.36
+    },
+    {
+      "age_bp": 464000,
+      "year_ce": -462050,
+      "era": "paleoclimate",
+      "co2_ppm": 206.67,
+      "ch4_ppb": 455.7,
+      "temp_anomaly": -7.907,
+      "sea_level_m": -118.6,
+      "insolation": 185.22
+    },
+    {
+      "age_bp": 465000,
+      "year_ce": -463050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.3,
+      "ch4_ppb": 444.8,
+      "temp_anomaly": -8.444,
+      "sea_level_m": -126.7,
+      "insolation": 182.81
+    },
+    {
+      "age_bp": 466000,
+      "year_ce": -464050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.59,
+      "ch4_ppb": 453.6,
+      "temp_anomaly": -8.341,
+      "sea_level_m": -125.1,
+      "insolation": 180.4
+    },
+    {
+      "age_bp": 467000,
+      "year_ce": -465050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.55,
+      "ch4_ppb": 488.6,
+      "temp_anomaly": -8.042,
+      "sea_level_m": -120.6,
+      "insolation": 178.22
+    },
+    {
+      "age_bp": 468000,
+      "year_ce": -466050,
+      "era": "paleoclimate",
+      "co2_ppm": 206.05,
+      "ch4_ppb": 463.0,
+      "temp_anomaly": -8.258,
+      "sea_level_m": -123.9,
+      "insolation": 176.49
+    },
+    {
+      "age_bp": 469000,
+      "year_ce": -467050,
+      "era": "paleoclimate",
+      "co2_ppm": 216.42,
+      "ch4_ppb": 437.7,
+      "temp_anomaly": -6.665,
+      "sea_level_m": -100.0,
+      "insolation": 175.42
+    },
+    {
+      "age_bp": 470000,
+      "year_ce": -468050,
+      "era": "paleoclimate",
+      "co2_ppm": 229.51,
+      "ch4_ppb": 464.4,
+      "temp_anomaly": -6.813,
+      "sea_level_m": -102.2,
+      "insolation": 175.14
+    },
+    {
+      "age_bp": 471000,
+      "year_ce": -469050,
+      "era": "paleoclimate",
+      "co2_ppm": 242.57,
+      "ch4_ppb": 482.0,
+      "temp_anomaly": -5.123,
+      "sea_level_m": -76.9,
+      "insolation": 175.75
+    },
+    {
+      "age_bp": 472000,
+      "year_ce": -470050,
+      "era": "paleoclimate",
+      "co2_ppm": 245.11,
+      "ch4_ppb": 465.9,
+      "temp_anomaly": -4.089,
+      "sea_level_m": -61.3,
+      "insolation": 177.2
+    },
+    {
+      "age_bp": 473000,
+      "year_ce": -471050,
+      "era": "paleoclimate",
+      "co2_ppm": 241.65,
+      "ch4_ppb": 445.7,
+      "temp_anomaly": -5.652,
+      "sea_level_m": -84.8,
+      "insolation": 179.45
+    },
+    {
+      "age_bp": 474000,
+      "year_ce": -472050,
+      "era": "paleoclimate",
+      "co2_ppm": 234.34,
+      "ch4_ppb": 461.9,
+      "temp_anomaly": -7.004,
+      "sea_level_m": -105.1,
+      "insolation": 182.26
+    },
+    {
+      "age_bp": 475000,
+      "year_ce": -473050,
+      "era": "paleoclimate",
+      "co2_ppm": 232.86,
+      "ch4_ppb": 482.4,
+      "temp_anomaly": -6.062,
+      "sea_level_m": -90.9,
+      "insolation": 185.45
+    },
+    {
+      "age_bp": 476000,
+      "year_ce": -474050,
+      "era": "paleoclimate",
+      "co2_ppm": 235.71,
+      "ch4_ppb": 506.8,
+      "temp_anomaly": -4.8,
+      "sea_level_m": -72.0,
+      "insolation": 188.67
+    },
+    {
+      "age_bp": 477000,
+      "year_ce": -475050,
+      "era": "paleoclimate",
+      "co2_ppm": 238.66,
+      "ch4_ppb": 519.8,
+      "temp_anomaly": -4.022,
+      "sea_level_m": -60.3,
+      "insolation": 191.64
+    },
+    {
+      "age_bp": 478000,
+      "year_ce": -476050,
+      "era": "paleoclimate",
+      "co2_ppm": 232.89,
+      "ch4_ppb": 517.9,
+      "temp_anomaly": -5.118,
+      "sea_level_m": -76.8,
+      "insolation": 194.01
+    },
+    {
+      "age_bp": 479000,
+      "year_ce": -477050,
+      "era": "paleoclimate",
+      "co2_ppm": 219.48,
+      "ch4_ppb": 506.3,
+      "temp_anomaly": -5.776,
+      "sea_level_m": -86.6,
+      "insolation": 195.54
+    },
+    {
+      "age_bp": 480000,
+      "year_ce": -478050,
+      "era": "paleoclimate",
+      "co2_ppm": 223.24,
+      "ch4_ppb": 510.1,
+      "temp_anomaly": -4.998,
+      "sea_level_m": -75.0,
+      "insolation": 196.05
+    },
+    {
+      "age_bp": 481000,
+      "year_ce": -479050,
+      "era": "paleoclimate",
+      "co2_ppm": 223.42,
+      "ch4_ppb": 496.8,
+      "temp_anomaly": -4.909,
+      "sea_level_m": -73.6,
+      "insolation": 195.46
+    },
+    {
+      "age_bp": 482000,
+      "year_ce": -480050,
+      "era": "paleoclimate",
+      "co2_ppm": 227.62,
+      "ch4_ppb": 505.6,
+      "temp_anomaly": -4.354,
+      "sea_level_m": -65.3,
+      "insolation": 193.8
+    },
+    {
+      "age_bp": 483000,
+      "year_ce": -481050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.4,
+      "ch4_ppb": 513.1,
+      "temp_anomaly": -4.083,
+      "sea_level_m": -61.3,
+      "insolation": 191.24
+    },
+    {
+      "age_bp": 484000,
+      "year_ce": -482050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.31,
+      "ch4_ppb": 540.4,
+      "temp_anomaly": -3.571,
+      "sea_level_m": -53.6,
+      "insolation": 187.99
+    },
+    {
+      "age_bp": 485000,
+      "year_ce": -483050,
+      "era": "paleoclimate",
+      "co2_ppm": 232.39,
+      "ch4_ppb": 545.6,
+      "temp_anomaly": -3.452,
+      "sea_level_m": -51.8,
+      "insolation": 184.4
+    },
+    {
+      "age_bp": 486000,
+      "year_ce": -484050,
+      "era": "paleoclimate",
+      "co2_ppm": 232.91,
+      "ch4_ppb": 574.4,
+      "temp_anomaly": -3.356,
+      "sea_level_m": -50.3,
+      "insolation": 180.77
+    },
+    {
+      "age_bp": 487000,
+      "year_ce": -485050,
+      "era": "paleoclimate",
+      "co2_ppm": 232.77,
+      "ch4_ppb": 583.0,
+      "temp_anomaly": -2.752,
+      "sea_level_m": -41.3,
+      "insolation": 177.46
+    },
+    {
+      "age_bp": 488000,
+      "year_ce": -486050,
+      "era": "paleoclimate",
+      "co2_ppm": 240.19,
+      "ch4_ppb": 615.8,
+      "temp_anomaly": -2.485,
+      "sea_level_m": -37.3,
+      "insolation": 174.74
+    },
+    {
+      "age_bp": 489000,
+      "year_ce": -487050,
+      "era": "paleoclimate",
+      "co2_ppm": 252.77,
+      "ch4_ppb": 606.7,
+      "temp_anomaly": -2.474,
+      "sea_level_m": -37.1,
+      "insolation": 172.88
+    },
+    {
+      "age_bp": 490000,
+      "year_ce": -488050,
+      "era": "paleoclimate",
+      "co2_ppm": 242.87,
+      "ch4_ppb": 562.7,
+      "temp_anomaly": -2.318,
+      "sea_level_m": -34.8,
+      "insolation": 172.01
+    },
+    {
+      "age_bp": 491000,
+      "year_ce": -489050,
+      "era": "paleoclimate",
+      "co2_ppm": 245.83,
+      "ch4_ppb": 573.0,
+      "temp_anomaly": -2.985,
+      "sea_level_m": -44.8,
+      "insolation": 172.23
+    },
+    {
+      "age_bp": 492000,
+      "year_ce": -490050,
+      "era": "paleoclimate",
+      "co2_ppm": 243.49,
+      "ch4_ppb": 517.4,
+      "temp_anomaly": -3.318,
+      "sea_level_m": -49.8,
+      "insolation": 173.5
+    },
+    {
+      "age_bp": 493000,
+      "year_ce": -491050,
+      "era": "paleoclimate",
+      "co2_ppm": 239.5,
+      "ch4_ppb": 500.2,
+      "temp_anomaly": -3.496,
+      "sea_level_m": -52.4,
+      "insolation": 175.75
+    },
+    {
+      "age_bp": 494000,
+      "year_ce": -492050,
+      "era": "paleoclimate",
+      "co2_ppm": 238.61,
+      "ch4_ppb": 515.5,
+      "temp_anomaly": -3.842,
+      "sea_level_m": -57.6,
+      "insolation": 178.75
+    },
+    {
+      "age_bp": 495000,
+      "year_ce": -493050,
+      "era": "paleoclimate",
+      "co2_ppm": 238.48,
+      "ch4_ppb": 502.1,
+      "temp_anomaly": -3.78,
+      "sea_level_m": -56.7,
+      "insolation": 182.3
+    },
+    {
+      "age_bp": 496000,
+      "year_ce": -494050,
+      "era": "paleoclimate",
+      "co2_ppm": 237.37,
+      "ch4_ppb": 519.1,
+      "temp_anomaly": -3.662,
+      "sea_level_m": -54.9,
+      "insolation": 186.03
+    },
+    {
+      "age_bp": 497000,
+      "year_ce": -495050,
+      "era": "paleoclimate",
+      "co2_ppm": 236.45,
+      "ch4_ppb": 516.1,
+      "temp_anomaly": -3.953,
+      "sea_level_m": -59.3,
+      "insolation": 189.65
+    },
+    {
+      "age_bp": 498000,
+      "year_ce": -496050,
+      "era": "paleoclimate",
+      "co2_ppm": 233.32,
+      "ch4_ppb": 506.9,
+      "temp_anomaly": -3.886,
+      "sea_level_m": -58.3,
+      "insolation": 192.81
+    },
+    {
+      "age_bp": 499000,
+      "year_ce": -497050,
+      "era": "paleoclimate",
+      "co2_ppm": 230.64,
+      "ch4_ppb": 502.7,
+      "temp_anomaly": -3.761,
+      "sea_level_m": -56.4,
+      "insolation": 195.22
+    },
+    {
+      "age_bp": 500000,
+      "year_ce": -498050,
+      "era": "paleoclimate",
+      "co2_ppm": 229.45,
+      "ch4_ppb": 496.1,
+      "temp_anomaly": -4.261,
+      "sea_level_m": -63.9,
+      "insolation": 196.65
+    },
+    {
+      "age_bp": 501000,
+      "year_ce": -499050,
+      "era": "paleoclimate",
+      "co2_ppm": 230.36,
+      "ch4_ppb": 514.8,
+      "temp_anomaly": -4.423,
+      "sea_level_m": -66.3,
+      "insolation": 197.01
+    },
+    {
+      "age_bp": 502000,
+      "year_ce": -500050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.34,
+      "ch4_ppb": 518.8,
+      "temp_anomaly": -4.268,
+      "sea_level_m": -64.0,
+      "insolation": 196.24
+    },
+    {
+      "age_bp": 503000,
+      "year_ce": -501050,
+      "era": "paleoclimate",
+      "co2_ppm": 232.1,
+      "ch4_ppb": 515.1,
+      "temp_anomaly": -4.415,
+      "sea_level_m": -66.2,
+      "insolation": 194.46
+    },
+    {
+      "age_bp": 504000,
+      "year_ce": -502050,
+      "era": "paleoclimate",
+      "co2_ppm": 233.88,
+      "ch4_ppb": 553.9,
+      "temp_anomaly": -4.421,
+      "sea_level_m": -66.3,
+      "insolation": 191.86
+    },
+    {
+      "age_bp": 505000,
+      "year_ce": -503050,
+      "era": "paleoclimate",
+      "co2_ppm": 234.38,
+      "ch4_ppb": 533.6,
+      "temp_anomaly": -4.902,
+      "sea_level_m": -73.5,
+      "insolation": 188.7
+    },
+    {
+      "age_bp": 506000,
+      "year_ce": -504050,
+      "era": "paleoclimate",
+      "co2_ppm": 235.81,
+      "ch4_ppb": 580.5,
+      "temp_anomaly": -5.115,
+      "sea_level_m": -76.7,
+      "insolation": 185.27
+    },
+    {
+      "age_bp": 507000,
+      "year_ce": -505050,
+      "era": "paleoclimate",
+      "co2_ppm": 238.17,
+      "ch4_ppb": 588.8,
+      "temp_anomaly": -4.635,
+      "sea_level_m": -69.5,
+      "insolation": 181.93
+    },
+    {
+      "age_bp": 508000,
+      "year_ce": -506050,
+      "era": "paleoclimate",
+      "co2_ppm": 238.24,
+      "ch4_ppb": 580.6,
+      "temp_anomaly": -4.784,
+      "sea_level_m": -71.8,
+      "insolation": 178.93
+    },
+    {
+      "age_bp": 509000,
+      "year_ce": -507050,
+      "era": "paleoclimate",
+      "co2_ppm": 235.61,
+      "ch4_ppb": 554.1,
+      "temp_anomaly": -5.889,
+      "sea_level_m": -88.3,
+      "insolation": 176.53
+    },
+    {
+      "age_bp": 510000,
+      "year_ce": -508050,
+      "era": "paleoclimate",
+      "co2_ppm": 236.37,
+      "ch4_ppb": 527.4,
+      "temp_anomaly": -5.608,
+      "sea_level_m": -84.1,
+      "insolation": 174.92
+    },
+    {
+      "age_bp": 511000,
+      "year_ce": -509050,
+      "era": "paleoclimate",
+      "co2_ppm": 237.33,
+      "ch4_ppb": 501.4,
+      "temp_anomaly": -5.782,
+      "sea_level_m": -86.7,
+      "insolation": 174.17
+    },
+    {
+      "age_bp": 512000,
+      "year_ce": -510050,
+      "era": "paleoclimate",
+      "co2_ppm": 239.56,
+      "ch4_ppb": 486.9,
+      "temp_anomaly": -5.659,
+      "sea_level_m": -84.9,
+      "insolation": 174.31
+    },
+    {
+      "age_bp": 513000,
+      "year_ce": -511050,
+      "era": "paleoclimate",
+      "co2_ppm": 239.21,
+      "ch4_ppb": 486.9,
+      "temp_anomaly": -5.556,
+      "sea_level_m": -83.3,
+      "insolation": 175.3
+    },
+    {
+      "age_bp": 514000,
+      "year_ce": -512050,
+      "era": "paleoclimate",
+      "co2_ppm": 242.09,
+      "ch4_ppb": 494.7,
+      "temp_anomaly": -4.783,
+      "sea_level_m": -71.8,
+      "insolation": 176.96
+    },
+    {
+      "age_bp": 515000,
+      "year_ce": -513050,
+      "era": "paleoclimate",
+      "co2_ppm": 246.51,
+      "ch4_ppb": 510.4,
+      "temp_anomaly": -4.964,
+      "sea_level_m": -74.5,
+      "insolation": 179.14
+    },
+    {
+      "age_bp": 516000,
+      "year_ce": -514050,
+      "era": "paleoclimate",
+      "co2_ppm": 245.95,
+      "ch4_ppb": 479.1,
+      "temp_anomaly": -4.011,
+      "sea_level_m": -60.2,
+      "insolation": 181.63
+    },
+    {
+      "age_bp": 517000,
+      "year_ce": -515050,
+      "era": "paleoclimate",
+      "co2_ppm": 245.32,
+      "ch4_ppb": 507.6,
+      "temp_anomaly": -4.275,
+      "sea_level_m": -64.1,
+      "insolation": 184.15
+    },
+    {
+      "age_bp": 518000,
+      "year_ce": -516050,
+      "era": "paleoclimate",
+      "co2_ppm": 246.67,
+      "ch4_ppb": 511.6,
+      "temp_anomaly": -3.477,
+      "sea_level_m": -52.2,
+      "insolation": 186.52
+    },
+    {
+      "age_bp": 519000,
+      "year_ce": -517050,
+      "era": "paleoclimate",
+      "co2_ppm": 243.47,
+      "ch4_ppb": 503.3,
+      "temp_anomaly": -3.368,
+      "sea_level_m": -50.5,
+      "insolation": 188.53
+    },
+    {
+      "age_bp": 520000,
+      "year_ce": -518050,
+      "era": "paleoclimate",
+      "co2_ppm": 242.64,
+      "ch4_ppb": 516.2,
+      "temp_anomaly": -3.627,
+      "sea_level_m": -54.4,
+      "insolation": 190.02
+    },
+    {
+      "age_bp": 521000,
+      "year_ce": -519050,
+      "era": "paleoclimate",
+      "co2_ppm": 241.07,
+      "ch4_ppb": 522.8,
+      "temp_anomaly": -3.866,
+      "sea_level_m": -58.0,
+      "insolation": 190.93
+    },
+    {
+      "age_bp": 522000,
+      "year_ce": -520050,
+      "era": "paleoclimate",
+      "co2_ppm": 236.13,
+      "ch4_ppb": 532.4,
+      "temp_anomaly": -3.413,
+      "sea_level_m": -51.2,
+      "insolation": 191.28
+    },
+    {
+      "age_bp": 523000,
+      "year_ce": -521050,
+      "era": "paleoclimate",
+      "co2_ppm": 233.35,
+      "ch4_ppb": 526.2,
+      "temp_anomaly": -4.555,
+      "sea_level_m": -68.3,
+      "insolation": 191.04
+    },
+    {
+      "age_bp": 524000,
+      "year_ce": -522050,
+      "era": "paleoclimate",
+      "co2_ppm": 229.18,
+      "ch4_ppb": 519.6,
+      "temp_anomaly": -4.497,
+      "sea_level_m": -67.5,
+      "insolation": 190.37
+    },
+    {
+      "age_bp": 525000,
+      "year_ce": -523050,
+      "era": "paleoclimate",
+      "co2_ppm": 225.37,
+      "ch4_ppb": 534.9,
+      "temp_anomaly": -4.481,
+      "sea_level_m": -67.2,
+      "insolation": 189.35
+    },
+    {
+      "age_bp": 526000,
+      "year_ce": -524050,
+      "era": "paleoclimate",
+      "co2_ppm": 222.52,
+      "ch4_ppb": 539.7,
+      "temp_anomaly": -4.894,
+      "sea_level_m": -73.4,
+      "insolation": 188.11
+    },
+    {
+      "age_bp": 527000,
+      "year_ce": -525050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.82,
+      "ch4_ppb": 530.4,
+      "temp_anomaly": -4.506,
+      "sea_level_m": -67.6,
+      "insolation": 186.78
+    },
+    {
+      "age_bp": 528000,
+      "year_ce": -526050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.57,
+      "ch4_ppb": 518.8,
+      "temp_anomaly": -4.351,
+      "sea_level_m": -65.3,
+      "insolation": 185.48
+    },
+    {
+      "age_bp": 529000,
+      "year_ce": -527050,
+      "era": "paleoclimate",
+      "co2_ppm": 212.28,
+      "ch4_ppb": 456.1,
+      "temp_anomaly": -4.475,
+      "sea_level_m": -67.1,
+      "insolation": 184.23
+    },
+    {
+      "age_bp": 530000,
+      "year_ce": -528050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.19,
+      "ch4_ppb": 444.9,
+      "temp_anomaly": -5.523,
+      "sea_level_m": -82.9,
+      "insolation": 183.16
+    },
+    {
+      "age_bp": 531000,
+      "year_ce": -529050,
+      "era": "paleoclimate",
+      "co2_ppm": 193.93,
+      "ch4_ppb": 437.8,
+      "temp_anomaly": -6.987,
+      "sea_level_m": -104.8,
+      "insolation": 182.23
+    },
+    {
+      "age_bp": 532000,
+      "year_ce": -530050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.38,
+      "ch4_ppb": 420.7,
+      "temp_anomaly": -7.359,
+      "sea_level_m": -110.4,
+      "insolation": 181.45
+    },
+    {
+      "age_bp": 533000,
+      "year_ce": -531050,
+      "era": "paleoclimate",
+      "co2_ppm": 199.49,
+      "ch4_ppb": 431.0,
+      "temp_anomaly": -7.548,
+      "sea_level_m": -113.2,
+      "insolation": 180.84
+    },
+    {
+      "age_bp": 534000,
+      "year_ce": -532050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.18,
+      "ch4_ppb": 456.7,
+      "temp_anomaly": -7.234,
+      "sea_level_m": -108.5,
+      "insolation": 180.35
+    },
+    {
+      "age_bp": 535000,
+      "year_ce": -533050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.8,
+      "ch4_ppb": 451.8,
+      "temp_anomaly": -6.644,
+      "sea_level_m": -99.7,
+      "insolation": 179.97
+    },
+    {
+      "age_bp": 536000,
+      "year_ce": -534050,
+      "era": "paleoclimate",
+      "co2_ppm": 209.35,
+      "ch4_ppb": 485.4,
+      "temp_anomaly": -6.779,
+      "sea_level_m": -101.7,
+      "insolation": 179.71
+    },
+    {
+      "age_bp": 537000,
+      "year_ce": -535050,
+      "era": "paleoclimate",
+      "co2_ppm": 212.34,
+      "ch4_ppb": 495.5,
+      "temp_anomaly": -6.773,
+      "sea_level_m": -101.6,
+      "insolation": 179.56
+    },
+    {
+      "age_bp": 538000,
+      "year_ce": -536050,
+      "era": "paleoclimate",
+      "co2_ppm": 210.0,
+      "ch4_ppb": 459.4,
+      "temp_anomaly": -7.151,
+      "sea_level_m": -107.3,
+      "insolation": 179.52
+    },
+    {
+      "age_bp": 539000,
+      "year_ce": -537050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.95,
+      "ch4_ppb": 413.6,
+      "temp_anomaly": -7.695,
+      "sea_level_m": -115.4,
+      "insolation": 179.67
+    },
+    {
+      "age_bp": 540000,
+      "year_ce": -538050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.78,
+      "ch4_ppb": 397.1,
+      "temp_anomaly": -7.461,
+      "sea_level_m": -111.9,
+      "insolation": 180.0
+    },
+    {
+      "age_bp": 541000,
+      "year_ce": -539050,
+      "era": "paleoclimate",
+      "co2_ppm": 206.8,
+      "ch4_ppb": 393.9,
+      "temp_anomaly": -7.468,
+      "sea_level_m": -112.0,
+      "insolation": 180.54
+    },
+    {
+      "age_bp": 542000,
+      "year_ce": -540050,
+      "era": "paleoclimate",
+      "co2_ppm": 209.35,
+      "ch4_ppb": 408.0,
+      "temp_anomaly": -7.216,
+      "sea_level_m": -108.2,
+      "insolation": 181.37
+    },
+    {
+      "age_bp": 543000,
+      "year_ce": -541050,
+      "era": "paleoclimate",
+      "co2_ppm": 210.0,
+      "ch4_ppb": 405.5,
+      "temp_anomaly": -7.247,
+      "sea_level_m": -108.7,
+      "insolation": 182.44
+    },
+    {
+      "age_bp": 544000,
+      "year_ce": -542050,
+      "era": "paleoclimate",
+      "co2_ppm": 209.63,
+      "ch4_ppb": 420.4,
+      "temp_anomaly": -7.567,
+      "sea_level_m": -113.5,
+      "insolation": 183.76
+    },
+    {
+      "age_bp": 545000,
+      "year_ce": -543050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.83,
+      "ch4_ppb": 421.7,
+      "temp_anomaly": -8.126,
+      "sea_level_m": -121.9,
+      "insolation": 185.29
+    },
+    {
+      "age_bp": 546000,
+      "year_ce": -544050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.51,
+      "ch4_ppb": 413.9,
+      "temp_anomaly": -8.134,
+      "sea_level_m": -122.0,
+      "insolation": 186.93
+    },
+    {
+      "age_bp": 547000,
+      "year_ce": -545050,
+      "era": "paleoclimate",
+      "co2_ppm": 202.53,
+      "ch4_ppb": 401.6,
+      "temp_anomaly": -7.42,
+      "sea_level_m": -111.3,
+      "insolation": 188.57
+    },
+    {
+      "age_bp": 548000,
+      "year_ce": -546050,
+      "era": "paleoclimate",
+      "co2_ppm": 213.65,
+      "ch4_ppb": 410.4,
+      "temp_anomaly": -6.986,
+      "sea_level_m": -104.8,
+      "insolation": 190.11
+    },
+    {
+      "age_bp": 549000,
+      "year_ce": -547050,
+      "era": "paleoclimate",
+      "co2_ppm": 215.55,
+      "ch4_ppb": 445.1,
+      "temp_anomaly": -7.066,
+      "sea_level_m": -106.0,
+      "insolation": 191.33
+    },
+    {
+      "age_bp": 550000,
+      "year_ce": -548050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.28,
+      "ch4_ppb": 466.3,
+      "temp_anomaly": -5.895,
+      "sea_level_m": -88.4,
+      "insolation": 192.13
+    },
+    {
+      "age_bp": 551000,
+      "year_ce": -549050,
+      "era": "paleoclimate",
+      "co2_ppm": 222.15,
+      "ch4_ppb": 476.4,
+      "temp_anomaly": -5.954,
+      "sea_level_m": -89.3,
+      "insolation": 192.38
+    },
+    {
+      "age_bp": 552000,
+      "year_ce": -550050,
+      "era": "paleoclimate",
+      "co2_ppm": 221.96,
+      "ch4_ppb": 483.2,
+      "temp_anomaly": -6.81,
+      "sea_level_m": -102.1,
+      "insolation": 191.97
+    },
+    {
+      "age_bp": 553000,
+      "year_ce": -551050,
+      "era": "paleoclimate",
+      "co2_ppm": 223.64,
+      "ch4_ppb": 451.0,
+      "temp_anomaly": -6.236,
+      "sea_level_m": -93.5,
+      "insolation": 190.86
+    },
+    {
+      "age_bp": 554000,
+      "year_ce": -552050,
+      "era": "paleoclimate",
+      "co2_ppm": 225.73,
+      "ch4_ppb": 502.0,
+      "temp_anomaly": -4.939,
+      "sea_level_m": -74.1,
+      "insolation": 189.14
+    },
+    {
+      "age_bp": 555000,
+      "year_ce": -553050,
+      "era": "paleoclimate",
+      "co2_ppm": 236.23,
+      "ch4_ppb": 548.4,
+      "temp_anomaly": -3.927,
+      "sea_level_m": -58.9,
+      "insolation": 186.85
+    },
+    {
+      "age_bp": 556000,
+      "year_ce": -554050,
+      "era": "paleoclimate",
+      "co2_ppm": 246.4,
+      "ch4_ppb": 575.7,
+      "temp_anomaly": -4.036,
+      "sea_level_m": -60.5,
+      "insolation": 184.19
+    },
+    {
+      "age_bp": 557000,
+      "year_ce": -555050,
+      "era": "paleoclimate",
+      "co2_ppm": 239.89,
+      "ch4_ppb": 509.6,
+      "temp_anomaly": -5.041,
+      "sea_level_m": -75.6,
+      "insolation": 181.4
+    },
+    {
+      "age_bp": 558000,
+      "year_ce": -556050,
+      "era": "paleoclimate",
+      "co2_ppm": 232.67,
+      "ch4_ppb": 443.0,
+      "temp_anomaly": -5.54,
+      "sea_level_m": -83.1,
+      "insolation": 178.66
+    },
+    {
+      "age_bp": 559000,
+      "year_ce": -557050,
+      "era": "paleoclimate",
+      "co2_ppm": 230.03,
+      "ch4_ppb": 481.4,
+      "temp_anomaly": -6.809,
+      "sea_level_m": -102.1,
+      "insolation": 176.26
+    },
+    {
+      "age_bp": 560000,
+      "year_ce": -558050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.62,
+      "ch4_ppb": 508.5,
+      "temp_anomaly": -5.55,
+      "sea_level_m": -83.2,
+      "insolation": 174.43
+    },
+    {
+      "age_bp": 561000,
+      "year_ce": -559050,
+      "era": "paleoclimate",
+      "co2_ppm": 234.51,
+      "ch4_ppb": 467.2,
+      "temp_anomaly": -4.851,
+      "sea_level_m": -72.8,
+      "insolation": 173.32
+    },
+    {
+      "age_bp": 562000,
+      "year_ce": -560050,
+      "era": "paleoclimate",
+      "co2_ppm": 240.9,
+      "ch4_ppb": 494.8,
+      "temp_anomaly": -4.038,
+      "sea_level_m": -60.6,
+      "insolation": 173.08
+    },
+    {
+      "age_bp": 563000,
+      "year_ce": -561050,
+      "era": "paleoclimate",
+      "co2_ppm": 245.77,
+      "ch4_ppb": 531.4,
+      "temp_anomaly": -3.335,
+      "sea_level_m": -50.0,
+      "insolation": 173.8
+    },
+    {
+      "age_bp": 564000,
+      "year_ce": -562050,
+      "era": "paleoclimate",
+      "co2_ppm": 251.61,
+      "ch4_ppb": 551.3,
+      "temp_anomaly": -2.645,
+      "sea_level_m": -39.7,
+      "insolation": 175.41
+    },
+    {
+      "age_bp": 565000,
+      "year_ce": -563050,
+      "era": "paleoclimate",
+      "co2_ppm": 251.64,
+      "ch4_ppb": 582.9,
+      "temp_anomaly": -2.075,
+      "sea_level_m": -31.1,
+      "insolation": 177.86
+    },
+    {
+      "age_bp": 566000,
+      "year_ce": -564050,
+      "era": "paleoclimate",
+      "co2_ppm": 254.14,
+      "ch4_ppb": 619.2,
+      "temp_anomaly": -1.827,
+      "sea_level_m": -27.4,
+      "insolation": 181.01
+    },
+    {
+      "age_bp": 567000,
+      "year_ce": -565050,
+      "era": "paleoclimate",
+      "co2_ppm": 253.22,
+      "ch4_ppb": 623.5,
+      "temp_anomaly": -1.764,
+      "sea_level_m": -26.5,
+      "insolation": 184.56
+    },
+    {
+      "age_bp": 568000,
+      "year_ce": -566050,
+      "era": "paleoclimate",
+      "co2_ppm": 252.91,
+      "ch4_ppb": 614.9,
+      "temp_anomaly": -1.456,
+      "sea_level_m": -21.8,
+      "insolation": 188.3
+    },
+    {
+      "age_bp": 569000,
+      "year_ce": -567050,
+      "era": "paleoclimate",
+      "co2_ppm": 251.12,
+      "ch4_ppb": 589.6,
+      "temp_anomaly": -1.629,
+      "sea_level_m": -24.4,
+      "insolation": 191.93
+    },
+    {
+      "age_bp": 570000,
+      "year_ce": -568050,
+      "era": "paleoclimate",
+      "co2_ppm": 251.63,
+      "ch4_ppb": 587.0,
+      "temp_anomaly": -1.509,
+      "sea_level_m": -22.6,
+      "insolation": 195.06
+    },
+    {
+      "age_bp": 571000,
+      "year_ce": -569050,
+      "era": "paleoclimate",
+      "co2_ppm": 249.82,
+      "ch4_ppb": 595.3,
+      "temp_anomaly": -1.49,
+      "sea_level_m": -22.3,
+      "insolation": 197.48
+    },
+    {
+      "age_bp": 572000,
+      "year_ce": -570050,
+      "era": "paleoclimate",
+      "co2_ppm": 248.13,
+      "ch4_ppb": 604.0,
+      "temp_anomaly": -1.542,
+      "sea_level_m": -23.1,
+      "insolation": 198.95
+    },
+    {
+      "age_bp": 573000,
+      "year_ce": -571050,
+      "era": "paleoclimate",
+      "co2_ppm": 249.07,
+      "ch4_ppb": 612.4,
+      "temp_anomaly": -1.357,
+      "sea_level_m": -20.4,
+      "insolation": 199.22
+    },
+    {
+      "age_bp": 574000,
+      "year_ce": -572050,
+      "era": "paleoclimate",
+      "co2_ppm": 251.82,
+      "ch4_ppb": 612.8,
+      "temp_anomaly": -1.723,
+      "sea_level_m": -25.8,
+      "insolation": 198.35
+    },
+    {
+      "age_bp": 575000,
+      "year_ce": -573050,
+      "era": "paleoclimate",
+      "co2_ppm": 250.74,
+      "ch4_ppb": 600.5,
+      "temp_anomaly": -1.34,
+      "sea_level_m": -20.1,
+      "insolation": 196.32
+    },
+    {
+      "age_bp": 576000,
+      "year_ce": -574050,
+      "era": "paleoclimate",
+      "co2_ppm": 252.72,
+      "ch4_ppb": 588.9,
+      "temp_anomaly": -1.691,
+      "sea_level_m": -25.4,
+      "insolation": 193.26
+    },
+    {
+      "age_bp": 577000,
+      "year_ce": -575050,
+      "era": "paleoclimate",
+      "co2_ppm": 251.3,
+      "ch4_ppb": 596.9,
+      "temp_anomaly": -1.833,
+      "sea_level_m": -27.5,
+      "insolation": 189.47
+    },
+    {
+      "age_bp": 578000,
+      "year_ce": -576050,
+      "era": "paleoclimate",
+      "co2_ppm": 250.24,
+      "ch4_ppb": 599.8,
+      "temp_anomaly": -1.795,
+      "sea_level_m": -26.9,
+      "insolation": 185.23
+    },
+    {
+      "age_bp": 579000,
+      "year_ce": -577050,
+      "era": "paleoclimate",
+      "co2_ppm": 252.55,
+      "ch4_ppb": 613.7,
+      "temp_anomaly": -1.09,
+      "sea_level_m": -16.4,
+      "insolation": 180.85
+    },
+    {
+      "age_bp": 580000,
+      "year_ce": -578050,
+      "era": "paleoclimate",
+      "co2_ppm": 243.83,
+      "ch4_ppb": 519.0,
+      "temp_anomaly": -1.328,
+      "sea_level_m": -19.9,
+      "insolation": 176.75
+    },
+    {
+      "age_bp": 581000,
+      "year_ce": -579050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.95,
+      "ch4_ppb": 485.8,
+      "temp_anomaly": -3.058,
+      "sea_level_m": -45.9,
+      "insolation": 173.23
+    },
+    {
+      "age_bp": 582000,
+      "year_ce": -580050,
+      "era": "paleoclimate",
+      "co2_ppm": 215.4,
+      "ch4_ppb": 487.8,
+      "temp_anomaly": -4.473,
+      "sea_level_m": -67.1,
+      "insolation": 170.55
+    },
+    {
+      "age_bp": 583000,
+      "year_ce": -581050,
+      "era": "paleoclimate",
+      "co2_ppm": 206.87,
+      "ch4_ppb": 481.7,
+      "temp_anomaly": -6.312,
+      "sea_level_m": -94.7,
+      "insolation": 168.99
+    },
+    {
+      "age_bp": 584000,
+      "year_ce": -582050,
+      "era": "paleoclimate",
+      "co2_ppm": 213.23,
+      "ch4_ppb": 478.2,
+      "temp_anomaly": -6.752,
+      "sea_level_m": -101.3,
+      "insolation": 168.67
+    },
+    {
+      "age_bp": 585000,
+      "year_ce": -583050,
+      "era": "paleoclimate",
+      "co2_ppm": 217.71,
+      "ch4_ppb": 474.7,
+      "temp_anomaly": -5.761,
+      "sea_level_m": -86.4,
+      "insolation": 169.61
+    },
+    {
+      "age_bp": 586000,
+      "year_ce": -584050,
+      "era": "paleoclimate",
+      "co2_ppm": 222.18,
+      "ch4_ppb": 471.3,
+      "temp_anomaly": -5.509,
+      "sea_level_m": -82.6,
+      "insolation": 171.85
+    },
+    {
+      "age_bp": 587000,
+      "year_ce": -585050,
+      "era": "paleoclimate",
+      "co2_ppm": 227.19,
+      "ch4_ppb": 459.8,
+      "temp_anomaly": -6.716,
+      "sea_level_m": -100.7,
+      "insolation": 175.2
+    },
+    {
+      "age_bp": 588000,
+      "year_ce": -586050,
+      "era": "paleoclimate",
+      "co2_ppm": 238.41,
+      "ch4_ppb": 458.2,
+      "temp_anomaly": -5.506,
+      "sea_level_m": -82.6,
+      "insolation": 179.42
+    },
+    {
+      "age_bp": 589000,
+      "year_ce": -587050,
+      "era": "paleoclimate",
+      "co2_ppm": 248.48,
+      "ch4_ppb": 471.8,
+      "temp_anomaly": -4.384,
+      "sea_level_m": -65.8,
+      "insolation": 184.25
+    },
+    {
+      "age_bp": 590000,
+      "year_ce": -588050,
+      "era": "paleoclimate",
+      "co2_ppm": 246.83,
+      "ch4_ppb": 464.3,
+      "temp_anomaly": -3.477,
+      "sea_level_m": -52.1,
+      "insolation": 189.24
+    },
+    {
+      "age_bp": 591000,
+      "year_ce": -589050,
+      "era": "paleoclimate",
+      "co2_ppm": 236.5,
+      "ch4_ppb": 447.2,
+      "temp_anomaly": -5.343,
+      "sea_level_m": -80.1,
+      "insolation": 193.96
+    },
+    {
+      "age_bp": 592000,
+      "year_ce": -590050,
+      "era": "paleoclimate",
+      "co2_ppm": 228.06,
+      "ch4_ppb": 478.2,
+      "temp_anomaly": -5.594,
+      "sea_level_m": -83.9,
+      "insolation": 198.03
+    },
+    {
+      "age_bp": 593000,
+      "year_ce": -591050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.0,
+      "ch4_ppb": 502.3,
+      "temp_anomaly": -5.119,
+      "sea_level_m": -76.8,
+      "insolation": 200.98
+    },
+    {
+      "age_bp": 594000,
+      "year_ce": -592050,
+      "era": "paleoclimate",
+      "co2_ppm": 238.08,
+      "ch4_ppb": 527.1,
+      "temp_anomaly": -4.455,
+      "sea_level_m": -66.8,
+      "insolation": 202.53
+    },
+    {
+      "age_bp": 595000,
+      "year_ce": -593050,
+      "era": "paleoclimate",
+      "co2_ppm": 234.65,
+      "ch4_ppb": 475.8,
+      "temp_anomaly": -4.054,
+      "sea_level_m": -60.8,
+      "insolation": 202.56
+    },
+    {
+      "age_bp": 596000,
+      "year_ce": -594050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.78,
+      "ch4_ppb": 449.2,
+      "temp_anomaly": -5.501,
+      "sea_level_m": -82.5,
+      "insolation": 200.98
+    },
+    {
+      "age_bp": 597000,
+      "year_ce": -595050,
+      "era": "paleoclimate",
+      "co2_ppm": 216.35,
+      "ch4_ppb": 461.6,
+      "temp_anomaly": -6.585,
+      "sea_level_m": -98.8,
+      "insolation": 197.97
+    },
+    {
+      "age_bp": 598000,
+      "year_ce": -596050,
+      "era": "paleoclimate",
+      "co2_ppm": 219.27,
+      "ch4_ppb": 499.7,
+      "temp_anomaly": -6.297,
+      "sea_level_m": -94.5,
+      "insolation": 193.83
+    },
+    {
+      "age_bp": 599000,
+      "year_ce": -597050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.94,
+      "ch4_ppb": 542.6,
+      "temp_anomaly": -5.454,
+      "sea_level_m": -81.8,
+      "insolation": 188.96
+    },
+    {
+      "age_bp": 600000,
+      "year_ce": -598050,
+      "era": "paleoclimate",
+      "co2_ppm": 230.61,
+      "ch4_ppb": 535.6,
+      "temp_anomaly": -5.04,
+      "sea_level_m": -75.6,
+      "insolation": 183.77
+    },
+    {
+      "age_bp": 601000,
+      "year_ce": -599050,
+      "era": "paleoclimate",
+      "co2_ppm": 232.96,
+      "ch4_ppb": 538.4,
+      "temp_anomaly": -4.895,
+      "sea_level_m": -73.4,
+      "insolation": 178.84
+    },
+    {
+      "age_bp": 602000,
+      "year_ce": -600050,
+      "era": "paleoclimate",
+      "co2_ppm": 236.82,
+      "ch4_ppb": 538.0,
+      "temp_anomaly": -4.311,
+      "sea_level_m": -64.7,
+      "insolation": 174.49
+    },
+    {
+      "age_bp": 603000,
+      "year_ce": -601050,
+      "era": "paleoclimate",
+      "co2_ppm": 238.52,
+      "ch4_ppb": 526.7,
+      "temp_anomaly": -4.199,
+      "sea_level_m": -63.0,
+      "insolation": 171.13
+    },
+    {
+      "age_bp": 604000,
+      "year_ce": -602050,
+      "era": "paleoclimate",
+      "co2_ppm": 240.36,
+      "ch4_ppb": 510.6,
+      "temp_anomaly": -3.987,
+      "sea_level_m": -59.8,
+      "insolation": 169.03
+    },
+    {
+      "age_bp": 605000,
+      "year_ce": -603050,
+      "era": "paleoclimate",
+      "co2_ppm": 244.21,
+      "ch4_ppb": 514.6,
+      "temp_anomaly": -3.5,
+      "sea_level_m": -52.5,
+      "insolation": 168.32
+    },
+    {
+      "age_bp": 606000,
+      "year_ce": -604050,
+      "era": "paleoclimate",
+      "co2_ppm": 247.35,
+      "ch4_ppb": 533.6,
+      "temp_anomaly": -3.274,
+      "sea_level_m": -49.1,
+      "insolation": 169.01
+    },
+    {
+      "age_bp": 607000,
+      "year_ce": -605050,
+      "era": "paleoclimate",
+      "co2_ppm": 251.36,
+      "ch4_ppb": 537.4,
+      "temp_anomaly": -2.777,
+      "sea_level_m": -41.7,
+      "insolation": 171.06
+    },
+    {
+      "age_bp": 608000,
+      "year_ce": -606050,
+      "era": "paleoclimate",
+      "co2_ppm": 255.7,
+      "ch4_ppb": 564.6,
+      "temp_anomaly": -2.054,
+      "sea_level_m": -30.8,
+      "insolation": 174.23
+    },
+    {
+      "age_bp": 609000,
+      "year_ce": -607050,
+      "era": "paleoclimate",
+      "co2_ppm": 259.11,
+      "ch4_ppb": 577.9,
+      "temp_anomaly": -1.537,
+      "sea_level_m": -23.1,
+      "insolation": 178.24
+    },
+    {
+      "age_bp": 610000,
+      "year_ce": -608050,
+      "era": "paleoclimate",
+      "co2_ppm": 257.87,
+      "ch4_ppb": 586.4,
+      "temp_anomaly": -1.133,
+      "sea_level_m": -17.0,
+      "insolation": 182.77
+    },
+    {
+      "age_bp": 611000,
+      "year_ce": -609050,
+      "era": "paleoclimate",
+      "co2_ppm": 257.78,
+      "ch4_ppb": 597.9,
+      "temp_anomaly": -1.469,
+      "sea_level_m": -22.0,
+      "insolation": 187.37
+    },
+    {
+      "age_bp": 612000,
+      "year_ce": -610050,
+      "era": "paleoclimate",
+      "co2_ppm": 258.69,
+      "ch4_ppb": 619.3,
+      "temp_anomaly": -1.453,
+      "sea_level_m": -21.8,
+      "insolation": 191.63
+    },
+    {
+      "age_bp": 613000,
+      "year_ce": -611050,
+      "era": "paleoclimate",
+      "co2_ppm": 257.19,
+      "ch4_ppb": 603.7,
+      "temp_anomaly": -1.188,
+      "sea_level_m": -17.8,
+      "insolation": 195.24
+    },
+    {
+      "age_bp": 614000,
+      "year_ce": -612050,
+      "era": "paleoclimate",
+      "co2_ppm": 255.16,
+      "ch4_ppb": 614.3,
+      "temp_anomaly": -1.094,
+      "sea_level_m": -16.4,
+      "insolation": 197.8
+    },
+    {
+      "age_bp": 615000,
+      "year_ce": -613050,
+      "era": "paleoclimate",
+      "co2_ppm": 252.51,
+      "ch4_ppb": 618.4,
+      "temp_anomaly": -1.003,
+      "sea_level_m": -15.1,
+      "insolation": 199.17
+    },
+    {
+      "age_bp": 616000,
+      "year_ce": -614050,
+      "era": "paleoclimate",
+      "co2_ppm": 252.59,
+      "ch4_ppb": 615.2,
+      "temp_anomaly": -1.378,
+      "sea_level_m": -20.7,
+      "insolation": 199.3
+    },
+    {
+      "age_bp": 617000,
+      "year_ce": -615050,
+      "era": "paleoclimate",
+      "co2_ppm": 252.34,
+      "ch4_ppb": 610.8,
+      "temp_anomaly": -1.996,
+      "sea_level_m": -29.9,
+      "insolation": 198.15
+    },
+    {
+      "age_bp": 618000,
+      "year_ce": -616050,
+      "era": "paleoclimate",
+      "co2_ppm": 250.88,
+      "ch4_ppb": 605.7,
+      "temp_anomaly": -1.939,
+      "sea_level_m": -29.1,
+      "insolation": 195.97
+    },
+    {
+      "age_bp": 619000,
+      "year_ce": -617050,
+      "era": "paleoclimate",
+      "co2_ppm": 247.82,
+      "ch4_ppb": 603.0,
+      "temp_anomaly": -2.303,
+      "sea_level_m": -34.5,
+      "insolation": 193.01
+    },
+    {
+      "age_bp": 620000,
+      "year_ce": -618050,
+      "era": "paleoclimate",
+      "co2_ppm": 246.01,
+      "ch4_ppb": 603.6,
+      "temp_anomaly": -2.126,
+      "sea_level_m": -31.9,
+      "insolation": 189.5
+    },
+    {
+      "age_bp": 621000,
+      "year_ce": -619050,
+      "era": "paleoclimate",
+      "co2_ppm": 244.28,
+      "ch4_ppb": 608.8,
+      "temp_anomaly": -1.996,
+      "sea_level_m": -29.9,
+      "insolation": 185.86
+    },
+    {
+      "age_bp": 622000,
+      "year_ce": -620050,
+      "era": "paleoclimate",
+      "co2_ppm": 243.05,
+      "ch4_ppb": 638.7,
+      "temp_anomaly": -2.554,
+      "sea_level_m": -38.3,
+      "insolation": 182.36
+    },
+    {
+      "age_bp": 623000,
+      "year_ce": -621050,
+      "era": "paleoclimate",
+      "co2_ppm": 243.28,
+      "ch4_ppb": 630.8,
+      "temp_anomaly": -2.816,
+      "sea_level_m": -42.2,
+      "insolation": 179.26
+    },
+    {
+      "age_bp": 624000,
+      "year_ce": -622050,
+      "era": "paleoclimate",
+      "co2_ppm": 237.91,
+      "ch4_ppb": 572.9,
+      "temp_anomaly": -2.646,
+      "sea_level_m": -39.7,
+      "insolation": 176.79
+    },
+    {
+      "age_bp": 625000,
+      "year_ce": -623050,
+      "era": "paleoclimate",
+      "co2_ppm": 236.24,
+      "ch4_ppb": 529.1,
+      "temp_anomaly": -2.405,
+      "sea_level_m": -36.1,
+      "insolation": 175.11
+    },
+    {
+      "age_bp": 626000,
+      "year_ce": -624050,
+      "era": "paleoclimate",
+      "co2_ppm": 229.97,
+      "ch4_ppb": 474.1,
+      "temp_anomaly": -3.095,
+      "sea_level_m": -46.4,
+      "insolation": 174.22
+    },
+    {
+      "age_bp": 627000,
+      "year_ce": -625050,
+      "era": "paleoclimate",
+      "co2_ppm": 217.63,
+      "ch4_ppb": 388.3,
+      "temp_anomaly": -4.701,
+      "sea_level_m": -70.5,
+      "insolation": 174.2
+    },
+    {
+      "age_bp": 628000,
+      "year_ce": -626050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.0,
+      "ch4_ppb": 371.8,
+      "temp_anomaly": -6.276,
+      "sea_level_m": -94.1,
+      "insolation": 174.93
+    },
+    {
+      "age_bp": 629000,
+      "year_ce": -627050,
+      "era": "paleoclimate",
+      "co2_ppm": 200.64,
+      "ch4_ppb": 357.3,
+      "temp_anomaly": -7.784,
+      "sea_level_m": -116.8,
+      "insolation": 176.26
+    },
+    {
+      "age_bp": 630000,
+      "year_ce": -628050,
+      "era": "paleoclimate",
+      "co2_ppm": 202.98,
+      "ch4_ppb": 362.9,
+      "temp_anomaly": -8.525,
+      "sea_level_m": -127.9,
+      "insolation": 178.08
+    },
+    {
+      "age_bp": 631000,
+      "year_ce": -629050,
+      "era": "paleoclimate",
+      "co2_ppm": 199.73,
+      "ch4_ppb": 370.4,
+      "temp_anomaly": -8.742,
+      "sea_level_m": -131.1,
+      "insolation": 180.17
+    },
+    {
+      "age_bp": 632000,
+      "year_ce": -630050,
+      "era": "paleoclimate",
+      "co2_ppm": 199.5,
+      "ch4_ppb": 374.5,
+      "temp_anomaly": -8.785,
+      "sea_level_m": -131.8,
+      "insolation": 182.33
+    },
+    {
+      "age_bp": 633000,
+      "year_ce": -631050,
+      "era": "paleoclimate",
+      "co2_ppm": 195.31,
+      "ch4_ppb": 368.6,
+      "temp_anomaly": -8.37,
+      "sea_level_m": -125.5,
+      "insolation": 184.42
+    },
+    {
+      "age_bp": 634000,
+      "year_ce": -632050,
+      "era": "paleoclimate",
+      "co2_ppm": 193.29,
+      "ch4_ppb": 362.7,
+      "temp_anomaly": -8.573,
+      "sea_level_m": -128.6,
+      "insolation": 186.27
+    },
+    {
+      "age_bp": 635000,
+      "year_ce": -633050,
+      "era": "paleoclimate",
+      "co2_ppm": 193.63,
+      "ch4_ppb": 364.3,
+      "temp_anomaly": -8.905,
+      "sea_level_m": -133.6,
+      "insolation": 187.75
+    },
+    {
+      "age_bp": 636000,
+      "year_ce": -634050,
+      "era": "paleoclimate",
+      "co2_ppm": 193.59,
+      "ch4_ppb": 368.9,
+      "temp_anomaly": -8.903,
+      "sea_level_m": -133.5,
+      "insolation": 188.87
+    },
+    {
+      "age_bp": 637000,
+      "year_ce": -635050,
+      "era": "paleoclimate",
+      "co2_ppm": 193.05,
+      "ch4_ppb": 373.0,
+      "temp_anomaly": -8.511,
+      "sea_level_m": -127.7,
+      "insolation": 189.55
+    },
+    {
+      "age_bp": 638000,
+      "year_ce": -636050,
+      "era": "paleoclimate",
+      "co2_ppm": 194.16,
+      "ch4_ppb": 373.0,
+      "temp_anomaly": -8.538,
+      "sea_level_m": -128.1,
+      "insolation": 189.86
+    },
+    {
+      "age_bp": 639000,
+      "year_ce": -637050,
+      "era": "paleoclimate",
+      "co2_ppm": 190.95,
+      "ch4_ppb": 373.0,
+      "temp_anomaly": -8.722,
+      "sea_level_m": -130.8,
+      "insolation": 189.84
+    },
+    {
+      "age_bp": 640000,
+      "year_ce": -638050,
+      "era": "paleoclimate",
+      "co2_ppm": 187.93,
+      "ch4_ppb": 372.4,
+      "temp_anomaly": -8.841,
+      "sea_level_m": -132.6,
+      "insolation": 189.58
+    },
+    {
+      "age_bp": 641000,
+      "year_ce": -639050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.26,
+      "ch4_ppb": 371.0,
+      "temp_anomaly": -8.856,
+      "sea_level_m": -132.8,
+      "insolation": 189.1
+    },
+    {
+      "age_bp": 642000,
+      "year_ce": -640050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.93,
+      "ch4_ppb": 369.6,
+      "temp_anomaly": -8.499,
+      "sea_level_m": -127.5,
+      "insolation": 188.53
+    },
+    {
+      "age_bp": 643000,
+      "year_ce": -641050,
+      "era": "paleoclimate",
+      "co2_ppm": 190.35,
+      "ch4_ppb": 381.8,
+      "temp_anomaly": -8.06,
+      "sea_level_m": -120.9,
+      "insolation": 187.84
+    },
+    {
+      "age_bp": 644000,
+      "year_ce": -642050,
+      "era": "paleoclimate",
+      "co2_ppm": 192.42,
+      "ch4_ppb": 413.2,
+      "temp_anomaly": -7.726,
+      "sea_level_m": -115.9,
+      "insolation": 187.07
+    },
+    {
+      "age_bp": 645000,
+      "year_ce": -643050,
+      "era": "paleoclimate",
+      "co2_ppm": 194.31,
+      "ch4_ppb": 429.0,
+      "temp_anomaly": -7.685,
+      "sea_level_m": -115.3,
+      "insolation": 186.26
+    },
+    {
+      "age_bp": 646000,
+      "year_ce": -644050,
+      "era": "paleoclimate",
+      "co2_ppm": 192.06,
+      "ch4_ppb": 429.0,
+      "temp_anomaly": -7.704,
+      "sea_level_m": -115.6,
+      "insolation": 185.35
+    },
+    {
+      "age_bp": 647000,
+      "year_ce": -645050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.21,
+      "ch4_ppb": 428.5,
+      "temp_anomaly": -7.787,
+      "sea_level_m": -116.8,
+      "insolation": 184.33
+    },
+    {
+      "age_bp": 648000,
+      "year_ce": -646050,
+      "era": "paleoclimate",
+      "co2_ppm": 190.99,
+      "ch4_ppb": 427.2,
+      "temp_anomaly": -7.601,
+      "sea_level_m": -114.0,
+      "insolation": 183.25
+    },
+    {
+      "age_bp": 649000,
+      "year_ce": -647050,
+      "era": "paleoclimate",
+      "co2_ppm": 192.32,
+      "ch4_ppb": 425.3,
+      "temp_anomaly": -7.257,
+      "sea_level_m": -108.8,
+      "insolation": 182.07
+    },
+    {
+      "age_bp": 650000,
+      "year_ce": -648050,
+      "era": "paleoclimate",
+      "co2_ppm": 192.62,
+      "ch4_ppb": 418.6,
+      "temp_anomaly": -7.255,
+      "sea_level_m": -108.8,
+      "insolation": 180.85
+    },
+    {
+      "age_bp": 651000,
+      "year_ce": -649050,
+      "era": "paleoclimate",
+      "co2_ppm": 188.49,
+      "ch4_ppb": 413.2,
+      "temp_anomaly": -7.39,
+      "sea_level_m": -110.8,
+      "insolation": 179.67
+    },
+    {
+      "age_bp": 652000,
+      "year_ce": -650050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.79,
+      "ch4_ppb": 410.7,
+      "temp_anomaly": -7.476,
+      "sea_level_m": -112.1,
+      "insolation": 178.61
+    },
+    {
+      "age_bp": 653000,
+      "year_ce": -651050,
+      "era": "paleoclimate",
+      "co2_ppm": 185.65,
+      "ch4_ppb": 406.7,
+      "temp_anomaly": -7.802,
+      "sea_level_m": -117.0,
+      "insolation": 177.74
+    },
+    {
+      "age_bp": 654000,
+      "year_ce": -652050,
+      "era": "paleoclimate",
+      "co2_ppm": 188.53,
+      "ch4_ppb": 400.2,
+      "temp_anomaly": -7.783,
+      "sea_level_m": -116.7,
+      "insolation": 177.21
+    },
+    {
+      "age_bp": 655000,
+      "year_ce": -653050,
+      "era": "paleoclimate",
+      "co2_ppm": 192.67,
+      "ch4_ppb": 402.5,
+      "temp_anomaly": -7.302,
+      "sea_level_m": -109.5,
+      "insolation": 177.08
+    },
+    {
+      "age_bp": 656000,
+      "year_ce": -654050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.03,
+      "ch4_ppb": 413.0,
+      "temp_anomaly": -6.804,
+      "sea_level_m": -102.1,
+      "insolation": 177.45
+    },
+    {
+      "age_bp": 657000,
+      "year_ce": -655050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.86,
+      "ch4_ppb": 386.9,
+      "temp_anomaly": -7.057,
+      "sea_level_m": -105.8,
+      "insolation": 178.36
+    },
+    {
+      "age_bp": 658000,
+      "year_ce": -656050,
+      "era": "paleoclimate",
+      "co2_ppm": 190.69,
+      "ch4_ppb": 346.3,
+      "temp_anomaly": -7.477,
+      "sea_level_m": -112.2,
+      "insolation": 179.8
+    },
+    {
+      "age_bp": 659000,
+      "year_ce": -657050,
+      "era": "paleoclimate",
+      "co2_ppm": 185.79,
+      "ch4_ppb": 355.3,
+      "temp_anomaly": -8.267,
+      "sea_level_m": -124.0,
+      "insolation": 181.71
+    },
+    {
+      "age_bp": 660000,
+      "year_ce": -658050,
+      "era": "paleoclimate",
+      "co2_ppm": 185.31,
+      "ch4_ppb": 374.7,
+      "temp_anomaly": -8.041,
+      "sea_level_m": -120.6,
+      "insolation": 184.04
+    },
+    {
+      "age_bp": 661000,
+      "year_ce": -659050,
+      "era": "paleoclimate",
+      "co2_ppm": 186.78,
+      "ch4_ppb": 401.1,
+      "temp_anomaly": -8.588,
+      "sea_level_m": -128.8,
+      "insolation": 186.57
+    },
+    {
+      "age_bp": 662000,
+      "year_ce": -660050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.11,
+      "ch4_ppb": 390.3,
+      "temp_anomaly": -8.215,
+      "sea_level_m": -123.2,
+      "insolation": 189.15
+    },
+    {
+      "age_bp": 663000,
+      "year_ce": -661050,
+      "era": "paleoclimate",
+      "co2_ppm": 190.8,
+      "ch4_ppb": 393.5,
+      "temp_anomaly": -7.927,
+      "sea_level_m": -118.9,
+      "insolation": 191.54
+    },
+    {
+      "age_bp": 664000,
+      "year_ce": -662050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.08,
+      "ch4_ppb": 413.3,
+      "temp_anomaly": -8.197,
+      "sea_level_m": -122.9,
+      "insolation": 193.52
+    },
+    {
+      "age_bp": 665000,
+      "year_ce": -663050,
+      "era": "paleoclimate",
+      "co2_ppm": 183.33,
+      "ch4_ppb": 397.2,
+      "temp_anomaly": -8.89,
+      "sea_level_m": -133.4,
+      "insolation": 194.85
+    },
+    {
+      "age_bp": 666000,
+      "year_ce": -664050,
+      "era": "paleoclimate",
+      "co2_ppm": 178.4,
+      "ch4_ppb": 379.8,
+      "temp_anomaly": -9.047,
+      "sea_level_m": -135.7,
+      "insolation": 195.41
+    },
+    {
+      "age_bp": 667000,
+      "year_ce": -665050,
+      "era": "paleoclimate",
+      "co2_ppm": 172.77,
+      "ch4_ppb": 373.7,
+      "temp_anomaly": -9.003,
+      "sea_level_m": -135.0,
+      "insolation": 195.03
+    },
+    {
+      "age_bp": 668000,
+      "year_ce": -666050,
+      "era": "paleoclimate",
+      "co2_ppm": 173.56,
+      "ch4_ppb": 376.1,
+      "temp_anomaly": -8.916,
+      "sea_level_m": -133.7,
+      "insolation": 193.74
+    },
+    {
+      "age_bp": 669000,
+      "year_ce": -667050,
+      "era": "paleoclimate",
+      "co2_ppm": 179.07,
+      "ch4_ppb": 391.5,
+      "temp_anomaly": -8.406,
+      "sea_level_m": -126.1,
+      "insolation": 191.6
+    },
+    {
+      "age_bp": 670000,
+      "year_ce": -668050,
+      "era": "paleoclimate",
+      "co2_ppm": 187.84,
+      "ch4_ppb": 422.8,
+      "temp_anomaly": -7.249,
+      "sea_level_m": -108.7,
+      "insolation": 188.73
+    },
+    {
+      "age_bp": 671000,
+      "year_ce": -669050,
+      "era": "paleoclimate",
+      "co2_ppm": 193.05,
+      "ch4_ppb": 483.0,
+      "temp_anomaly": -7.562,
+      "sea_level_m": -113.4,
+      "insolation": 185.39
+    },
+    {
+      "age_bp": 672000,
+      "year_ce": -670050,
+      "era": "paleoclimate",
+      "co2_ppm": 192.87,
+      "ch4_ppb": 463.7,
+      "temp_anomaly": -8.205,
+      "sea_level_m": -123.1,
+      "insolation": 181.89
+    },
+    {
+      "age_bp": 673000,
+      "year_ce": -671050,
+      "era": "paleoclimate",
+      "co2_ppm": 198.18,
+      "ch4_ppb": 524.0,
+      "temp_anomaly": -7.943,
+      "sea_level_m": -119.2,
+      "insolation": 178.48
+    },
+    {
+      "age_bp": 674000,
+      "year_ce": -672050,
+      "era": "paleoclimate",
+      "co2_ppm": 207.49,
+      "ch4_ppb": 553.6,
+      "temp_anomaly": -7.547,
+      "sea_level_m": -113.2,
+      "insolation": 175.5
+    },
+    {
+      "age_bp": 675000,
+      "year_ce": -673050,
+      "era": "paleoclimate",
+      "co2_ppm": 216.53,
+      "ch4_ppb": 555.6,
+      "temp_anomaly": -6.802,
+      "sea_level_m": -102.0,
+      "insolation": 173.22
+    },
+    {
+      "age_bp": 676000,
+      "year_ce": -674050,
+      "era": "paleoclimate",
+      "co2_ppm": 218.16,
+      "ch4_ppb": 539.8,
+      "temp_anomaly": -5.925,
+      "sea_level_m": -88.9,
+      "insolation": 171.83
+    },
+    {
+      "age_bp": 677000,
+      "year_ce": -675050,
+      "era": "paleoclimate",
+      "co2_ppm": 215.4,
+      "ch4_ppb": 465.8,
+      "temp_anomaly": -6.887,
+      "sea_level_m": -103.3,
+      "insolation": 171.51
+    },
+    {
+      "age_bp": 678000,
+      "year_ce": -676050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.68,
+      "ch4_ppb": 492.7,
+      "temp_anomaly": -6.347,
+      "sea_level_m": -95.2,
+      "insolation": 172.29
+    },
+    {
+      "age_bp": 679000,
+      "year_ce": -677050,
+      "era": "paleoclimate",
+      "co2_ppm": 230.67,
+      "ch4_ppb": 497.8,
+      "temp_anomaly": -4.886,
+      "sea_level_m": -73.3,
+      "insolation": 174.13
+    },
+    {
+      "age_bp": 680000,
+      "year_ce": -678050,
+      "era": "paleoclimate",
+      "co2_ppm": 224.54,
+      "ch4_ppb": 450.1,
+      "temp_anomaly": -6.305,
+      "sea_level_m": -94.6,
+      "insolation": 176.94
+    },
+    {
+      "age_bp": 681000,
+      "year_ce": -679050,
+      "era": "paleoclimate",
+      "co2_ppm": 216.34,
+      "ch4_ppb": 487.8,
+      "temp_anomaly": -7.329,
+      "sea_level_m": -109.9,
+      "insolation": 180.48
+    },
+    {
+      "age_bp": 682000,
+      "year_ce": -680050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.43,
+      "ch4_ppb": 493.0,
+      "temp_anomaly": -5.963,
+      "sea_level_m": -89.4,
+      "insolation": 184.46
+    },
+    {
+      "age_bp": 683000,
+      "year_ce": -681050,
+      "era": "paleoclimate",
+      "co2_ppm": 220.06,
+      "ch4_ppb": 517.9,
+      "temp_anomaly": -5.227,
+      "sea_level_m": -78.4,
+      "insolation": 188.56
+    },
+    {
+      "age_bp": 684000,
+      "year_ce": -682050,
+      "era": "paleoclimate",
+      "co2_ppm": 217.5,
+      "ch4_ppb": 498.9,
+      "temp_anomaly": -5.342,
+      "sea_level_m": -80.1,
+      "insolation": 192.39
+    },
+    {
+      "age_bp": 685000,
+      "year_ce": -683050,
+      "era": "paleoclimate",
+      "co2_ppm": 219.54,
+      "ch4_ppb": 518.0,
+      "temp_anomaly": -4.689,
+      "sea_level_m": -70.3,
+      "insolation": 195.62
+    },
+    {
+      "age_bp": 686000,
+      "year_ce": -684050,
+      "era": "paleoclimate",
+      "co2_ppm": 224.4,
+      "ch4_ppb": 515.1,
+      "temp_anomaly": -4.519,
+      "sea_level_m": -67.8,
+      "insolation": 197.91
+    },
+    {
+      "age_bp": 687000,
+      "year_ce": -685050,
+      "era": "paleoclimate",
+      "co2_ppm": 228.07,
+      "ch4_ppb": 529.4,
+      "temp_anomaly": -3.948,
+      "sea_level_m": -59.2,
+      "insolation": 199.08
+    },
+    {
+      "age_bp": 688000,
+      "year_ce": -686050,
+      "era": "paleoclimate",
+      "co2_ppm": 233.31,
+      "ch4_ppb": 528.1,
+      "temp_anomaly": -3.452,
+      "sea_level_m": -51.8,
+      "insolation": 198.94
+    },
+    {
+      "age_bp": 689000,
+      "year_ce": -687050,
+      "era": "paleoclimate",
+      "co2_ppm": 235.15,
+      "ch4_ppb": 547.1,
+      "temp_anomaly": -3.622,
+      "sea_level_m": -54.3,
+      "insolation": 197.59
+    },
+    {
+      "age_bp": 690000,
+      "year_ce": -688050,
+      "era": "paleoclimate",
+      "co2_ppm": 236.14,
+      "ch4_ppb": 554.7,
+      "temp_anomaly": -3.099,
+      "sea_level_m": -46.5,
+      "insolation": 195.08
+    },
+    {
+      "age_bp": 691000,
+      "year_ce": -689050,
+      "era": "paleoclimate",
+      "co2_ppm": 234.0,
+      "ch4_ppb": 571.2,
+      "temp_anomaly": -2.562,
+      "sea_level_m": -38.4,
+      "insolation": 191.7
+    },
+    {
+      "age_bp": 692000,
+      "year_ce": -690050,
+      "era": "paleoclimate",
+      "co2_ppm": 235.66,
+      "ch4_ppb": 569.8,
+      "temp_anomaly": -2.63,
+      "sea_level_m": -39.5,
+      "insolation": 187.74
+    },
+    {
+      "age_bp": 693000,
+      "year_ce": -691050,
+      "era": "paleoclimate",
+      "co2_ppm": 234.78,
+      "ch4_ppb": 600.7,
+      "temp_anomaly": -1.861,
+      "sea_level_m": -27.9,
+      "insolation": 183.57
+    },
+    {
+      "age_bp": 694000,
+      "year_ce": -692050,
+      "era": "paleoclimate",
+      "co2_ppm": 235.19,
+      "ch4_ppb": 614.8,
+      "temp_anomaly": -1.837,
+      "sea_level_m": -27.6,
+      "insolation": 179.53
+    },
+    {
+      "age_bp": 695000,
+      "year_ce": -693050,
+      "era": "paleoclimate",
+      "co2_ppm": 236.87,
+      "ch4_ppb": 639.1,
+      "temp_anomaly": -1.954,
+      "sea_level_m": -29.3,
+      "insolation": 175.99
+    },
+    {
+      "age_bp": 696000,
+      "year_ce": -694050,
+      "era": "paleoclimate",
+      "co2_ppm": 235.02,
+      "ch4_ppb": 646.7,
+      "temp_anomaly": -1.784,
+      "sea_level_m": -26.8,
+      "insolation": 173.19
+    },
+    {
+      "age_bp": 697000,
+      "year_ce": -695050,
+      "era": "paleoclimate",
+      "co2_ppm": 232.85,
+      "ch4_ppb": 621.6,
+      "temp_anomaly": -1.856,
+      "sea_level_m": -27.8,
+      "insolation": 171.37
+    },
+    {
+      "age_bp": 698000,
+      "year_ce": -696050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.31,
+      "ch4_ppb": 604.9,
+      "temp_anomaly": -1.876,
+      "sea_level_m": -28.1,
+      "insolation": 170.65
+    },
+    {
+      "age_bp": 699000,
+      "year_ce": -697050,
+      "era": "paleoclimate",
+      "co2_ppm": 227.1,
+      "ch4_ppb": 601.5,
+      "temp_anomaly": -2.282,
+      "sea_level_m": -34.2,
+      "insolation": 171.09
+    },
+    {
+      "age_bp": 700000,
+      "year_ce": -698050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.51,
+      "ch4_ppb": 570.1,
+      "temp_anomaly": -2.731,
+      "sea_level_m": -41.0,
+      "insolation": 172.62
+    },
+    {
+      "age_bp": 701000,
+      "year_ce": -699050,
+      "era": "paleoclimate",
+      "co2_ppm": 227.91,
+      "ch4_ppb": 588.6,
+      "temp_anomaly": -2.228,
+      "sea_level_m": -33.4,
+      "insolation": 175.13
+    },
+    {
+      "age_bp": 702000,
+      "year_ce": -700050,
+      "era": "paleoclimate",
+      "co2_ppm": 229.16,
+      "ch4_ppb": 582.7,
+      "temp_anomaly": -2.067,
+      "sea_level_m": -31.0,
+      "insolation": 178.42
+    },
+    {
+      "age_bp": 703000,
+      "year_ce": -701050,
+      "era": "paleoclimate",
+      "co2_ppm": 232.41,
+      "ch4_ppb": 600.4,
+      "temp_anomaly": -2.398,
+      "sea_level_m": -36.0,
+      "insolation": 182.2
+    },
+    {
+      "age_bp": 704000,
+      "year_ce": -702050,
+      "era": "paleoclimate",
+      "co2_ppm": 231.2,
+      "ch4_ppb": 591.1,
+      "temp_anomaly": -2.808,
+      "sea_level_m": -42.1,
+      "insolation": 186.16
+    },
+    {
+      "age_bp": 705000,
+      "year_ce": -703050,
+      "era": "paleoclimate",
+      "co2_ppm": 233.57,
+      "ch4_ppb": 597.0,
+      "temp_anomaly": -3.21,
+      "sea_level_m": -48.1,
+      "insolation": 189.99
+    },
+    {
+      "age_bp": 706000,
+      "year_ce": -704050,
+      "era": "paleoclimate",
+      "co2_ppm": 228.58,
+      "ch4_ppb": 610.0,
+      "temp_anomaly": -3.593,
+      "sea_level_m": -53.9,
+      "insolation": 193.29
+    },
+    {
+      "age_bp": 707000,
+      "year_ce": -705050,
+      "era": "paleoclimate",
+      "co2_ppm": 226.58,
+      "ch4_ppb": 537.5,
+      "temp_anomaly": -3.688,
+      "sea_level_m": -55.3,
+      "insolation": 195.83
+    },
+    {
+      "age_bp": 708000,
+      "year_ce": -706050,
+      "era": "paleoclimate",
+      "co2_ppm": 224.01,
+      "ch4_ppb": 508.6,
+      "temp_anomaly": -3.546,
+      "sea_level_m": -53.2,
+      "insolation": 197.33
+    },
+    {
+      "age_bp": 709000,
+      "year_ce": -707050,
+      "era": "paleoclimate",
+      "co2_ppm": 221.45,
+      "ch4_ppb": 537.9,
+      "temp_anomaly": -4.01,
+      "sea_level_m": -60.2,
+      "insolation": 197.69
+    },
+    {
+      "age_bp": 710000,
+      "year_ce": -708050,
+      "era": "paleoclimate",
+      "co2_ppm": 219.99,
+      "ch4_ppb": 560.4,
+      "temp_anomaly": -4.005,
+      "sea_level_m": -60.1,
+      "insolation": 196.85
+    },
+    {
+      "age_bp": 711000,
+      "year_ce": -709050,
+      "era": "paleoclimate",
+      "co2_ppm": 219.06,
+      "ch4_ppb": 589.6,
+      "temp_anomaly": -4.015,
+      "sea_level_m": -60.2,
+      "insolation": 194.97
+    },
+    {
+      "age_bp": 712000,
+      "year_ce": -710050,
+      "era": "paleoclimate",
+      "co2_ppm": 218.62,
+      "ch4_ppb": 581.1,
+      "temp_anomaly": -4.171,
+      "sea_level_m": -62.6,
+      "insolation": 192.17
+    },
+    {
+      "age_bp": 713000,
+      "year_ce": -711050,
+      "era": "paleoclimate",
+      "co2_ppm": 219.13,
+      "ch4_ppb": 596.9,
+      "temp_anomaly": -4.14,
+      "sea_level_m": -62.1,
+      "insolation": 188.8
+    },
+    {
+      "age_bp": 714000,
+      "year_ce": -712050,
+      "era": "paleoclimate",
+      "co2_ppm": 222.09,
+      "ch4_ppb": 583.7,
+      "temp_anomaly": -4.004,
+      "sea_level_m": -60.1,
+      "insolation": 185.14
+    },
+    {
+      "age_bp": 715000,
+      "year_ce": -713050,
+      "era": "paleoclimate",
+      "co2_ppm": 218.51,
+      "ch4_ppb": 570.9,
+      "temp_anomaly": -4.508,
+      "sea_level_m": -67.6,
+      "insolation": 181.56
+    },
+    {
+      "age_bp": 716000,
+      "year_ce": -714050,
+      "era": "paleoclimate",
+      "co2_ppm": 218.43,
+      "ch4_ppb": 489.7,
+      "temp_anomaly": -5.246,
+      "sea_level_m": -78.7,
+      "insolation": 178.39
+    },
+    {
+      "age_bp": 717000,
+      "year_ce": -715050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.56,
+      "ch4_ppb": 408.6,
+      "temp_anomaly": -5.707,
+      "sea_level_m": -85.6,
+      "insolation": 175.89
+    },
+    {
+      "age_bp": 718000,
+      "year_ce": -716050,
+      "era": "paleoclimate",
+      "co2_ppm": 193.68,
+      "ch4_ppb": 402.4,
+      "temp_anomaly": -6.35,
+      "sea_level_m": -95.2,
+      "insolation": 174.27
+    },
+    {
+      "age_bp": 719000,
+      "year_ce": -717050,
+      "era": "paleoclimate",
+      "co2_ppm": 185.06,
+      "ch4_ppb": 397.8,
+      "temp_anomaly": -6.834,
+      "sea_level_m": -102.5,
+      "insolation": 173.66
+    },
+    {
+      "age_bp": 720000,
+      "year_ce": -718050,
+      "era": "paleoclimate",
+      "co2_ppm": 190.61,
+      "ch4_ppb": 405.2,
+      "temp_anomaly": -7.13,
+      "sea_level_m": -106.9,
+      "insolation": 174.07
+    },
+    {
+      "age_bp": 721000,
+      "year_ce": -719050,
+      "era": "paleoclimate",
+      "co2_ppm": 202.7,
+      "ch4_ppb": 459.0,
+      "temp_anomaly": -8.134,
+      "sea_level_m": -122.0,
+      "insolation": 175.41
+    },
+    {
+      "age_bp": 722000,
+      "year_ce": -720050,
+      "era": "paleoclimate",
+      "co2_ppm": 212.62,
+      "ch4_ppb": 518.8,
+      "temp_anomaly": -8.59,
+      "sea_level_m": -128.8,
+      "insolation": 177.55
+    },
+    {
+      "age_bp": 723000,
+      "year_ce": -721050,
+      "era": "paleoclimate",
+      "co2_ppm": 213.14,
+      "ch4_ppb": 565.8,
+      "temp_anomaly": -7.737,
+      "sea_level_m": -116.1,
+      "insolation": 180.22
+    },
+    {
+      "age_bp": 724000,
+      "year_ce": -722050,
+      "era": "paleoclimate",
+      "co2_ppm": 211.62,
+      "ch4_ppb": 569.6,
+      "temp_anomaly": -6.179,
+      "sea_level_m": -92.7,
+      "insolation": 183.18
+    },
+    {
+      "age_bp": 725000,
+      "year_ce": -723050,
+      "era": "paleoclimate",
+      "co2_ppm": 206.68,
+      "ch4_ppb": 485.0,
+      "temp_anomaly": -5.178,
+      "sea_level_m": -77.7,
+      "insolation": 186.06
+    },
+    {
+      "age_bp": 726000,
+      "year_ce": -724050,
+      "era": "paleoclimate",
+      "co2_ppm": 206.85,
+      "ch4_ppb": 549.1,
+      "temp_anomaly": -5.348,
+      "sea_level_m": -80.2,
+      "insolation": 188.63
+    },
+    {
+      "age_bp": 727000,
+      "year_ce": -725050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.29,
+      "ch4_ppb": 531.3,
+      "temp_anomaly": -6.004,
+      "sea_level_m": -90.1,
+      "insolation": 190.59
+    },
+    {
+      "age_bp": 728000,
+      "year_ce": -726050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.37,
+      "ch4_ppb": 542.0,
+      "temp_anomaly": -6.034,
+      "sea_level_m": -90.5,
+      "insolation": 191.79
+    },
+    {
+      "age_bp": 729000,
+      "year_ce": -727050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.32,
+      "ch4_ppb": 533.0,
+      "temp_anomaly": -5.763,
+      "sea_level_m": -86.4,
+      "insolation": 192.15
+    },
+    {
+      "age_bp": 730000,
+      "year_ce": -728050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.3,
+      "ch4_ppb": 548.0,
+      "temp_anomaly": -5.338,
+      "sea_level_m": -80.1,
+      "insolation": 191.68
+    },
+    {
+      "age_bp": 731000,
+      "year_ce": -729050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.21,
+      "ch4_ppb": 538.2,
+      "temp_anomaly": -5.253,
+      "sea_level_m": -78.8,
+      "insolation": 190.48
+    },
+    {
+      "age_bp": 732000,
+      "year_ce": -730050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.99,
+      "ch4_ppb": 531.8,
+      "temp_anomaly": -4.796,
+      "sea_level_m": -71.9,
+      "insolation": 188.76
+    },
+    {
+      "age_bp": 733000,
+      "year_ce": -731050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.63,
+      "ch4_ppb": 524.1,
+      "temp_anomaly": -3.945,
+      "sea_level_m": -59.2,
+      "insolation": 186.72
+    },
+    {
+      "age_bp": 734000,
+      "year_ce": -732050,
+      "era": "paleoclimate",
+      "co2_ppm": 205.0,
+      "ch4_ppb": 522.9,
+      "temp_anomaly": -3.938,
+      "sea_level_m": -59.1,
+      "insolation": 184.62
+    },
+    {
+      "age_bp": 735000,
+      "year_ce": -733050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.39,
+      "ch4_ppb": 528.8,
+      "temp_anomaly": -4.099,
+      "sea_level_m": -61.5,
+      "insolation": 182.69
+    },
+    {
+      "age_bp": 736000,
+      "year_ce": -734050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.74,
+      "ch4_ppb": 538.5,
+      "temp_anomaly": -3.81,
+      "sea_level_m": -57.1,
+      "insolation": 181.11
+    },
+    {
+      "age_bp": 737000,
+      "year_ce": -735050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.19,
+      "ch4_ppb": 557.0,
+      "temp_anomaly": -4.486,
+      "sea_level_m": -67.3,
+      "insolation": 180.03
+    },
+    {
+      "age_bp": 738000,
+      "year_ce": -736050,
+      "era": "paleoclimate",
+      "co2_ppm": 209.41,
+      "ch4_ppb": 458.9,
+      "temp_anomaly": -5.004,
+      "sea_level_m": -75.1,
+      "insolation": 179.53
+    },
+    {
+      "age_bp": 739000,
+      "year_ce": -737050,
+      "era": "paleoclimate",
+      "co2_ppm": 198.97,
+      "ch4_ppb": 407.4,
+      "temp_anomaly": -5.893,
+      "sea_level_m": -88.4,
+      "insolation": 179.6
+    },
+    {
+      "age_bp": 740000,
+      "year_ce": -738050,
+      "era": "paleoclimate",
+      "co2_ppm": 197.08,
+      "ch4_ppb": 406.8,
+      "temp_anomaly": -7.556,
+      "sea_level_m": -113.3,
+      "insolation": 180.19
+    },
+    {
+      "age_bp": 741000,
+      "year_ce": -739050,
+      "era": "paleoclimate",
+      "co2_ppm": 178.61,
+      "ch4_ppb": 407.8,
+      "temp_anomaly": -8.242,
+      "sea_level_m": -123.6,
+      "insolation": 181.19
+    },
+    {
+      "age_bp": 742000,
+      "year_ce": -740050,
+      "era": "paleoclimate",
+      "co2_ppm": 177.77,
+      "ch4_ppb": 406.7,
+      "temp_anomaly": -8.44,
+      "sea_level_m": -126.6,
+      "insolation": 182.44
+    },
+    {
+      "age_bp": 743000,
+      "year_ce": -741050,
+      "era": "paleoclimate",
+      "co2_ppm": 181.91,
+      "ch4_ppb": 416.1,
+      "temp_anomaly": -8.766,
+      "sea_level_m": -131.5,
+      "insolation": 183.75
+    },
+    {
+      "age_bp": 744000,
+      "year_ce": -742050,
+      "era": "paleoclimate",
+      "co2_ppm": 180.83,
+      "ch4_ppb": 430.8,
+      "temp_anomaly": -8.822,
+      "sea_level_m": -132.3,
+      "insolation": 184.98
+    },
+    {
+      "age_bp": 745000,
+      "year_ce": -743050,
+      "era": "paleoclimate",
+      "co2_ppm": 181.72,
+      "ch4_ppb": 424.6,
+      "temp_anomaly": -8.481,
+      "sea_level_m": -127.2,
+      "insolation": 185.9
+    },
+    {
+      "age_bp": 746000,
+      "year_ce": -744050,
+      "era": "paleoclimate",
+      "co2_ppm": 180.79,
+      "ch4_ppb": 415.2,
+      "temp_anomaly": -8.56,
+      "sea_level_m": -128.4,
+      "insolation": 186.48
+    },
+    {
+      "age_bp": 747000,
+      "year_ce": -745050,
+      "era": "paleoclimate",
+      "co2_ppm": 181.34,
+      "ch4_ppb": 404.9,
+      "temp_anomaly": -8.621,
+      "sea_level_m": -129.3,
+      "insolation": 186.59
+    },
+    {
+      "age_bp": 748000,
+      "year_ce": -746050,
+      "era": "paleoclimate",
+      "co2_ppm": 180.52,
+      "ch4_ppb": 397.9,
+      "temp_anomaly": -8.68,
+      "sea_level_m": -130.2,
+      "insolation": 186.24
+    },
+    {
+      "age_bp": 749000,
+      "year_ce": -747050,
+      "era": "paleoclimate",
+      "co2_ppm": 184.09,
+      "ch4_ppb": 400.0,
+      "temp_anomaly": -8.498,
+      "sea_level_m": -127.5,
+      "insolation": 185.51
+    },
+    {
+      "age_bp": 750000,
+      "year_ce": -748050,
+      "era": "paleoclimate",
+      "co2_ppm": 184.34,
+      "ch4_ppb": 398.6,
+      "temp_anomaly": -8.396,
+      "sea_level_m": -125.9,
+      "insolation": 184.5
+    },
+    {
+      "age_bp": 751000,
+      "year_ce": -749050,
+      "era": "paleoclimate",
+      "co2_ppm": 185.4,
+      "ch4_ppb": 420.2,
+      "temp_anomaly": -8.582,
+      "sea_level_m": -128.7,
+      "insolation": 183.36
+    },
+    {
+      "age_bp": 752000,
+      "year_ce": -750050,
+      "era": "paleoclimate",
+      "co2_ppm": 189.64,
+      "ch4_ppb": 410.0,
+      "temp_anomaly": -8.419,
+      "sea_level_m": -126.3,
+      "insolation": 182.27
+    },
+    {
+      "age_bp": 753000,
+      "year_ce": -751050,
+      "era": "paleoclimate",
+      "co2_ppm": 196.39,
+      "ch4_ppb": 424.8,
+      "temp_anomaly": -8.271,
+      "sea_level_m": -124.1,
+      "insolation": 181.4
+    },
+    {
+      "age_bp": 754000,
+      "year_ce": -752050,
+      "era": "paleoclimate",
+      "co2_ppm": 192.16,
+      "ch4_ppb": 410.3,
+      "temp_anomaly": -7.882,
+      "sea_level_m": -118.2,
+      "insolation": 180.86
+    },
+    {
+      "age_bp": 755000,
+      "year_ce": -753050,
+      "era": "paleoclimate",
+      "co2_ppm": 199.16,
+      "ch4_ppb": 424.9,
+      "temp_anomaly": -7.478,
+      "sea_level_m": -112.2,
+      "insolation": 180.79
+    },
+    {
+      "age_bp": 756000,
+      "year_ce": -754050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.3,
+      "ch4_ppb": 430.8,
+      "temp_anomaly": -6.349,
+      "sea_level_m": -95.2,
+      "insolation": 181.22
+    },
+    {
+      "age_bp": 757000,
+      "year_ce": -755050,
+      "era": "paleoclimate",
+      "co2_ppm": 211.5,
+      "ch4_ppb": 473.2,
+      "temp_anomaly": -5.246,
+      "sea_level_m": -78.7,
+      "insolation": 182.09
+    },
+    {
+      "age_bp": 758000,
+      "year_ce": -756050,
+      "era": "paleoclimate",
+      "co2_ppm": 218.7,
+      "ch4_ppb": 498.0,
+      "temp_anomaly": -5.524,
+      "sea_level_m": -82.9,
+      "insolation": 183.36
+    },
+    {
+      "age_bp": 759000,
+      "year_ce": -757050,
+      "era": "paleoclimate",
+      "co2_ppm": 216.84,
+      "ch4_ppb": 427.2,
+      "temp_anomaly": -6.237,
+      "sea_level_m": -93.5,
+      "insolation": 184.87
+    },
+    {
+      "age_bp": 760000,
+      "year_ce": -758050,
+      "era": "paleoclimate",
+      "co2_ppm": 210.18,
+      "ch4_ppb": 461.5,
+      "temp_anomaly": -7.162,
+      "sea_level_m": -107.4,
+      "insolation": 186.43
+    },
+    {
+      "age_bp": 761000,
+      "year_ce": -759050,
+      "era": "paleoclimate",
+      "co2_ppm": 206.48,
+      "ch4_ppb": 461.4,
+      "temp_anomaly": -7.328,
+      "sea_level_m": -109.9,
+      "insolation": 187.85
+    },
+    {
+      "age_bp": 762000,
+      "year_ce": -760050,
+      "era": "paleoclimate",
+      "co2_ppm": 212.2,
+      "ch4_ppb": 473.9,
+      "temp_anomaly": -6.303,
+      "sea_level_m": -94.6,
+      "insolation": 188.94
+    },
+    {
+      "age_bp": 763000,
+      "year_ce": -761050,
+      "era": "paleoclimate",
+      "co2_ppm": 218.38,
+      "ch4_ppb": 525.6,
+      "temp_anomaly": -5.234,
+      "sea_level_m": -78.5,
+      "insolation": 189.49
+    },
+    {
+      "age_bp": 764000,
+      "year_ce": -762050,
+      "era": "paleoclimate",
+      "co2_ppm": 221.97,
+      "ch4_ppb": 552.1,
+      "temp_anomaly": -4.735,
+      "sea_level_m": -71.0,
+      "insolation": 189.47
+    },
+    {
+      "age_bp": 765000,
+      "year_ce": -763050,
+      "era": "paleoclimate",
+      "co2_ppm": 221.53,
+      "ch4_ppb": 530.8,
+      "temp_anomaly": -5.091,
+      "sea_level_m": -76.4,
+      "insolation": 188.79
+    },
+    {
+      "age_bp": 766000,
+      "year_ce": -764050,
+      "era": "paleoclimate",
+      "co2_ppm": 215.93,
+      "ch4_ppb": 463.6,
+      "temp_anomaly": -5.962,
+      "sea_level_m": -89.4,
+      "insolation": 187.52
+    },
+    {
+      "age_bp": 767000,
+      "year_ce": -765050,
+      "era": "paleoclimate",
+      "co2_ppm": 213.71,
+      "ch4_ppb": 514.5,
+      "temp_anomaly": -6.329,
+      "sea_level_m": -94.9,
+      "insolation": 185.8
+    },
+    {
+      "age_bp": 768000,
+      "year_ce": -766050,
+      "era": "paleoclimate",
+      "co2_ppm": 219.05,
+      "ch4_ppb": 515.0,
+      "temp_anomaly": -5.6,
+      "sea_level_m": -84.0,
+      "insolation": 183.8
+    },
+    {
+      "age_bp": 769000,
+      "year_ce": -767050,
+      "era": "paleoclimate",
+      "co2_ppm": 224.17,
+      "ch4_ppb": 569.0,
+      "temp_anomaly": -4.614,
+      "sea_level_m": -69.2,
+      "insolation": 181.71
+    },
+    {
+      "age_bp": 770000,
+      "year_ce": -768050,
+      "era": "paleoclimate",
+      "co2_ppm": 229.39,
+      "ch4_ppb": 620.6,
+      "temp_anomaly": -3.831,
+      "sea_level_m": -57.5,
+      "insolation": 179.84
+    },
+    {
+      "age_bp": 771000,
+      "year_ce": -769050,
+      "era": "paleoclimate",
+      "co2_ppm": 235.65,
+      "ch4_ppb": 645.0,
+      "temp_anomaly": -3.883,
+      "sea_level_m": -58.2,
+      "insolation": 178.34
+    },
+    {
+      "age_bp": 772000,
+      "year_ce": -770050,
+      "era": "paleoclimate",
+      "co2_ppm": 229.28,
+      "ch4_ppb": 539.3,
+      "temp_anomaly": -4.349,
+      "sea_level_m": -65.2,
+      "insolation": 177.39
+    },
+    {
+      "age_bp": 773000,
+      "year_ce": -771050,
+      "era": "paleoclimate",
+      "co2_ppm": 230.04,
+      "ch4_ppb": 566.0,
+      "temp_anomaly": -4.266,
+      "sea_level_m": -64.0,
+      "insolation": 177.15
+    },
+    {
+      "age_bp": 774000,
+      "year_ce": -772050,
+      "era": "paleoclimate",
+      "co2_ppm": 234.63,
+      "ch4_ppb": 563.0,
+      "temp_anomaly": -3.8,
+      "sea_level_m": -57.0,
+      "insolation": 177.61
+    },
+    {
+      "age_bp": 775000,
+      "year_ce": -773050,
+      "era": "paleoclimate",
+      "co2_ppm": 240.4,
+      "ch4_ppb": 579.0,
+      "temp_anomaly": -3.265,
+      "sea_level_m": -49.0,
+      "insolation": 178.74
+    },
+    {
+      "age_bp": 776000,
+      "year_ce": -774050,
+      "era": "paleoclimate",
+      "co2_ppm": 238.86,
+      "ch4_ppb": 617.8,
+      "temp_anomaly": -2.75,
+      "sea_level_m": -41.2,
+      "insolation": 180.48
+    },
+    {
+      "age_bp": 777000,
+      "year_ce": -775050,
+      "era": "paleoclimate",
+      "co2_ppm": 244.85,
+      "ch4_ppb": 630.7,
+      "temp_anomaly": -2.694,
+      "sea_level_m": -40.4,
+      "insolation": 182.61
+    },
+    {
+      "age_bp": 778000,
+      "year_ce": -776050,
+      "era": "paleoclimate",
+      "co2_ppm": 246.07,
+      "ch4_ppb": 679.8,
+      "temp_anomaly": -2.44,
+      "sea_level_m": -36.6,
+      "insolation": 184.93
+    },
+    {
+      "age_bp": 779000,
+      "year_ce": -777050,
+      "era": "paleoclimate",
+      "co2_ppm": 244.35,
+      "ch4_ppb": 606.7,
+      "temp_anomaly": -2.162,
+      "sea_level_m": -32.4,
+      "insolation": 187.24
+    },
+    {
+      "age_bp": 780000,
+      "year_ce": -778050,
+      "era": "paleoclimate",
+      "co2_ppm": 247.14,
+      "ch4_ppb": 613.9,
+      "temp_anomaly": -2.157,
+      "sea_level_m": -32.4,
+      "insolation": 189.24
+    },
+    {
+      "age_bp": 781000,
+      "year_ce": -779050,
+      "era": "paleoclimate",
+      "co2_ppm": 245.28,
+      "ch4_ppb": 630.9,
+      "temp_anomaly": -2.351,
+      "sea_level_m": -35.3,
+      "insolation": 190.75
+    },
+    {
+      "age_bp": 782000,
+      "year_ce": -780050,
+      "era": "paleoclimate",
+      "co2_ppm": 247.22,
+      "ch4_ppb": 623.8,
+      "temp_anomaly": -1.96,
+      "sea_level_m": -29.4,
+      "insolation": 191.63
+    },
+    {
+      "age_bp": 783000,
+      "year_ce": -781050,
+      "era": "paleoclimate",
+      "co2_ppm": 251.84,
+      "ch4_ppb": 633.6,
+      "temp_anomaly": -1.967,
+      "sea_level_m": -29.5,
+      "insolation": 191.74
+    },
+    {
+      "age_bp": 784000,
+      "year_ce": -782050,
+      "era": "paleoclimate",
+      "co2_ppm": 247.76,
+      "ch4_ppb": 647.4,
+      "temp_anomaly": -1.707,
+      "sea_level_m": -25.6,
+      "insolation": 191.12
+    },
+    {
+      "age_bp": 785000,
+      "year_ce": -783050,
+      "era": "paleoclimate",
+      "co2_ppm": 251.81,
+      "ch4_ppb": 661.7,
+      "temp_anomaly": -1.123,
+      "sea_level_m": -16.9,
+      "insolation": 189.83
+    },
+    {
+      "age_bp": 786000,
+      "year_ce": -784050,
+      "era": "paleoclimate",
+      "co2_ppm": 256.7,
+      "ch4_ppb": 680.5,
+      "temp_anomaly": -1.042,
+      "sea_level_m": -15.6,
+      "insolation": 188.0
+    },
+    {
+      "age_bp": 787000,
+      "year_ce": -785050,
+      "era": "paleoclimate",
+      "co2_ppm": 256.81,
+      "ch4_ppb": 708.4,
+      "temp_anomaly": -0.585,
+      "sea_level_m": -8.8,
+      "insolation": 185.82
+    },
+    {
+      "age_bp": 788000,
+      "year_ce": -786050,
+      "era": "paleoclimate",
+      "co2_ppm": 247.25,
+      "ch4_ppb": 608.1,
+      "temp_anomaly": -1.878,
+      "sea_level_m": -28.2,
+      "insolation": 183.56
+    },
+    {
+      "age_bp": 789000,
+      "year_ce": -787050,
+      "era": "paleoclimate",
+      "co2_ppm": 234.13,
+      "ch4_ppb": 554.1,
+      "temp_anomaly": -2.583,
+      "sea_level_m": -38.7,
+      "insolation": 181.37
+    },
+    {
+      "age_bp": 790000,
+      "year_ce": -788050,
+      "era": "paleoclimate",
+      "co2_ppm": 219.81,
+      "ch4_ppb": 540.1,
+      "temp_anomaly": -3.434,
+      "sea_level_m": -51.5,
+      "insolation": 179.53
+    },
+    {
+      "age_bp": 791000,
+      "year_ce": -789050,
+      "era": "paleoclimate",
+      "co2_ppm": 218.44,
+      "ch4_ppb": 492.0,
+      "temp_anomaly": -4.342,
+      "sea_level_m": -65.1,
+      "insolation": 178.2
+    },
+    {
+      "age_bp": 792000,
+      "year_ce": -790050,
+      "era": "paleoclimate",
+      "co2_ppm": 208.25,
+      "ch4_ppb": 466.0,
+      "temp_anomaly": -5.35,
+      "sea_level_m": -80.3,
+      "insolation": 177.46
+    },
+    {
+      "age_bp": 793000,
+      "year_ce": -791050,
+      "era": "paleoclimate",
+      "co2_ppm": 207.69,
+      "ch4_ppb": 465.7,
+      "temp_anomaly": -5.878,
+      "sea_level_m": -88.2,
+      "insolation": 177.4
+    },
+    {
+      "age_bp": 794000,
+      "year_ce": -792050,
+      "era": "paleoclimate",
+      "co2_ppm": 203.73,
+      "ch4_ppb": 435.4,
+      "temp_anomaly": -6.632,
+      "sea_level_m": -99.5,
+      "insolation": 178.02
+    },
+    {
+      "age_bp": 795000,
+      "year_ce": -793050,
+      "era": "paleoclimate",
+      "co2_ppm": 204.38,
+      "ch4_ppb": 427.6,
+      "temp_anomaly": -7.64,
+      "sea_level_m": -114.6,
+      "insolation": 179.22
+    },
+    {
+      "age_bp": 796000,
+      "year_ce": -794050,
+      "era": "paleoclimate",
+      "co2_ppm": 191.48,
+      "ch4_ppb": 420.3,
+      "temp_anomaly": -8.379,
+      "sea_level_m": -125.7,
+      "insolation": 180.87
+    },
+    {
+      "age_bp": 797000,
+      "year_ce": -795050,
+      "era": "paleoclimate",
+      "co2_ppm": 188.54,
+      "ch4_ppb": 402.4,
+      "temp_anomaly": -8.645,
+      "sea_level_m": -129.7,
+      "insolation": 182.84
+    },
+    {
+      "age_bp": 798000,
+      "year_ce": -796050,
+      "era": "paleoclimate",
+      "co2_ppm": 190.06,
+      "ch4_ppb": 435.3,
+      "temp_anomaly": -8.621,
+      "sea_level_m": -129.3,
+      "insolation": 184.83
+    },
+    {
+      "age_bp": 799000,
+      "year_ce": -797050,
+      "era": "paleoclimate",
+      "co2_ppm": null,
+      "ch4_ppb": 422.9,
+      "temp_anomaly": -8.719,
+      "sea_level_m": -130.8,
+      "insolation": 186.71
+    },
+    {
+      "age_bp": 800000,
+      "year_ce": -798050,
+      "era": "paleoclimate",
+      "co2_ppm": null,
+      "ch4_ppb": null,
+      "temp_anomaly": null,
+      "sea_level_m": null,
+      "insolation": 188.24
+    }
+  ]
+}

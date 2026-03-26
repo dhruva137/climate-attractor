@@ -1,0 +1,211 @@
+/* ═══════════════════════════════════════════════════════════════
+   COMPONENT STYLES — Climate Attractor
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Badges ── */
+.badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 2px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.badge-paleo {
+  background: rgba(129, 140, 248, 0.15);
+  color: var(--color-paleo);
+}
+
+.badge-holocene {
+  background: rgba(74, 222, 128, 0.15);
+  color: var(--color-holocene);
+}
+
+.badge-modern {
+  background: rgba(255, 68, 68, 0.15);
+  color: var(--color-modern);
+}
+
+/* ── Tooltips ── */
+.tooltip {
+  position: absolute;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-text-secondary);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+  z-index: 100;
+  white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.tooltip.visible {
+  opacity: 1;
+}
+
+.tooltip .tooltip-title {
+  color: var(--color-text-primary);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.tooltip .tooltip-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 1px 0;
+}
+
+.tooltip .tooltip-val {
+  color: var(--color-text-primary);
+}
+
+/* ── DOI / Citation links ── */
+.doi-link {
+  color: var(--color-text-tertiary);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--color-text-tertiary);
+  transition: all var(--transition-fast);
+}
+
+.doi-link:hover {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+/* ── Annotation markers ── */
+.annotation-marker {
+  position: absolute;
+  width: 1px;
+  background: var(--color-border-hover);
+  pointer-events: none;
+  top: 0;
+  bottom: 0;
+}
+
+.annotation-label {
+  position: absolute;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--color-text-tertiary);
+  white-space: nowrap;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+/* ── Variable color accents ── */
+.var-co2  { color: var(--color-accent); }
+.var-temp { color: #f0883e; }
+.var-ch4  { color: #a371f7; }
+.var-sea  { color: var(--color-holocene); }
+.var-sol  { color: #d2a8ff; }
+
+/* ═══════════════════════════════════════════════════════════════
+   PHASE PORTRAIT — Annotations, Hull, Pulse
+   ═══════════════════════════════════════════════════════════════ */
+.phase-annotation {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.phase-annotation.visible {
+  opacity: 1;
+}
+
+.phase-annotation .anno-text {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  fill: var(--color-text-tertiary);
+}
+
+.hull-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  fill: var(--color-text-tertiary);
+  opacity: 0.5;
+  pointer-events: none;
+  text-anchor: middle;
+}
+
+/* modern era pulse ring on the current-point marker */
+.current-point-modern {
+  animation: pulse-modern 2s ease-in-out infinite;
+}
+
+@keyframes pulse-modern {
+  0%, 100% { r: 5;  opacity: 1;   }
+  50%      { r: 12; opacity: 0.0; }
+}
+
+/* red glow on the modern breakout trail */
+svg .trail-modern {
+  filter: drop-shadow(0 0 4px rgba(255, 68, 68, 0.4));
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   t-SNE / UMAP VIEW
+   ═══════════════════════════════════════════════════════════════ */
+.tsne-point {
+  cursor: pointer;
+  transition: r 0.2s ease, opacity 0.3s ease;
+}
+
+.tsne-point:hover {
+  opacity: 1 !important;
+}
+
+.projection-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--color-accent);
+  transition: width 0.3s ease;
+  z-index: 10;
+}
+
+.projection-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  fill: var(--color-text-secondary);
+  pointer-events: none;
+}
+
+.tsne-explainer {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  max-width: 280px;
+  padding: 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-surface);
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+}
+
+.tsne-explainer summary {
+  color: var(--color-text-tertiary);
+  letter-spacing: 0.05em;
+  list-style: none;
+}
+
+.separation-line {
+  stroke: var(--color-modern);
+  stroke-dasharray: 3 3;
+  stroke-width: 1;
+  opacity: 0.3;
+  fill: none;
+}
