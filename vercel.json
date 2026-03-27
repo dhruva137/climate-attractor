@@ -2,13 +2,12 @@
   "version": 2,
   "name": "climate-attractor",
   "buildCommand": null,
-  "outputDirectory": "public",
   "installCommand": null,
   "framework": null,
   "routes": [
     { "src": "/data/(.*)", "dest": "/data/$1" },
     { "src": "/src/(.*)", "dest": "/src/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/(.*)", "dest": "/public/index.html" }
   ],
   "headers": [
     {
