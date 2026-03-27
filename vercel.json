@@ -1,13 +1,12 @@
 {
   "version": 2,
   "name": "climate-attractor",
-  "buildCommand": null,
-  "installCommand": null,
-  "framework": null,
   "routes": [
     { "src": "/data/(.*)", "dest": "/data/$1" },
-    { "src": "/src/(.*)", "dest": "/src/$1" },
-    { "src": "/(.*)", "dest": "/public/index.html" }
+    { "src": "/src/(.*)",  "dest": "/src/$1"  },
+    { "src": "/favicon.svg", "dest": "/favicon.svg" },
+    { "src": "/og-image.png", "dest": "/og-image.png" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ],
   "headers": [
     {
@@ -18,13 +17,13 @@
       ]
     },
     {
-      "source": "/(.*).js",
+      "source": "/src/(.*).js",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=3600" }
       ]
     },
     {
-      "source": "/(.*).css",
+      "source": "/src/(.*).css",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=3600" }
       ]
