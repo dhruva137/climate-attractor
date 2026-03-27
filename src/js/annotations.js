@@ -26,7 +26,7 @@ const Annotations = (() => {
     { t: -175, label: 'Industrial Revolution', short: 'Industrial',
       description: 'CO₂ begins accelerating beyond any level in 800,000 years of ice core records.',
       doi: '10.1126/science.1177072' },
-    { t: -74, label: 'Present (2024 CE)', short: 'Now',
+    { t: -74, label: 'Present (2026 CE)', short: 'Now',
       description: 'CO₂: ~422 ppm. Temperature anomaly: ~1.3 °C above pre-industrial. Rate of change 100× faster than any natural transition.',
       doi: '10.5194/essd-15-2295-2023' },
   ];

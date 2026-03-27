@@ -16,16 +16,16 @@ const Citations = (() => {
       journal: 'Science', year: 2007, doi: '10.1126/science.1141038', timeRange: '800,000 – 0 BP' },
     { id: 'mauna-loa', variable: 'CO₂ (modern)', shortName: 'Keeling / Scripps',
       fullName: 'Atmospheric CO₂ concentrations (Mauna Loa Observatory)',
-      journal: 'Scripps CO₂ Program', year: 2024, doi: null, timeRange: '1958 – 2024' },
+      journal: 'Scripps CO₂ Program', year: 2026, doi: null, timeRange: '1958 – 2026' },
     { id: 'gistemp', variable: 'Temp (modern)', shortName: 'GISTEMP v4',
       fullName: 'GISS Surface Temperature Analysis v4',
-      journal: 'NASA GISS', year: 2024, doi: '10.1029/2018JD029522', timeRange: '1880 – 2024' },
+      journal: 'NASA GISS', year: 2026, doi: '10.1029/2018JD029522', timeRange: '1880 – 2026' },
     { id: 'laskar', variable: 'Insolation', shortName: 'Laskar et al. 2004',
       fullName: 'A long-term numerical solution for the insolation quantities of the Earth',
       journal: 'Astronomy & Astrophysics', year: 2004, doi: '10.1051/0004-6361:20041335', timeRange: '800,000 – 0 BP' },
   ];
 
-  const CITE_TEXT = 'Climate Attractor (2024). Interactive visualization of 800,000 years of Earth climate data. https://climate-attractor.vercel.app';
+  const CITE_TEXT = 'Climate Attractor (2026). Interactive visualization of 800,000 years of Earth climate data. https://climate-attractor.vercel.app';
 
   function init() {
     populateModal();

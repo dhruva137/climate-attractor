@@ -204,7 +204,7 @@ def main() -> None:
 
     if co2_now is not None:
         # The grid point at age_bp=0 corresponds to ~1950 CE (the Mauna Loa start)
-        # so we expect ~310-320 ppm, not 415 (that's 2024)
+        # so we expect ~310-320 ppm, not 415 (that's 2026)
         lev = "PASS" if 280 <= co2_now <= 425 else "WARN"
         print(f"  {tag(lev)} CO₂  = {co2_now:.1f} ppm")
 

@@ -33,8 +33,8 @@ For 800,000 years, Earth's climate cycled through a stable "attractor" — a bou
 | CO₂ | EPICA Dome C | 800,000–22,000 BP | Lüthi et al. 2008 |
 | CH₄ | EPICA Dome C | 800,000–22,000 BP | Loulergue et al. 2008 |
 | Temperature | EPICA Dome C δD | 800,000–0 BP | Jouzel et al. 2007 |
-| CO₂ modern | Mauna Loa (Scripps) | 1958–2024 | Keeling et al. |
-| Temp modern | NASA GISTEMP v4 | 1880–2024 | Lenssen et al. |
+| CO₂ modern | Mauna Loa (Scripps) | 1958–2026 | Keeling et al. |
+| Temp modern | NASA GISTEMP v4 | 1880–2026 | Lenssen et al. |
 | Insolation | Laskar 2004 | 800,000–0 BP | Laskar et al. 2004 |
 
 ---
@@ -90,7 +90,7 @@ No build step. No bundler. Pure static site.
 ## Citation
 
 ```
-Gowda, D. P. (2024). Climate Attractor: Interactive visualization
+Gowda, D. P. (2026). Climate Attractor: Interactive visualization
 of 800,000 years of Earth's climate data.
 https://climate-attractor.vercel.app
 ```
@@ -99,4 +99,4 @@ https://climate-attractor.vercel.app
 
 ## License
 
-MIT © 2024 Dhruva P Gowda
+MIT © 2026 Dhruva P Gowda
