@@ -106,6 +106,40 @@ co2_interp = f(time_axis)</code></pre>
         <div style="margin-top:6px;font-size:10px;color:var(--color-text-tertiary);font-family:var(--font-mono);">
           800,000 years · 5 variables · 1,000-year grid · 185 KB</div>
       </div>
+<div style="margin-top:24px; padding-top:24px;
+            border-top:1px solid var(--color-border);">
+  <div style="display:flex; align-items:center;
+              justify-content:space-between;
+              padding:16px;
+              background:var(--color-surface);
+              border:1px solid var(--color-border);
+              border-radius:8px;">
+    <div>
+      <span style="display:block; font-family:var(--font-mono);
+                   font-size:13px; font-weight:500;
+                   color:var(--color-text-primary);">
+        Dhruva P Gowda
+      </span>
+      <span style="display:block; font-family:var(--font-mono);
+                   font-size:11px; color:var(--color-text-tertiary);
+                   margin-top:4px;">
+        Design, data pipeline, visualization
+      </span>
+    </div>
+    <a href="https://github.com/dhruva137"
+       target="_blank"
+       rel="noopener noreferrer"
+       style="display:inline-flex; align-items:center; gap:8px;
+              font-family:var(--font-mono); font-size:12px;
+              color:var(--color-text-secondary);
+              text-decoration:none;
+              border:1px solid var(--color-border);
+              padding:8px 14px; border-radius:6px;
+              transition:all 150ms ease;">
+      github.com/dhruva137
+    </a>
+  </div>
+</div>
     `;
 
     // re-wire close button

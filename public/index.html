@@ -1,32 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Climate Attractor — 800,000 Years of Earth's Climate</title>
 
-  <!-- SEO -->
-  <meta name="description" content="An interactive visualization of Earth's climate as a dynamical system. 800,000 years of real ice core data. Watch the attractor break.">
+  <meta name="description" content="An interactive visualization of Earth's climate as a dynamical system. 800,000 years of real EPICA ice core data. Watch the attractor break. Built by Dhruva P Gowda.">
+  <meta name="author" content="Dhruva P Gowda">
+  <meta name="keywords" content="climate, paleoclimate, ice core, EPICA, data visualization, dynamical systems, attractor, CO2, temperature, Milankovitch, t-SNE">
+
   <link rel="canonical" href="https://climate-attractor.vercel.app">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Climate Attractor — 800,000 Years of Earth's Climate">
-  <meta property="og:description" content="An interactive visualization of Earth's climate as a dynamical system. 800,000 years of real ice core data. Watch the attractor break.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="/og-image.png">
+  <meta property="og:url" content="https://climate-attractor.vercel.app">
+  <meta property="og:title" content="Climate Attractor — 800,000 Years of Earth's Climate">
+  <meta property="og:description" content="For 800,000 years, Earth cycled through the same climate states. Then we left. Interactive visualization by Dhruva P Gowda.">
+  <meta property="og:image" content="https://climate-attractor.vercel.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
-  <!-- Preconnect -->
-  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Climate Attractor — 800,000 Years of Earth's Climate">
+  <meta name="twitter:description" content="For 800,000 years, Earth cycled through the same climate states. Then we left.">
+  <meta name="twitter:image" content="https://climate-attractor.vercel.app/og-image.png">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Climate Attractor",
+    "description": "Interactive visualization of 800,000 years of Earth climate data as a dynamical system",
+    "url": "https://climate-attractor.vercel.app",
+    "author": {
+      "@type": "Person",
+      "name": "Dhruva P Gowda",
+      "url": "https://github.com/dhruva137"
+    },
+    "dateCreated": "2024",
+    "applicationCategory": "DataVisualization",
+    "operatingSystem": "Any"
+  }
+  </script>
 
   <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="/src/css/main.css">
-  <link rel="stylesheet" href="/src/css/components.css">
+  <link rel="stylesheet" href="src/css/main.css">
+  <link rel="stylesheet" href="src/css/components.css">
 </head>
 <body>
 
@@ -164,6 +191,59 @@
         <span id="speed-display">1x</span>
       </div>
     </div>
+
+    <footer id="site-footer">
+      <div class="footer-left">
+        <span class="footer-author">
+          Built by
+          <a href="https://github.com/dhruva137"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="footer-link">Dhruva P Gowda</a>
+        </span>
+        <span class="footer-divider">·</span>
+        <a href="https://github.com/dhruva137/climate-attractor"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="footer-link footer-github">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205
+              11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235
+              -3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695
+              -.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23
+              1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605
+              -2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225
+              -.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27
+              1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23
+              3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23
+              3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81
+              2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02
+              12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          View source
+        </a>
+      </div>
+
+      <div class="footer-center">
+        <span class="footer-data">
+          Data: EPICA Dome C · Lüthi et al. 2008 · Jouzel et al. 2007 ·
+          NASA GISTEMP · Laskar 2004
+        </span>
+      </div>
+
+      <div class="footer-right">
+        <a href="#" id="footer-methodology-btn" class="footer-link">
+          Methodology
+        </a>
+        <span class="footer-divider">·</span>
+        <a href="https://github.com/dhruva137/climate-attractor/blob/main/docs/methodology.md"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="footer-link">Docs</a>
+        <span class="footer-divider">·</span>
+        <span class="footer-year">2024</span>
+      </div>
+    </footer>
 
   </section>
 

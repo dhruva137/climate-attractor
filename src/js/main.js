@@ -168,6 +168,14 @@
       if (typeof Annotations !== 'undefined') Annotations.init();
       if (typeof Citations !== 'undefined') Citations.init();
 
+      // Footer methodology button
+      const footerMethodBtn = document.getElementById('footer-methodology-btn');
+      if (footerMethodBtn) {
+        footerMethodBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          document.getElementById('methodology-modal').classList.add('open');
+        });
+      }
       const first = data[0];
       const last  = data[data.length - 1];
       console.log(
